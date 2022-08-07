@@ -2,6 +2,7 @@ version: '3.8'
 
 volumes:
   local_postgres_data: {}
+  local_pgadmin_data: {}
 
 services:
   postgres:
@@ -22,6 +23,9 @@ services:
       context: .
       dockerfile: ./compose/client/Dockerfile
     image: hospital_db_client
+    restart: always
+    volumes:
+      - local_pgadmin_data:/var/lib/pgadmin
     env_file:
       - .envs/.pg_admin
     ports:
