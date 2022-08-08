@@ -5,7 +5,7 @@ USE HospitalDB;
 
 CREATE TABLE hospital(
     id SERIAL PRIMARY KEY,
-    nombre VARCHAR(100) UNIQUE NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
     direccion VARCHAR(100) NOT NULL,
     celular VARCHAR(20) NOT NULL
 );
@@ -37,7 +37,7 @@ CREATE TABLE hospital_socios(
 CREATE TABLE departamentos(
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
-    edificio INT UNIQUE NOT NULL,
+    edificio INT NOT NULL,
     descripcion VARCHAR(255),
     hospital_id INT,
     FOREIGN KEY(hospital_id) REFERENCES hospital(id)
