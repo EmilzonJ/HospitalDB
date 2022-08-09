@@ -1,8 +1,3 @@
-
-CREATE DATABASE HospitalDB;
-
-USE HospitalDB;
-
 CREATE TABLE hospital(
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -53,7 +48,7 @@ CREATE TABLE empleados(
     nombres VARCHAR(100) NOT NULL,
     apellidos VARCHAR(100) NOT NULL,
     ocupacion_id INT NOT NULL,
-    FOREIGN KEY(ocupacion_id) REFERENCES empleados_ocupaciones(id),
+    FOREIGN KEY(ocupacion_id) REFERENCES ocupaciones(id),
     dni VARCHAR(13) UNIQUE NOT NULL,
     correo VARCHAR(100) NOT NULL,
     celular VARCHAR(20) NOT NULL
@@ -65,17 +60,6 @@ CREATE TABLE departamentos_empleados(
     PRIMARY KEY(departamento_id, empleado_id),
     FOREIGN KEY(departamento_id) REFERENCES departamentos(id),
     FOREIGN KEY(empleado_id) REFERENCES empleados(id)
-);
-
-CREATE TABLE diagnosticos(
-    id SERIAL PRIMARY KEY,
-    paciente_id INT NOT NULL,
-    FOREIGN KEY(paciente_id) REFERENCES pacientes(id),
-    fecha_ingreso DATE NOT NULL,
-    fecha_salida DATE NULL,
-    resumen VARCHAR(max),
-    razon_ingreso VARCHAR(max) NOT NULL,
-    fecha DATE NOT NULL
 );
 
 CREATE TABLE pacientes(
@@ -91,7 +75,18 @@ CREATE TABLE pacientes(
     empleado_id INT NOT NULL,
     FOREIGN KEY(empleado_id) REFERENCES empleados(id),
     estado VARCHAR(30) NOT NULL,
-    tipo_sangre VARCHAR(4),
+    tipo_sangre VARCHAR(4)
+);
+
+CREATE TABLE diagnosticos(
+    id SERIAL PRIMARY KEY,
+    paciente_id INT NOT NULL,
+    FOREIGN KEY(paciente_id) REFERENCES pacientes(id),
+    fecha_ingreso DATE NOT NULL,
+    fecha_salida DATE NULL,
+    resumen TEXT,
+    razon_ingreso TEXT NOT NULL,
+    fecha DATE NOT NULL
 );
 
 CREATE TABLE tutores(
