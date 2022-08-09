@@ -43,11 +43,17 @@ CREATE TABLE departamentos(
     FOREIGN KEY(hospital_id) REFERENCES hospital(id)
 );
 
+CREATE TABLE ocupaciones(
+    id SERIAL PRIMARY KEY,
+    descripcion VARCHAR(100) NOT NULL
+);
+
 CREATE TABLE empleados(
     id SERIAL PRIMARY KEY,
     nombres VARCHAR(100) NOT NULL,
     apellidos VARCHAR(100) NOT NULL,
-    cargo VARCHAR(100) NOT NULL,
+    ocupacion_id INT NOT NULL,
+    FOREIGN KEY(ocupacion_id) REFERENCES empleados_ocupaciones(id),
     dni VARCHAR(13) UNIQUE NOT NULL,
     correo VARCHAR(100) NOT NULL,
     celular VARCHAR(20) NOT NULL
@@ -61,11 +67,23 @@ CREATE TABLE departamentos_empleados(
     FOREIGN KEY(empleado_id) REFERENCES empleados(id)
 );
 
+CREATE TABLE diagnosticos(
+    id SERIAL PRIMARY KEY,
+    paciente_id INT NOT NULL,
+    FOREIGN KEY(paciente_id) REFERENCES pacientes(id),
+    fecha_ingreso DATE NOT NULL,
+    fecha_salida DATE NULL,
+    resumen VARCHAR(max),
+    razon_ingreso VARCHAR(max) NOT NULL,
+    fecha DATE NOT NULL
+);
+
 CREATE TABLE pacientes(
     id SERIAL PRIMARY KEY,
     nombres VARCHAR(100) NOT NULL,
     apellidos VARCHAR(100) NOT NULL,
     genero VARCHAR(3) NOT NULL,
+    fecha_nacimiento DATE NOT NULL,
     dni VARCHAR(13) UNIQUE NOT NULL,
     direccion VARCHAR(170) NOT NULL,
     departamento_id INT NOT NULL,
@@ -73,9 +91,7 @@ CREATE TABLE pacientes(
     empleado_id INT NOT NULL,
     FOREIGN KEY(empleado_id) REFERENCES empleados(id),
     estado VARCHAR(30) NOT NULL,
-    fecha_ingreso DATE,
-    fecha_salida DATE,
-    sangre_tipo VARCHAR(4)
+    tipo_sangre VARCHAR(4),
 );
 
 CREATE TABLE tutores(
