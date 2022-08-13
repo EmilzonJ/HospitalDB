@@ -49,7 +49,7 @@ CREATE TABLE empleados(
     apellidos VARCHAR(100) NOT NULL,
     ocupacion_id INT NOT NULL,
     FOREIGN KEY(ocupacion_id) REFERENCES ocupaciones(id),
-    dni VARCHAR(13) UNIQUE NOT NULL,
+    dni VARCHAR(15) UNIQUE NOT NULL,
     correo VARCHAR(100) NOT NULL,
     celular VARCHAR(20) NOT NULL
 );
@@ -68,7 +68,7 @@ CREATE TABLE pacientes(
     apellidos VARCHAR(100) NOT NULL,
     genero VARCHAR(3) NOT NULL,
     fecha_nacimiento DATE NOT NULL,
-    dni VARCHAR(13) UNIQUE NOT NULL,
+    dni VARCHAR(15) UNIQUE NOT NULL,
     direccion VARCHAR(170) NOT NULL,
     departamento_id INT NOT NULL,
     FOREIGN KEY(departamento_id) REFERENCES departamentos(id),
@@ -93,7 +93,7 @@ CREATE TABLE tutores(
     id SERIAL PRIMARY KEY,
     nombres VARCHAR(100) NOT NULL,
     apellidos VARCHAR(100) NOT NULL,
-    dni VARCHAR(13) UNIQUE NOT NULL,
+    dni VARCHAR(15) UNIQUE NOT NULL,
     celular VARCHAR(20) NOT NULL,
     parentesco VARCHAR(20) NOT NULL,
     direccion VARCHAR(170) NOT NULL
