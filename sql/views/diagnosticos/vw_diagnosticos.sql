@@ -10,9 +10,8 @@ CREATE OR REPLACE VIEW vw_diagnosticos AS
         d.razon_ingreso,
         d.fecha
     FROM
-        diagnosticos d,
-        pacientes p
-    WHERE
-        d.paciente_id = p.id
-    ORDER BY d.id ASC;
+        diagnosticos d
+    INNER JOIN
+        pacientes p ON d.paciente_id = p.id
+    ORDER BY d.id ASC;    
     

@@ -9,7 +9,6 @@ CREATE OR REPLACE VIEW vw_departamentos AS
         h.direccion AS hospital_direccion
     FROM 
         departamentos d,
-        hospital h
-    WHERE
-        d.hospital_id = h.id
+    INNER JOIN
+        hospital h ON d.hospital_id = h.id;
     ORDER BY d.id ASC; 
