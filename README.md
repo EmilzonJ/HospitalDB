@@ -1,7 +1,7 @@
 # HospitalDB
 Proyecto Bases de Datos I 
 
-### 📌 Schema Definition 
+### 📌 Objects
 - [Schema]
 - [Procedures]
 - [Views]
