@@ -38,7 +38,7 @@ BEGIN
 
         RAISE NOTICE 'El edificio del departamento no puede estar vacío y es valor numérico.';
 
-    ELSEIF (SELECT public.sp_string_convert(p_nombre, p_nombre_actual))
+    ELSEIF (SELECT public.fn_string_convert(p_nombre, p_nombre_actual))
         AND ((p_edificio <> p_edificio_actual)
             OR (p_hospital_id <> p_hospital_id_actual)) THEN
 
@@ -50,7 +50,7 @@ BEGIN
                   FROM departamentos
                   WHERE edificio = p_edificio
                     AND hospital_id = p_hospital_id
-                    AND (SELECT public.sp_string_convert(nombre, p_nombre))) THEN
+                    AND (SELECT public.fn_string_convert(nombre, p_nombre))) THEN
 
             RAISE NOTICE 'El edificio del departamento ya existe.';
 
@@ -60,7 +60,7 @@ BEGIN
 
         END IF;
 
-    ELSEIF (SELECT public.sp_string_convert(p_nombre, p_nombre_actual) = FALSE)
+    ELSEIF (SELECT public.fn_string_convert(p_nombre, p_nombre_actual) = FALSE)
         AND ((p_edificio <> p_edificio_actual)
             OR (p_hospital_id <> p_hospital_id_actual)) THEN
 
@@ -71,7 +71,7 @@ BEGIN
                   FROM departamentos
                   WHERE edificio = p_edificio
                     AND hospital_id = p_hospital_id
-                    AND (SELECT public.sp_string_convert(nombre, p_nombre))) THEN
+                    AND (SELECT public.fn_string_convert(nombre, p_nombre))) THEN
 
             RAISE NOTICE 'El edificio del departamento ya existe.';
 
@@ -81,7 +81,7 @@ BEGIN
 
         END IF;
 
-    ELSEIF (SELECT public.sp_string_convert(p_nombre, p_nombre_actual) = FALSE)
+    ELSEIF (SELECT public.fn_string_convert(p_nombre, p_nombre_actual) = FALSE)
         AND ((p_edificio = p_edificio_actual)
             OR (p_hospital_id = p_hospital_id_actual)) THEN
 
@@ -92,7 +92,7 @@ BEGIN
                   FROM departamentos
                   WHERE edificio = p_edificio
                     AND hospital_id = p_hospital_id
-                    AND (SELECT public.sp_string_convert(nombre, p_nombre))) THEN
+                    AND (SELECT public.fn_string_convert(nombre, p_nombre))) THEN
 
             RAISE NOTICE 'El edificio del departamento ya existe.';
 
@@ -102,7 +102,7 @@ BEGIN
 
         END IF;
 
-    ELSEIF (SELECT public.sp_string_convert(p_nombre, p_nombre_actual))
+    ELSEIF (SELECT public.fn_string_convert(p_nombre, p_nombre_actual))
         AND ((p_edificio = p_edificio_actual)
             OR (p_hospital_id = p_hospital_id_actual)) THEN
 
