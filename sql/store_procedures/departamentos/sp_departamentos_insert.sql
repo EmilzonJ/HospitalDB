@@ -29,7 +29,7 @@ BEGIN
                   FROM departamentos
                   WHERE edificio = p_edificio
                     AND hospital_id = p_hospital_id
-                    AND (SELECT public.fn_string_convert(nombre, p_nombre))) THEN
+                    AND (SELECT public.fn_string_compare(nombre, p_nombre))) THEN
 
         RAISE NOTICE 'El edificio del departamento ya existe.';
 
