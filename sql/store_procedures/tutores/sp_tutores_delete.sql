@@ -1,4 +1,4 @@
-CREATE PROCEDURE sp_tutores_delete(_id INT)
+CREATE OR REPLACE PROCEDURE sp_tutores_delete(_id INT)
     LANGUAGE plpgsql
 AS
 $$
