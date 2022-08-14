@@ -1,42 +1,48 @@
-CREATE OR REPLACE PROCEDURE sp_dep_emp_insert(p_dep_id INT, p_emp_id INT)
+CREATE OR REPLACE PROCEDURE sp_dep_emp_insert(_dep_id INT, _emp_id INT)
     LANGUAGE plpgsql
 AS
 $$
 DECLARE
-    p_dep_id_new INT;
-    p_emp_id_new INT;
+    _dep_id_new INT;
+    _emp_id_new INT;
 BEGIN
 
-    IF NOT EXISTS(SELECT * FROM departamentos WHERE id = p_dep_id) THEN
+    IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _dep_id) THEN
 
         RAISE NOTICE 'El departamento que está ingresando no existe.';
 
-    ELSEIF NOT EXISTS(SELECT * FROM empleados WHERE id = p_emp_id) THEN
+    END IF;
+
+    IF NOT EXISTS(SELECT * FROM empleados WHERE id = _emp_id) THEN
 
         RAISE NOTICE 'El empleado que está ingresando no existe.';
 
-    ELSEIF EXISTS(SELECT *
+    END IF;
+
+    IF EXISTS(SELECT *
                   FROM departamentos_empleados
-                  WHERE empleado_id = p_emp_id) THEN
+                  WHERE empleado_id = _emp_id) THEN
 
         RAISE NOTICE 'El empleado ya está asignado a un departamento.';
 
-    ELSEIF EXISTS(SELECT *
+    END IF;
+    
+    IF EXISTS(SELECT *
                   FROM departamentos_empleados
-                  WHERE departamento_id = p_dep_id
-                    AND empleado_id = p_emp_id) THEN
+                  WHERE departamento_id = _dep_id
+                    AND empleado_id = _emp_id) THEN
 
         RAISE NOTICE 'El empleado ya se encuentra en el departamento.';
 
     ELSE
 
         INSERT INTO public.departamentos_empleados(departamento_id, empleado_id)
-        VALUES (p_dep_id, p_emp_id)
-        RETURNING departamento_id, empleado_id INTO p_dep_id_new, p_emp_id_new;
+        VALUES (_dep_id, _emp_id)
+        RETURNING departamento_id, empleado_id INTO _dep_id_new, _emp_id_new;
 
         RAISE NOTICE 'Ingresado con éxito el empleado "%" en el departamento de "%".',
-            (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = p_emp_id_new),
-                (SELECT nombre FROM departamentos WHERE id = p_dep_id_new);
+            (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = _emp_id_new),
+                (SELECT nombre FROM departamentos WHERE id = _dep_id_new);
 
     END IF;
 

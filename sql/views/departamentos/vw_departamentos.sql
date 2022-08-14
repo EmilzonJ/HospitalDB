@@ -10,4 +10,3 @@ FROM departamentos d,
      INNER
          JOIN
      hospital h ON d.hospital_id = h.id;
-ORDER BY D.id ASC;

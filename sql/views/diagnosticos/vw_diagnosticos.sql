@@ -10,6 +10,4 @@ SELECT d.id        AS diagnostico_id,
        d.fecha
 FROM diagnosticos d
          INNER JOIN
-     pacientes p ON d.paciente_id = p.id
-ORDER BY d.id ASC;
-    
+     pacientes p ON d.paciente_id = p.id;    

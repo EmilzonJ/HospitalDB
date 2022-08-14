@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION fn_departamento_empleados(vw_departamento_id INT)
+CREATE OR REPLACE FUNCTION fn_departamento_empleados(_departamento_id INT)
     RETURNS TABLE
             (
                 EMPLEADO_ID INT,
@@ -11,9 +11,9 @@ AS
 $$
 BEGIN
 
-    IF NOT EXISTS(SELECT * FROM departamentos_empleados WHERE departamento_id = vw_departamento_id) THEN
+    IF NOT EXISTS(SELECT * FROM departamentos_empleados WHERE departamento_id = _departamento_id) THEN
 
-        RAISE NOTICE 'No hay empleados en el departamento "%".', vw_departamento_id;
+        RAISE NOTICE 'No hay empleados en el departamento "%".', _departamento_id;
 
     ELSE
 
@@ -26,7 +26,7 @@ BEGIN
                           ocupaciones oc ON e.ocupacion_id = oc.id
                               INNER JOIN
                           departamentos_empleados d_e ON e.id = d_e.empleado_id
-                     WHERE d_e.departamento_id = vw_departamento_id;
+                     WHERE d_e.departamento_id = _departamento_id;
 
     END IF;
 
