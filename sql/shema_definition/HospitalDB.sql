@@ -95,13 +95,13 @@ CREATE TABLE tutores(
     apellidos VARCHAR(100) NOT NULL,
     dni VARCHAR(15) UNIQUE NOT NULL,
     celular VARCHAR(20) NOT NULL,
-    parentesco VARCHAR(20) NOT NULL,
     direccion VARCHAR(170) NOT NULL
 );
 
 CREATE TABLE pacientes_tutores(
     paciente_id INT NOT NULL,
     tutor_id INT NOT NULL,
+    parentesco VARCHAR(20) NOT NULL,
     PRIMARY KEY(paciente_id, tutor_id),
     FOREIGN KEY(paciente_id) REFERENCES pacientes(id),
     FOREIGN KEY(tutor_id) REFERENCES tutores(id)
