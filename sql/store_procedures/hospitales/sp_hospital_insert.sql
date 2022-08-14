@@ -1,4 +1,4 @@
-CREATE PROCEDURE sp_hospital_insert(_nombre VARCHAR(100), _direccion VARCHAR(255), _celular VARCHAR(20))
+CREATE OR REPLACE PROCEDURE sp_hospital_insert(_nombre VARCHAR(100), _direccion VARCHAR(255), _celular VARCHAR(20))
     LANGUAGE plpgsql
 AS
 $$
