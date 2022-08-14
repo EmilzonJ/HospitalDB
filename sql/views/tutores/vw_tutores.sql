@@ -5,6 +5,5 @@ SELECT t.id,
        t.apellidos,
        t.dni,
        t.celular,
-       t.parentesco,
        t.direccion
 FROM tutores AS t;

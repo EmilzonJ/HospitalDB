@@ -3,7 +3,6 @@ CREATE OR REPLACE PROCEDURE sp_tutores_insert(
     _apellidos VARCHAR,
     _dni VARCHAR,
     _celular VARCHAR,
-    _parentesco VARCHAR,
     _direccion VARCHAR
 )
     LANGUAGE plpgsql
@@ -32,13 +31,11 @@ BEGIN
                          apellidos,
                          dni,
                          celular,
-                         parentesco,
                          direccion)
     VALUES (_nombres,
             _apellidos,
             _dni,
             _celular,
-            _parentesco,
             _direccion)
 
     RETURNING id INTO _id_tutor;

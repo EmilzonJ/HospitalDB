@@ -4,7 +4,6 @@ CREATE OR REPLACE PROCEDURE sp_tutores_update(
     _apellidos VARCHAR,
     _dni VARCHAR,
     _celular VARCHAR,
-    _parentesco VARCHAR,
     _direccion VARCHAR
 )
     LANGUAGE plpgsql
@@ -27,7 +26,6 @@ BEGIN
         apellidos  = _apellidos,
         dni        = _dni,
         celular    = _celular,
-        parentesco = _parentesco,
         direccion  = _direccion
     WHERE id = _id;
 
