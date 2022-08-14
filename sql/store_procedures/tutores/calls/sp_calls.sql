@@ -1,3 +1,4 @@
+-- Call SP Insert Tutor
 CALL sp_tutores_insert(
         'Juan Armando',
         'Caceres Iriarte',
@@ -6,4 +7,7 @@ CALL sp_tutores_insert(
         'Santa Rosa Copan'
     );
 
+-- Call SP Update Tutor
 
+
+-- Call SP Delete Tutor
