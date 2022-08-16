@@ -1,10 +1,10 @@
 CREATE OR REPLACE FUNCTION fn_departamento_empleados(_departamento_id INT)
     RETURNS TABLE
             (
-                EMPLEADO_ID INT,
-                NOMBRE      VARCHAR(100),
-                APELLIDO    VARCHAR(100),
-                OCUPACION   VARCHAR(100)
+                empleado_id INT,
+                nombre      VARCHAR(100),
+                apellido    VARCHAR(100),
+                ocupacion   VARCHAR(100)
             )
     LANGUAGE plpgsql
 AS

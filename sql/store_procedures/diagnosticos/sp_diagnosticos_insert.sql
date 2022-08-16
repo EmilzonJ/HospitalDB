@@ -13,31 +13,31 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM pacientes WHERE id = _paciente_id) THEN
 
-        RAISE NOTICE 'El paciente que está ingresando no existe.';
+        RAISE EXCEPTION 'El paciente que está ingresando no existe.';
 
     END IF;
     
     IF public.fn_validate_date(_fecha_ingreso) = FALSE OR _fecha_ingreso SIMILAR TO '' THEN
     
-        RAISE NOTICE 'El formato de la fecha de ingreso no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
+        RAISE EXCEPTION 'El formato de la fecha de ingreso no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
 
     END IF;
 
     IF _fecha_salida NOT SIMILAR TO '' AND public.fn_validate_date(_fecha_salida) = FALSE THEN
 
-        RAISE NOTICE 'El formato de la fecha de salida no es válido, el formato debe ser el siguiente "YYYY-MM-DD".';
+        RAISE EXCEPTION 'El formato de la fecha de salida no es válido, el formato debe ser el siguiente "YYYY-MM-DD".';
 
     END IF;
 
     IF _razon_ingreso IS NULL OR _razon_ingreso SIMILAR TO '' THEN
 
-        RAISE NOTICE 'La razón de ingreso no puede estar vacía.';
+        RAISE EXCEPTION 'La razón de ingreso no puede estar vacía.';
 
     END IF;
 
     IF public.fn_validate_date(_fecha) = FALSE THEN
 
-        RAISE NOTICE 'El formato de la fecha actual no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
+        RAISE EXCEPTION 'El formato de la fecha actual no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
 
     ELSE
 

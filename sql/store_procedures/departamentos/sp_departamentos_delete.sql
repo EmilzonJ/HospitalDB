@@ -14,9 +14,14 @@ BEGIN
 
     ELSE
 
-        DELETE
-        FROM public.departamentos
-        WHERE id = _id;
+        --Primero elimina el departamento en departamentos_empleados y luego el departamento en departamentos.    
+        DELETE 
+		FROM
+			public.departamentos_empleados d_e
+		USING
+			public.departamentos d
+        WHERE
+			d.id = _id  AND d_e.departamento_id = d.id;
     
         RAISE NOTICE 'Se eliminó el departamento de "%" con id %.', _nombre, _id;
   

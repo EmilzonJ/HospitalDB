@@ -9,13 +9,13 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _dep_id) THEN
 
-        RAISE NOTICE 'El departamento que está ingresando no existe.';
+        RAISE EXCEPTION 'El departamento que está ingresando no existe.';
 
     END IF;
 
     IF NOT EXISTS(SELECT * FROM empleados WHERE id = _emp_id) THEN
 
-        RAISE NOTICE 'El empleado que está ingresando no existe.';
+        RAISE EXCEPTION 'El empleado que está ingresando no existe.';
 
     END IF;
 
@@ -23,7 +23,7 @@ BEGIN
                   FROM departamentos_empleados
                   WHERE empleado_id = _emp_id) THEN
 
-        RAISE NOTICE 'El empleado ya está asignado a un departamento.';
+        RAISE EXCEPTION 'El empleado ya está asignado a un departamento.';
 
     END IF;
     
@@ -32,7 +32,7 @@ BEGIN
                   WHERE departamento_id = _dep_id
                     AND empleado_id = _emp_id) THEN
 
-        RAISE NOTICE 'El empleado ya se encuentra en el departamento.';
+        RAISE EXCEPTION 'El empleado ya se encuentra en el departamento.';
 
     ELSE
 
