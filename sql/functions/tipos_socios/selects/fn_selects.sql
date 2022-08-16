@@ -1,0 +1,1 @@
+﻿SELECT * FROM fn_tipos_socios('1');
