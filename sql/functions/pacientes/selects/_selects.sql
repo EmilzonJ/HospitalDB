@@ -1,0 +1,1 @@
+﻿SELECT * FROM fn_pacientes('1');
