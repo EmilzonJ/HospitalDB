@@ -36,5 +36,3 @@ BEGIN
 
 END
 $$;
-
-SELECT * FROM public.fn_paciente_diagnosticos(1)
