@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE sp_hospital_socios(_hospital_id INT,_socio_id INT)
+CREATE OR REPLACE PROCEDURE sp_hospital_socios_insert(_hospital_id INT,_socio_id INT)
     LANGUAGE plpgsql
 AS $$
 DECLARE
