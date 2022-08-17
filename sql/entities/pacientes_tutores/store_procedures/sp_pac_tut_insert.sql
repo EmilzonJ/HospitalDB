@@ -10,13 +10,13 @@ BEGIN
     --Validar paciente
     IF NOT EXISTS(SELECT * FROM pacientes WHERE id = _paciente_id) THEN
 
-        RAISE NOTICE 'El paciente que está ingresando no existe.';
+        RAISE EXCEPTION 'El paciente que está ingresando no existe.';
 
     END IF;
     --Validar tutor
     IF NOT EXISTS(SELECT * FROM tutores WHERE id = _tutor_id) THEN
 
-        RAISE NOTICE 'El tutor que está ingresando no existe.';
+        RAISE EXCEPTION 'El tutor que está ingresando no existe.';
 
     END IF;
     INSERT INTO public.pacientes_tutores(paciente_id, 

@@ -14,7 +14,7 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM diagnosticos WHERE id = _id) THEN
 
-        RAISE NOTICE 'El diagnóstico que está ingresando no existe.';
+        RAISE EXCEPTION 'El diagnóstico que está ingresando no existe.';
 
     ELSE
 

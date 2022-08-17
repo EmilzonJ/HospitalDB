@@ -9,7 +9,7 @@ BEGIN
     _nombre = (SELECT nombre FROM departamentos WHERE id = _id);
 
     IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _id) THEN
-        RAISE NOTICE 'El departamento que está ingresando no existe.';
+        RAISE EXCEPTION 'El departamento que está ingresando no existe.';
     END IF;
 
 

@@ -11,19 +11,19 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM hospital WHERE id = _hospital_id) THEN
 
-        RAISE NOTICE 'El hospital que está ingresando no existe.';
+        RAISE EXCEPTION 'El hospital que está ingresando no existe.';
 
     END IF;
         
     IF _nombre IS NULL OR _nombre SIMILAR TO '' THEN
 
-        RAISE NOTICE 'El nombre del departamento no puede estar vacío.';
+        RAISE EXCEPTION 'El nombre del departamento no puede estar vacío.';
 
     END IF;
 
     IF LENGTH(_nombre) > 100 THEN
 
-        RAISE NOTICE 'El nombre del departamento no puede tener más de 100 caracteres.';
+        RAISE EXCEPTION 'El nombre del departamento no puede tener más de 100 caracteres.';
 
     END IF;
     
@@ -33,19 +33,19 @@ BEGIN
                     AND hospital_id = _hospital_id
                     AND (SELECT public.fn_string_compare(nombre, _nombre))) THEN
 
-        RAISE NOTICE 'El edificio del departamento ya existe.';
+        RAISE EXCEPTION 'El edificio del departamento ya existe.';
 
     END IF;
         
     IF _descripcion IS NULL OR _descripcion SIMILAR TO '' THEN
 
-        RAISE NOTICE 'La descripción del departamento no puede estar vacía.';
+        RAISE EXCEPTION 'La descripción del departamento no puede estar vacía.';
 
     END IF;
     
     IF LENGTH(_descripcion) > 255 THEN
 
-        RAISE NOTICE 'La descripción del departamento no puede tener más de 255 caracteres.';
+        RAISE EXCEPTION 'La descripción del departamento no puede tener más de 255 caracteres.';
 
     END IF;
 

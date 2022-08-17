@@ -23,19 +23,19 @@ BEGIN
     END IF;
 	
     IF NOT EXISTS(SELECT * FROM tipos_socios WHERE id = _tiposocio_id) THEN
-        RAISE NOTICE 'No existe este tipo de socio.';
+        RAISE EXCEPTION 'No existe este tipo de socio.';
      END IF;	
     IF _nombres IS NULL OR _nombres SIMILAR TO '' THEN
-        RAISE NOTICE 'Los nombres de socio no pueden estar vacíos.';
+        RAISE EXCEPTION 'Los nombres de socio no pueden estar vacíos.';
 		END IF;										 
 	IF _apellidos IS NULL OR _apellidos SIMILAR TO '' THEN
-        RAISE NOTICE 'Los apellidos de socio no pueden estar vacíos.';
+        RAISE EXCEPTION 'Los apellidos de socio no pueden estar vacíos.';
 		END IF;										 
 	IF _celular IS NULL OR _celular SIMILAR TO '' THEN
-        RAISE NOTICE 'Debe de ingresar un numero de celular.';
+        RAISE EXCEPTION 'Debe de ingresar un numero de celular.';
 		END IF;										 
 	IF _correo IS NULL OR _correo SIMILAR TO '' THEN
-        RAISE NOTICE 'Debe de ingresar un correo electronico.';
+        RAISE EXCEPTION 'Debe de ingresar un correo electronico.';
 	END IF;	
     INSERT INTO public.socios (tiposocio_id,nombres, apellidos, celular, correo, dni)
         VALUES (_tiposocio_id, _nombres, _apellidos, _celular, _correo, _dni)

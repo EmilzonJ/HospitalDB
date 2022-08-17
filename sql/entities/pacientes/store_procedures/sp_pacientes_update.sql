@@ -16,25 +16,25 @@ BEGIN
     --Verificar Id del paciente
     IF NOT EXISTS(SELECT * FROM pacientes WHERE id = _id) THEN
 
-        RAISE NOTICE 'El paciente que está ingresando no existe.';
+        RAISE EXCEPTION 'El paciente que está ingresando no existe.';
 
     END IF;
     --Verificar Id de departamento
     IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _departamento_id) THEN
 
-        RAISE NOTICE 'El departamento que está ingresando no existe.';
+        RAISE EXCEPTION 'El departamento que está ingresando no existe.';
 
     END IF;
     --Verificar Id de empleado
     IF NOT EXISTS(SELECT * FROM empleados WHERE id = _empleado_id) THEN
 
-        RAISE NOTICE 'El empleado que está ingresando no existe.';
+        RAISE EXCEPTION 'El empleado que está ingresando no existe.';
 
     END IF;
     --Verificar fecha de nacimiento
     IF public.fn_validate_date(_fecha_nacimiento) = FALSE OR _fecha_nacimiento SIMILAR TO '' THEN
 
-        RAISE NOTICE 'El formato de la fecha de ingreso no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
+        RAISE EXCEPTION 'El formato de la fecha de ingreso no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
 
     END IF;
     --Verificar dni de paciente
@@ -43,23 +43,23 @@ BEGIN
     END IF;
     --Verificar nombres de paciente
     IF _nombres IS NULL OR _nombres SIMILAR TO '' THEN
-        RAISE NOTICE 'El nombre del paciente no puede estar vacío.';
+        RAISE EXCEPTION 'El nombre del paciente no puede estar vacío.';
     END IF;
     --Verificar apellidos de paciente
     IF _apellidos IS NULL OR _apellidos SIMILAR TO '' THEN
-        RAISE NOTICE 'Los apellidos del paciente no puede estar vacío.';
+        RAISE EXCEPTION 'Los apellidos del paciente no puede estar vacío.';
     END IF;
     --Verificar genero de paciente
     IF _genero IS NULL OR _genero SIMILAR TO '' THEN
-        RAISE NOTICE 'El genero del paciente no puede estar vacío.';
+        RAISE EXCEPTION 'El genero del paciente no puede estar vacío.';
     END IF;
     --Verificar direccion de paciente
     IF _direccion IS NULL OR _direccion SIMILAR TO '' THEN
-        RAISE NOTICE 'La direccion del paciente no puede estar vacía.';
+        RAISE EXCEPTION 'La direccion del paciente no puede estar vacía.';
     END IF;
     --Verificar estado de paciente
     IF _estado IS NULL OR _estado SIMILAR TO '' THEN
-        RAISE NOTICE 'El estado del paciente no puede estar vacío.';
+        RAISE EXCEPTION 'El estado del paciente no puede estar vacío.';
     END IF;
 
     UPDATE public.pacientes

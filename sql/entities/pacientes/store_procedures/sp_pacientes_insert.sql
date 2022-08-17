@@ -16,17 +16,17 @@ DECLARE
 BEGIN
     --validar que existe departamento id
     IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _departamento_id) THEN
-        RAISE NOTICE 'El departamento que ingreso no existe';
+        RAISE EXCEPTION 'El departamento que ingreso no existe';
     END IF;
 
     --Validar que existe empleado_id
     IF NOT EXISTS(SELECT *FROM empleados WHERE id = _empleado_id)THEN
-        RAISE NOTICE 'El empleado que ingreso no existe';
+        RAISE EXCEPTION 'El empleado que ingreso no existe';
     END IF;
 
     --validar fecha de nacimiento
     IF _fecha_nacimiento NOT SIMILAR TO '\d{4,4}\-\d{2}\-\d{2}' OR _fecha_nacimiento SIMILAR TO '' THEN
-        RAISE NOTICE 'El formato de la fecha de nacimiento no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
+        RAISE EXCEPTION 'El formato de la fecha de nacimiento no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
     END IF;
 
     --validar DNI

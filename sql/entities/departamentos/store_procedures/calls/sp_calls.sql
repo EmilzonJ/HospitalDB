@@ -1,5 +1,5 @@
 --CALL SP Insert Departamentos
-CALL sp_insert_departamentos(
+CALL sp_departamentos_insert(
         'Cirugía', 
         13, 
         'Sala de cirugías.', 
@@ -7,7 +7,7 @@ CALL sp_insert_departamentos(
     );
 
 --CALL SP Update Departamentos
-CALL sp_update_departamentos(
+CALL sp_departamentos_update(
         1,
         'Emergencias', 
         2, 
@@ -16,4 +16,4 @@ CALL sp_update_departamentos(
     );
 
 --CALL SP Delete Departamentos
-CALL sp_delete_departamentos(1);
+CALL sp_departamentos_delete(1);

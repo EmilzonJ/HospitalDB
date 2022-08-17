@@ -32,7 +32,7 @@ BEGIN
                   WHERE departamento_id = _dep_id
                     AND empleado_id = _emp_id) THEN
 
-        RAISE NOTICE 'El empleado ya se encuentra en ese departamento.';
+        RAISE EXCEPTION 'El empleado ya se encuentra en ese departamento.';
 
     ELSE
 	

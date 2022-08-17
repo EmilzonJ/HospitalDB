@@ -8,13 +8,13 @@ BEGIN
 
    IF NOT EXISTS(SELECT * FROM hospital WHERE id = _hospital_id) THEN
 
-      RAISE NOTICE 'El hospital que ha ingresado no existe.';
+      RAISE EXCEPTION 'El hospital que ha ingresado no existe.';
 
    END IF;
 
   IF NOT EXISTS(SELECT * FROM socios WHERE id = _socio_id) THEN
 
-      RAISE NOTICE 'El socio que ha ingresado no existe.';
+      RAISE EXCEPTION 'El socio que ha ingresado no existe.';
 
  END IF;
 
@@ -24,7 +24,7 @@ BEGIN
                   WHERE hospital_id = _hospital_id
                     AND socio_id = _socio_id) THEN
 
-        RAISE NOTICE 'El socio ya se encuentra afiliado a este hospital.';
+        RAISE EXCEPTION 'El socio ya se encuentra afiliado a este hospital.';
 
     ELSE
 
