@@ -1,4 +1,7 @@
--- Call SP Insert Tutor
+-- List
+SELECT * FROM vw_tutores;
+
+-- Insert Tutor
 CALL sp_tutores_insert(
         'Juan Armando',
         'Caceres Iriarte',
@@ -7,7 +10,7 @@ CALL sp_tutores_insert(
         'Santa Rosa Copan'
     );
 
--- Call SP Update Tutor
+-- Update Tutor
 CALL sp_tutores_update(
         1,
         'Juan Ramiro',
@@ -17,5 +20,5 @@ CALL sp_tutores_update(
         'Santa Rosa Copan'
     );
 
--- Call SP Delete Tutor
+-- Delete Tutor
 CALL sp_tutores_delete(1);
