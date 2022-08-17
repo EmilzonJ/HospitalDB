@@ -6,7 +6,6 @@ SELECT d.id          AS departamento_id,
        h.id          AS hospital_id,
        h.nombre      AS hospital_nombre,
        h.direccion   AS hospital_direccion
-FROM departamentos d,
-     INNER
-         JOIN
+FROM departamentos d
+         INNER JOIN
      hospital h ON d.hospital_id = h.id;
