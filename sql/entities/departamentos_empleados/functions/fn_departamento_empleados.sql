@@ -13,22 +13,21 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM departamentos_empleados WHERE departamento_id = _departamento_id) THEN
 
-        RAISE NOTICE 'No hay empleados en el departamento "%".', _departamento_id;
-
-    ELSE
-
-        RETURN QUERY SELECT e.id,
-                            e.nombres,
-                            e.apellidos,
-                            oc.descripcion
-                     FROM empleados e
-                              INNER JOIN
-                          ocupaciones oc ON e.ocupacion_id = oc.id
-                              INNER JOIN
-                          departamentos_empleados d_e ON e.id = d_e.empleado_id
-                     WHERE d_e.departamento_id = _departamento_id;
+        RAISE EXCEPTION 'No hay empleados en el departamento "%".', _departamento_id;
 
     END IF;
+
+    RETURN QUERY SELECT e.id,
+                        e.nombres,
+                        e.apellidos,
+                        oc.descripcion
+                    FROM empleados e
+                        INNER JOIN
+                            ocupaciones oc ON e.ocupacion_id = oc.id
+                        INNER JOIN
+                            departamentos_empleados d_e ON e.id = d_e.empleado_id
+                    WHERE 
+                        d_e.departamento_id = _departamento_id;
 
 END
 $$;

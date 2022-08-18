@@ -1,3 +1,4 @@
+--SELECT VIEW de departamentos - empleados 
 SELECT * FROM vw_departamentos_empleados;
 
 --SELECT FUNCTION para ver los empleados de un departamento
