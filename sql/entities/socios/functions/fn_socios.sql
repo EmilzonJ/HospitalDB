@@ -15,7 +15,7 @@ BEGIN
 
         RAISE EXCEPTION 'No hay socios de ese tipo "%".', _tiposocio_id;
 
-    ELSE
+    END IF;
 
         RETURN QUERY SELECT s.id,
                             s.nombres,
@@ -26,7 +26,7 @@ BEGIN
                           tipos_socios tp ON s.tiposocio_id = tp.id
 					 WHERE tp.id = _tiposocio_id;
 
-    END IF;
+
 
 END
 $$;
