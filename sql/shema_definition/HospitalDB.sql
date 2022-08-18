@@ -17,12 +17,12 @@ $do$
                 SELECT
                 FROM pg_tables
                 WHERE schemaname = 'public'
-                  AND tablename = 'hospital'
+                  AND tablename = 'hospitales'
             ) THEN
-            DROP TABLE hospital CASCADE;
+            DROP TABLE hospitales CASCADE;
         END IF;
 
-        CREATE TABLE hospital
+        CREATE TABLE hospitales
         (
             id        SERIAL PRIMARY KEY,
             nombre    VARCHAR(100) NOT NULL,
@@ -88,17 +88,17 @@ $do$
                 SELECT
                 FROM pg_tables
                 WHERE schemaname = 'public'
-                  AND tablename = 'hospital_socios'
+                  AND tablename = 'hospitales_socios'
             ) THEN
-            DROP TABLE hospital_socios CASCADE;
+            DROP TABLE hospitales_socios CASCADE;
         END IF;
 
-        CREATE TABLE hospital_socios
+        CREATE TABLE hospitales_socios
         (
             hospital_id INT NOT NULL,
             socio_id    INT NOT NULL,
             PRIMARY KEY (hospital_id, socio_id),
-            FOREIGN KEY (hospital_id) REFERENCES hospital (id) ON DELETE CASCADE,
+            FOREIGN KEY (hospital_id) REFERENCES hospitales (id) ON DELETE CASCADE,
             FOREIGN KEY (socio_id) REFERENCES socios (id) ON DELETE CASCADE
         );
     END
