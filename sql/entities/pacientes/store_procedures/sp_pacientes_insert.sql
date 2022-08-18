@@ -16,12 +16,12 @@ DECLARE
 BEGIN
     --validar que existe departamento id
     IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _departamento_id) THEN
-        RAISE EXCEPTION 'El departamento que ingreso no existe';
+        RAISE EXCEPTION 'El departamento que ingresó no existe';
     END IF;
 
     --Validar que existe empleado_id
-    IF NOT EXISTS(SELECT *FROM empleados WHERE id = _empleado_id)THEN
-        RAISE EXCEPTION 'El empleado que ingreso no existe';
+    IF NOT EXISTS(SELECT *FROM empleados WHERE id = _empleado_id) THEN
+        RAISE EXCEPTION 'El empleado que ingresó no existe';
     END IF;
 
     --validar fecha de nacimiento
