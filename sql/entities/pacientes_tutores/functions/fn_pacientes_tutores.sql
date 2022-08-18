@@ -12,9 +12,9 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM pacientes_tutores WHERE paciente_id = _paciente_id) THEN
 
-        RAISE NOTICE 'No hay tutores para el pacientes "%".', _paciente_id;
+        RAISE EXCEPTION 'No hay tutores para el pacientes "%".', _paciente_id;
 
-    ELSE
+    END IF;
 
         RETURN QUERY SELECT t.id,
                             t.nombres,
