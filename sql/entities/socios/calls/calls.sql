@@ -21,3 +21,6 @@ CALL sp_socios_delete(1);
 SELECT *
 FROM public.vw_socios
 LIMIT 5
+
+--function select
+SELECT * FROM fn_socios(2);
