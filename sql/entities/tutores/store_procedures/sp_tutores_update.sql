@@ -22,11 +22,11 @@ BEGIN
 
     -- Actualizar tutor
     UPDATE tutores
-    SET nombres    = _nombres,
-        apellidos  = _apellidos,
-        dni        = _dni,
-        celular    = _celular,
-        direccion  = _direccion
+    SET nombres   = _nombres,
+        apellidos = _apellidos,
+        dni       = _dni,
+        celular   = _celular,
+        direccion = _direccion
     WHERE id = _id;
 
     RAISE NOTICE 'Tutor actualizado con éxito';

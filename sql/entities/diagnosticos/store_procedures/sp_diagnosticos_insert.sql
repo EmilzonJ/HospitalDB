@@ -16,9 +16,9 @@ BEGIN
         RAISE EXCEPTION 'El paciente que está ingresando no existe.';
 
     END IF;
-    
+
     IF public.fn_validate_date(_fecha_ingreso) = FALSE OR _fecha_ingreso SIMILAR TO '' THEN
-    
+
         RAISE EXCEPTION 'El formato de la fecha de ingreso no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
 
     END IF;

@@ -29,7 +29,7 @@ BEGIN
         RAISE EXCEPTION 'El empleado no está asignado a un departamento.';
 
     END IF;
-    
+
     IF NOT EXISTS(SELECT *
                   FROM departamentos_empleados
                   WHERE departamento_id = _dep_id
@@ -39,11 +39,10 @@ BEGIN
 
     ELSE
 
-        DELETE 
-        FROM 
-            public.departamentos_empleados
-        WHERE
-            departamento_id = _dep_id AND empleado_id = _emp_id;
+        DELETE
+        FROM public.departamentos_empleados
+        WHERE departamento_id = _dep_id
+          AND empleado_id = _emp_id;
 
         RAISE NOTICE 'Se elminó el empleado "%" del departamento de "%".', _emp_nombre, _dep_nombre;
 

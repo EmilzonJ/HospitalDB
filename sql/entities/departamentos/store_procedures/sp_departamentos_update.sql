@@ -10,7 +10,7 @@ DECLARE
     _nombre_actual      VARCHAR(100);
     _edificio_actual    INT;
     _hospital_id_actual INT;
-    not_exists           BOOLEAN; --si este valor es TRUE el departamento se puede editar.
+    not_exists          BOOLEAN; --si este valor es TRUE el departamento se puede editar.
 BEGIN
 
     --Guardan los datos actuales del departamento.
@@ -23,25 +23,25 @@ BEGIN
         RAISE EXCEPTION 'El departamento que está ingresando no existe.';
 
     END IF;
-    
+
     IF NOT EXISTS(SELECT * FROM hospital WHERE id = _hospital_id) THEN
 
         RAISE EXCEPTION 'El hospital que está ingresando no existe.';
 
     END IF;
-    
+
     IF _nombre IS NULL OR _nombre SIMILAR TO '' THEN
 
         RAISE EXCEPTION 'El nombre del departamento no puede estar vacío.';
 
     END IF;
-    
+
     IF LENGTH(_nombre) > 100 THEN
 
         RAISE EXCEPTION 'El nombre del departamento no puede tener más de 100 caracteres.';
-    
+
     END IF;
-    
+
     IF (SELECT public.fn_string_compare(_nombre, _nombre_actual))
         AND ((_edificio <> _edificio_actual)
             OR (_hospital_id <> _hospital_id_actual)) THEN
@@ -64,7 +64,7 @@ BEGIN
         END IF;
 
     END IF;
-    
+
     IF (SELECT public.fn_string_compare(_nombre, _nombre_actual) = FALSE)
         AND ((_edificio <> _edificio_actual)
             OR (_hospital_id <> _hospital_id_actual)) THEN
@@ -87,7 +87,7 @@ BEGIN
         END IF;
 
     END IF;
-            
+
     IF (SELECT public.fn_string_compare(_nombre, _nombre_actual) = FALSE)
         AND ((_edificio = _edificio_actual)
             OR (_hospital_id = _hospital_id_actual)) THEN
@@ -110,7 +110,7 @@ BEGIN
         END IF;
 
     END IF;
-    
+
     IF (SELECT public.fn_string_compare(_nombre, _nombre_actual))
         AND ((_edificio = _edificio_actual)
             OR (_hospital_id = _hospital_id_actual)) THEN
@@ -127,13 +127,13 @@ BEGIN
         RAISE EXCEPTION 'La descripción del departamento no puede estar vacía.';
 
     END IF;
-    
+
     IF LENGTH(_descripcion) > 255 THEN
 
         RAISE EXCEPTION 'La descripción del departamento no puede tener más de 255 caracteres.';
 
     END IF;
-    
+
     IF not_exists THEN
 
         UPDATE public.departamentos
