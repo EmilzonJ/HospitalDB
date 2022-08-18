@@ -16,3 +16,6 @@ CALL sp_hospital_delete(1);
 SELECT *
 FROM public.vw_hospitales
 LIMIT 5
+
+-- function select
+SELECT * FROM fn_hospitales(1);
