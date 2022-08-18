@@ -19,7 +19,7 @@ BEGIN
     END IF;
 
     --validar fecha de nacimiento
-    IF _fecha_nacimiento NOT SIMILAR TO '\d{4,4}\-\d{2}\-\d{2}' OR _fecha_nacimiento SIMILAR TO '' THEN
+    IF public.fn_validate_date(_fecha_nacimiento) = FALSE OR _fecha_nacimiento SIMILAR TO '' THEN
         RAISE EXCEPTION 'El formato de la fecha de nacimiento no es válido o está vacío, el formato debe ser el siguiente "YYYY-MM-DD".';
     END IF;
 
