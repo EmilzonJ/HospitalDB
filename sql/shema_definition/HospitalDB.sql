@@ -71,6 +71,7 @@ $do$
             id           SERIAL PRIMARY KEY,
             nombres      VARCHAR(100) NOT NULL,
             apellidos    VARCHAR(100) NOT NULL,
+            dni          VARCHAR(15) UNIQUE NOT NULL,
             celular      VARCHAR(20)  NOT NULL,
             correo       VARCHAR(100) NOT NULL,
             tiposocio_id INT          NOT NULL,
