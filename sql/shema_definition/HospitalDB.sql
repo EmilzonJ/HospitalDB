@@ -228,10 +228,32 @@ $do$
             direccion        VARCHAR(170)       NOT NULL,
             departamento_id  INT                NULL,
             FOREIGN KEY (departamento_id) REFERENCES departamentos (id) ON DELETE SET NULL,
-            empleado_id      INT                NOT NULL,
-            FOREIGN KEY (empleado_id) REFERENCES empleados (id) ON DELETE RESTRICT,
             estado           VARCHAR(30)        NOT NULL,
             tipo_sangre      VARCHAR(4)         NOT NULL
+        );
+    END
+$do$;
+
+-------------------------------- pacientes_empleados --------------------------------------
+DO
+$do$
+    BEGIN
+        IF EXISTS(
+                SELECT
+                FROM pg_tables
+                WHERE schemaname = 'public'
+                  AND tablename = 'pacientes_empleados'
+            ) THEN
+            DROP TABLE pacientes_empleados CASCADE;
+        END IF;
+
+        CREATE TABLE pacientes_empleados
+        (
+            paciente_id INT NOT NULL,
+            empleado_id     INT NOT NULL,
+            PRIMARY KEY (paciente_id, empleado_id),
+            FOREIGN KEY (paciente_id) REFERENCES pacientes (id) ON DELETE CASCADE,
+            FOREIGN KEY (empleado_id) REFERENCES empleados (id) ON DELETE CASCADE
         );
     END
 $do$;
@@ -289,7 +311,7 @@ $do$
     END
 $do$;
 
--------------------------------------- pacientes_tutores --------------------------------------
+-------------------------------------- pacientes_tutores ----------------------------------
 DO
 $do$
     BEGIN
@@ -315,6 +337,7 @@ $do$
 $do$;
 
 
+---------------------------------    E M I L Z O N     -------------------------------
 -------------------------------------- usuarios --------------------------------------
 DO
 $do$
@@ -341,7 +364,6 @@ $do$
 $do$;
 
 
----------------------------------    E M I L Z O N     ----------------------------
 -------------------------------------- roles --------------------------------------
 DO
 $do$
