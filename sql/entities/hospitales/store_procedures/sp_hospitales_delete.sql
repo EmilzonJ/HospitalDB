@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE sp_hospital_delete(_id INT)
+CREATE OR REPLACE PROCEDURE sp_hospitales_delete(_id INT)
     LANGUAGE plpgsql
 AS
 $$
@@ -8,7 +8,7 @@ BEGIN
     END IF;
 
     DELETE
-    FROM public.hospital
+    FROM public.hospitales
     WHERE id = _id;
 
     RAISE NOTICE 'Hospital eliminado con éxito';

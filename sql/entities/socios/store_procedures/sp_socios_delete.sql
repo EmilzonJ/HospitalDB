@@ -12,9 +12,9 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM socios WHERE id = _id) THEN
 
-        RAISE NOTICE 'La persona que ingreso no está afiliada al hospital.';
+        RAISE EXCEPTION 'La persona que ingreso no está afiliada al hospital.';
 
-    ELSE
+    END IF;
 
         DELETE
         FROM public.socios
@@ -22,7 +22,7 @@ BEGIN
 
         RAISE NOTICE 'Se elimino exitosamente "% %" con id %.',_nombres, _apellidos,  _id;
 
-    END IF;
+
 
 END
 $$;

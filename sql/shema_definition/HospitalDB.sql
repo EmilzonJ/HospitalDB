@@ -80,7 +80,7 @@ $do$
     END
 $do$;
 
--------------------------------------- hospital_socios --------------------------------------
+-------------------------------------- hospitales_socios --------------------------------------
 DO
 $do$
     BEGIN
@@ -124,7 +124,7 @@ $do$
             edificio    INT          NOT NULL,
             descripcion VARCHAR(255),
             hospital_id INT,
-            FOREIGN KEY (hospital_id) REFERENCES hospital (id) ON DELETE RESTRICT
+            FOREIGN KEY (hospital_id) REFERENCES hospitales (id) ON DELETE RESTRICT
         );
     END
 $do$;
