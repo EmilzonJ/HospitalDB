@@ -6,6 +6,6 @@ BEGIN
     DELETE
     FROM public.tipos_socios
     WHERE id = _id;
-    RAISE NOTICE 'Tipos socios eliminado con exito';
+    RAISE NOTICE 'Tipos socios eliminado con éxito';
 END
 $$

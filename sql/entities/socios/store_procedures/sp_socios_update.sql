@@ -1,5 +1,10 @@
-CREATE OR REPLACE PROCEDURE sp_socios_update(_id INT, _nombres VARCHAR(100), _apellidos VARCHAR(100),
-							_celular VARCHAR(20), _correo VARCHAR(100), _dni VARCHAR(15))
+CREATE OR REPLACE PROCEDURE sp_socios_update(
+    _id INT,
+    _nombres VARCHAR(100),
+    _apellidos VARCHAR(100),
+    _celular VARCHAR(20),
+    _correo VARCHAR(100),
+    _dni VARCHAR(15))
     LANGUAGE plpgsql
 AS
 $$
@@ -15,11 +20,11 @@ BEGIN
     END IF;
 
     UPDATE socios
-    SET nombres = _nombres,
+    SET nombres   = _nombres,
         apellidos = _apellidos,
-        celular = _celular,
-        correo = _correo,
-		dni = _dni
+        celular   = _celular,
+        correo    = _correo,
+        dni       = _dni
     WHERE id = _id;
 
     RAISE NOTICE 'Socio actualizado con éxito';

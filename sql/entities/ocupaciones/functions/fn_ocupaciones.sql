@@ -8,13 +8,13 @@
 AS
 $$
 BEGIN
-    IF NOT EXISTS(SELECT * FROM OCUPACIONES WHERE ocupacion_id = _id) THEN
+    IF NOT EXISTS(SELECT * FROM ocupaciones WHERE ocupacion_id = _id) THEN
 
         RAISE NOTICE 'La ocupacion no existe "%".', _id;
     END IF;
-    RETURN QUERY SELECT ocupaciones.id,
-                        ocupaciones.descripcion
-                 FROM ocupaciones
-                 WHERE ocupaciones.id = _id;
+    RETURN QUERY SELECT o.id,
+                        o.descripcion
+                 FROM ocupaciones AS o
+                 WHERE o.id = _id;
 END;
 $$;

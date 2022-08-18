@@ -7,7 +7,7 @@ BEGIN
     UPDATE public.tipos_socios
     SET descripcion = _descripcion
     WHERE id = _id;
-    RAISE NOTICE 'Actualizado con exito tipos socios: %',
+    RAISE NOTICE 'Actualizado con éxito tipos socios: %',
             (SELECT descripcion FROM tipos_socios WHERE id = _id);
 END
 $$

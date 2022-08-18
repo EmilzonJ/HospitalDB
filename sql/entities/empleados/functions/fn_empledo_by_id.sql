@@ -25,7 +25,7 @@ BEGIN
                         e.dni,
                         e.correo,
                         e.celular,
-                        o.id AS ocupacion_id,
+                        o.id          AS ocupacion_id,
                         o.descripcion AS ocupacion
                  FROM empleados AS e
                           INNER JOIN ocupaciones AS o ON e.ocupacion_id = o.id

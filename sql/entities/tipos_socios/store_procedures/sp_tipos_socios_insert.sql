@@ -6,8 +6,9 @@ DECLARE
     _id_new INT;
 BEGIN
     INSERT INTO public.tipos_socios(descripcion)
-    VALUES (_descripcion)
-    RAISE NOTICE 'Ingresado con exito Tipos Socio: %',
+    VALUES (_descripcion);
+
+    RAISE NOTICE 'Ingresado con éxito Tipos Socio: %',
             (SELECT descripcion FROM tipos_socios WHERE id = _id_new);
 END
 $$

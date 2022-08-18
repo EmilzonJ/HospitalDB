@@ -1,4 +1,4 @@
-CREATE PROCEDURE sp_ocupaciones_insert(_descripcion VARCHAR(100))
+CREATE OR REPLACE PROCEDURE sp_ocupaciones_insert(_descripcion VARCHAR(100))
     LANGUAGE plpgsql
 AS
 $$
