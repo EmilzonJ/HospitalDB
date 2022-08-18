@@ -1,1 +1,0 @@
-﻿SELECT * FROM fn_ocupaciones('1');
