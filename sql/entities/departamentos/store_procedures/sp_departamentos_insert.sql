@@ -9,7 +9,7 @@ DECLARE
     _id_new INT;
 BEGIN
 
-    IF NOT EXISTS(SELECT * FROM hospital WHERE id = _hospital_id) THEN
+    IF NOT EXISTS(SELECT * FROM hospitales WHERE id = _hospital_id) THEN
 
         RAISE EXCEPTION 'El hospital que está ingresando no existe.';
 

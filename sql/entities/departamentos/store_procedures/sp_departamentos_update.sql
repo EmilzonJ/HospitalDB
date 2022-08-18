@@ -24,7 +24,7 @@ BEGIN
 
     END IF;
 
-    IF NOT EXISTS(SELECT * FROM hospital WHERE id = _hospital_id) THEN
+    IF NOT EXISTS(SELECT * FROM hospitales WHERE id = _hospital_id) THEN
 
         RAISE EXCEPTION 'El hospital que está ingresando no existe.';
 
@@ -144,7 +144,7 @@ BEGIN
             hospital_id = _hospital_id
         WHERE id = _id;
 
-        RAISE NOTICE 'Se actualizó el departamento "%" en el hospital "%".', (SELECT nombre FROM departamentos WHERE id = _id), (SELECT nombre FROM hospital WHERE id = _hospital_id);
+        RAISE NOTICE 'Se actualizó el departamento "%" en el hospital "%".', (SELECT nombre FROM departamentos WHERE id = _id), (SELECT nombre FROM hospitales WHERE id = _hospital_id);
 
     END IF;
 
