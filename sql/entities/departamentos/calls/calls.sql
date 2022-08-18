@@ -1,3 +1,4 @@
+--SELECT VIEW de departamentos
 SELECT * FROM vw_departamentos;
 
 --CALL SP Insert Departamentos

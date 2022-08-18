@@ -1,3 +1,9 @@
+--SELECT VIEW de diagnosticos
+SELECT * FROM vw_diagnosticos;
+
+--SELECT FUNCTION para ver los diagnósticos de un paciente
+SELECT * FROM fn_paciente_diagnosticos(1);
+
 --CALL SP Insert Diagnostico
 CALL sp_diagnosticos_insert(
         1, 
