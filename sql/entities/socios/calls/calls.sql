@@ -20,7 +20,7 @@ CALL sp_socios_delete(1);
 --select socios views
 SELECT *
 FROM public.vw_socios
-LIMIT 5
+LIMIT 5;
 
 --function select
 SELECT * FROM fn_socios(2);
