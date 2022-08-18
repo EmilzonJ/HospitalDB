@@ -1,6 +1,6 @@
 ﻿CREATE OR REPLACE VIEW vw_pacientes_tutores AS
 SELECT t.id        AS tutor_id,
-       t.nombres    AS tutor_nombres,
+       t.nombres   AS tutor_nombres,
        t.apellidos AS tutor_apellidos,
        p.id        AS pacientes_id,
        p.nombres   AS pacientes_nombres,

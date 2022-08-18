@@ -1,5 +1,5 @@
 ﻿SELECT *
-FROM vw_pacientes_tutores.sql;
+FROM vw_pacientes_tutores;
 
 --Select fn de pacientes tutores
 SELECT *

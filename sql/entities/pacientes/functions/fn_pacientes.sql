@@ -19,22 +19,21 @@ $$
 BEGIN
 
     IF NOT EXISTS(SELECT * FROM pacientes WHERE paciente_id = _id) THEN
-
         RAISE NOTICE 'El paciente no existe "%".', _id;
     END IF;
-    RETURN QUERY SELECT pacientes.id,
-                        pacientes.nombres,
-                        pacientes.apellidos,
-                        pacientes.genero,
-                        pacientes.fecha_nacimiento,
-                        pacientes.dni,
-                        pacientes.direccion,
-                        pacientes.departamento_id,
-                        pacientes.empleado_id,
-                        pacientes.estado,
-                        pacientes.tipo_sangre
-                 FROM pacientes
-                 WHERE pacientes.id = _id;
 
+    RETURN QUERY SELECT p.id,
+                        p.nombres,
+                        p.apellidos,
+                        p.genero,
+                        p.fecha_nacimiento,
+                        p.dni,
+                        p.direccion,
+                        p.departamento_id,
+                        p.empleado_id,
+                        p.estado,
+                        p.tipo_sangre
+                 FROM pacientes AS p
+                 WHERE p.id = _id;
 END
 $$;

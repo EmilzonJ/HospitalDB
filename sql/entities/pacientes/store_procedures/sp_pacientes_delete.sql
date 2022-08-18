@@ -4,6 +4,6 @@ AS
 $$
 BEGIN
     DELETE FROM pacientes WHERE id = _id;
-    RAISE NOTICE 'Paciente eliminado con exito';
+    RAISE NOTICE 'Paciente eliminado con éxito';
 END
 $$

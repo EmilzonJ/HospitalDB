@@ -1,6 +1,8 @@
 ﻿SELECT * FROM vw_pacientes;
+
 --Select fn de Pacientes
 SELECT * FROM fn_pacientes(1);
+
 --CALL insert de pacientes
 CALL sp_pacientes_insert('Karla',
                          'Ramirez',
@@ -25,5 +27,6 @@ CALL sp_pacientes_update(2,
                          1,
                          'Critico',
                          'O-');
+
 --CALL delete de pacientes
 CALL sp_pacientes_delete(1);
