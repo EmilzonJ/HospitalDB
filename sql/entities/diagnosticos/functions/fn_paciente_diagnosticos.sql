@@ -15,24 +15,22 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM diagnosticos WHERE paciente_id = _paciente_id) THEN
 
-        RAISE NOTICE 'No hay diagnósticos del paciente "%".', _paciente_id;
-
-    ELSE
-
-        RETURN QUERY SELECT d.id,
-                            p.nombres,
-                            p.apellidos,
-                            d.fecha_ingreso,
-                            d.razon_ingreso,
-                            d.fecha
-                     FROM 
-                            diagnosticos d
-                        INNER JOIN
-                            pacientes p ON p.id = d.paciente_id
-                     WHERE 
-                        d.paciente_id = _paciente_id;
+        RAISE EXCEPTION 'No hay diagnósticos del paciente "%".', _paciente_id;
 
     END IF;
+
+    RETURN QUERY SELECT d.id,
+                        p.nombres,
+                        p.apellidos,
+                        d.fecha_ingreso,
+                        d.razon_ingreso,
+                        d.fecha
+                    FROM 
+                        diagnosticos d
+                    INNER JOIN
+                        pacientes p ON p.id = d.paciente_id
+                    WHERE 
+                    d.paciente_id = _paciente_id;
 
 END
 $$;
