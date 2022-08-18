@@ -1,0 +1,15 @@
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (1, 'Cirugía', 1, 'nisi at nibh in hac habitasse platea dictumst aliquam augue', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (2, 'Patología Clínica', 2, 'ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (3, 'Pediatría', 3, 'cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (4, 'Radiología e Imagen', 4, 'purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (5, 'Psiquiatría', 1, 'hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (6, 'Emergencias', 2, 'ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (7, 'Cardiología', 3, 'in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (8, 'Dermatología', 4, 'auctor sed tristique in tempus sit amet sem fusce consequat', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (9, 'Hematología', 1, 'vel est donec odio justo sollicitudin ut suscipit a feugiat et eros', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (10, 'Gastroenterología', 2, 'pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (11, 'Ginecología', 3, 'ut dolor morbi vel lectus in quam fringilla rhoncus mauris', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (12, 'Oftalmología', 4, 'hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (13, 'Oncología', 1, 'dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (14, 'Neurología', 2, 'sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce', 1);
+insert into departamentos (id, nombre, edificio, descripcion, hospital_id) values (15, 'Urología', 3, 'quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie', 1);
