@@ -1334,8 +1334,8 @@ BEGIN
     WHERE id = _id;
 
     RAISE NOTICE 'Los datos del paciente % con código %se editaron correctamente',
-        (SELECT nombres FROM pacientes WHERE id = _id),
-        (SELECT id FROM pacientes WHERE id = _id);
+            (SELECT nombres FROM pacientes WHERE id = _id),
+            (SELECT id FROM pacientes WHERE id = _id);
 END;
 $$;
 
@@ -1902,12 +1902,12 @@ BEGIN
         UPDATE
             pacientes_empleados
         SET paciente_id = _pac_id,
-            empleado_id     = _emp_id
+            empleado_id = _emp_id
         WHERE empleado_id = _emp_id;
 
         RAISE NOTICE 'Se cambió el empleado "%" al paciente "%".',
-            (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = _emp_id),
-            (SELECT (nombres || ' ' || apellidos) FROM pacientes WHERE id = _pac_id);
+                (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = _emp_id),
+                (SELECT (nombres || ' ' || apellidos) FROM pacientes WHERE id = _pac_id);
 
     END IF;
 
@@ -2040,7 +2040,7 @@ BEGIN
 END
 $$;
 
-CREATE OR REPLACE PROCEDURE sp_ususarios_insert(
+CREATE OR REPLACE PROCEDURE sp_usuarios_insert(
     _nombres VARCHAR,
     _apellidos VARCHAR,
     _dni VARCHAR,
@@ -2172,3 +2172,83 @@ SELECT t.id,
        t.celular,
        t.direccion
 FROM usuarios AS t;
+
+
+CREATE OR REPLACE PROCEDURE sp_roles_insert(
+    _nombre VARCHAR(100),
+    _descripcion VARCHAR(255)
+)
+    LANGUAGE plpgsql
+AS
+$$
+DECLARE
+    _id_new INT;
+BEGIN
+    INSERT INTO roles(nombre, descripcion)
+    VALUES (_nombre, _descripcion)
+    RETURNING roles.id INTO _id_new;
+
+    RAISE NOTICE 'Ingresado con éxito rol: %',
+            (SELECT nombre FROM roles WHERE id = _id_new);
+END
+$$;
+
+
+CREATE OR REPLACE PROCEDURE sp_roles_update(
+    _id INT,
+    _nombre VARCHAR(100),
+    _descripcion VARCHAR(255))
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+    UPDATE roles
+    SET nombre      = _nombre,
+        descripcion = _descripcion
+    WHERE id = _id;
+    RAISE NOTICE 'Actualizado con éxito rol: %',
+            (SELECT nombre FROM roles WHERE id = _id);
+END
+$$;
+
+
+CREATE OR REPLACE PROCEDURE sp_roles_delete(_id INT)
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+    DELETE FROM roles WHERE id = _id;
+    RAISE NOTICE 'Rol eliminado con éxito';
+END;
+$$;
+
+
+CREATE OR REPLACE FUNCTION fn_rol_by_id(_id INT)
+    RETURNS TABLE
+            (
+                ROL_ID          INT,
+                ROL_NOMBRE      VARCHAR(100),
+                ROL_DESCRIPCION VARCHAR(255)
+            )
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+    IF NOT EXISTS(SELECT * FROM roles WHERE rol_id = _id) THEN
+
+        RAISE NOTICE 'La rol no existe "%".', _id;
+    END IF;
+    RETURN QUERY SELECT r.id,
+                        r.nombre,
+                        r.descripcion
+                 FROM roles AS r
+                 WHERE r.id = _id;
+END;
+$$;
+
+CREATE OR REPLACE VIEW vw_roles
+AS
+SELECT r.id,
+       r.descripcion
+FROM roles AS r;
+
