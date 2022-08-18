@@ -5,10 +5,11 @@ CALL sp_pacientes_insert('Karla',
     '2000-10-10',
     '0401-2000-00678',
     'Santa Rosa de Copan',
-    '1',
-    '1',
+    3,
+    1,
     'Critico',
     'O+');
+
 --CALL update de pacientes
 CALL sp_pacientes_update('2',
                          'Karla',
@@ -22,4 +23,4 @@ CALL sp_pacientes_update('2',
                          'Critico',
                          'O-');
 --CALL delete de pacientes
-CALL sp_pacientes_delete('2');
+CALL sp_pacientes_delete('1');

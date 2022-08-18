@@ -1,9 +1,11 @@
+SELECT * FROM vw_departamentos;
+
 --CALL SP Insert Departamentos
 CALL sp_departamentos_insert(
         'Cirugía', 
         13, 
         'Sala de cirugías.', 
-        20
+        1
     );
 
 --CALL SP Update Departamentos
@@ -12,7 +14,7 @@ CALL sp_departamentos_update(
         'Emergencias', 
         2, 
         'Sala de mergencias.', 
-        2
+        1
     );
 
 --CALL SP Delete Departamentos
