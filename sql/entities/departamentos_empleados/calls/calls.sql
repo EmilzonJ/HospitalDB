@@ -1,8 +1,10 @@
 --SELECT VIEW de departamentos - empleados 
-SELECT * FROM vw_departamentos_empleados;
+SELECT *
+FROM vw_departamentos_empleados;
 
 --SELECT FUNCTION para ver los empleados de un departamento
-SELECT * FROM fn_departamento_empleados(1);
+SELECT *
+FROM fn_departamento_empleados(1);
 
 
 --CALL SP Insert Departamentos_Empleados

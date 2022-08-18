@@ -20,17 +20,17 @@ BEGIN
     END IF;
 
     IF EXISTS(SELECT *
-                  FROM departamentos_empleados
-                  WHERE empleado_id = _emp_id) THEN
+              FROM departamentos_empleados
+              WHERE empleado_id = _emp_id) THEN
 
         RAISE EXCEPTION 'El empleado ya está asignado a un departamento.';
 
     END IF;
-    
+
     IF EXISTS(SELECT *
-                  FROM departamentos_empleados
-                  WHERE departamento_id = _dep_id
-                    AND empleado_id = _emp_id) THEN
+              FROM departamentos_empleados
+              WHERE departamento_id = _dep_id
+                AND empleado_id = _emp_id) THEN
 
         RAISE EXCEPTION 'El empleado ya se encuentra en el departamento.';
 
