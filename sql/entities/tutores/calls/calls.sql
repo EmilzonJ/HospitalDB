@@ -1,6 +1,9 @@
 -- List
 SELECT * FROM vw_tutores;
 
+-- Tutor By Id
+SELECT * FROM fn_tutor_by_id(1);
+
 -- Insert Tutor
 CALL sp_tutores_insert(
         'Juan Armando',
