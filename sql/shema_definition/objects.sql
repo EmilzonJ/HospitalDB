@@ -2252,3 +2252,64 @@ SELECT r.id,
        r.descripcion
 FROM roles AS r;
 
+
+CREATE OR REPLACE PROCEDURE sp_permisos_insert(
+    _nombre VARCHAR(100),
+    _descripcion VARCHAR(255),
+    _seccion VARCHAR(30)
+)
+    LANGUAGE plpgsql
+AS
+$$
+DECLARE
+    _id_new INT;
+BEGIN
+    INSERT INTO permisos(nombre, descripcion, seccion)
+    VALUES (_nombre, _descripcion, _seccion)
+    RETURNING permisos.id INTO _id_new;
+
+    RAISE NOTICE 'Ingresado con éxito permiso: %',
+            (SELECT nombre FROM permisos WHERE id = _id_new);
+END
+$$;
+
+
+CREATE OR REPLACE PROCEDURE sp_permisos_update(
+    _id INT,
+    _nombre VARCHAR(100),
+    _descripcion VARCHAR(255),
+    _seccion VARCHAR(30)
+)
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+    UPDATE permisos
+    SET nombre      = _nombre,
+        descripcion = _descripcion,
+        seccion     = _seccion
+    WHERE id = _id;
+    RAISE NOTICE 'Actualizado con éxito permiso: %',
+            (SELECT nombre FROM permisos WHERE id = _id);
+END
+
+$$;
+
+
+CREATE OR REPLACE PROCEDURE sp_permisos_delete(_id INT)
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+    DELETE FROM permisos WHERE id = _id;
+    RAISE NOTICE 'Permiso eliminado con éxito';
+END;
+$$;
+
+CREATE OR REPLACE VIEW vw_permisos
+AS
+SELECT p.id,
+       p.descripcion,
+       p.seccion
+FROM permisos AS p;
+
