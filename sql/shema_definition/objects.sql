@@ -1173,7 +1173,6 @@ CREATE OR REPLACE FUNCTION fn_pacientes(_id INT)
                 DNI              VARCHAR(15),
                 DIRECCION        VARCHAR(255),
                 DEPARTAMENTI_ID  INT,
-                EMPLEADO_ID      INT,
                 ESTADO           VARCHAR(30),
                 TIPO_SANGRE      VARCHAR(4)
             )
@@ -1194,7 +1193,6 @@ BEGIN
                         p.dni,
                         p.direccion,
                         p.departamento_id,
-                        p.empleado_id,
                         p.estado,
                         p.tipo_sangre
                  FROM pacientes AS p
@@ -1361,15 +1359,12 @@ SELECT p.id AS pacientes_id,
        p.direccion,
        p.fecha_nacimiento,
        p.departamento_id,
-       p.empleado_id,
        p.estado,
        p.tipo_sangre
 
 FROM pacientes p
          INNER JOIN
-     departamentos d ON p.departamento_id = d.id
-         INNER JOIN
-     empleados e ON p.empleado_id = e.id;
+     departamentos d ON p.departamento_id = d.id;
 
 
 CREATE OR REPLACE FUNCTION fn_pacientes_tutores(_paciente_id INT)

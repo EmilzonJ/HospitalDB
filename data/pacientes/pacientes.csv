@@ -1,0 +1,1001 @@
+id,nombres,apellidos,genero,fecha_nacimiento,dni,direccion,departamento_id,estado,tipo_sangre
+550,Tull,Fleckness,M,2022-02-10,8233-1989-45522,9 Lakewood Trail,13,cirugía,O+
+551,Caspar,Dickman,F,2022-05-26,5792-1989-33664,20 Forest Dale Crossing,8,observación,AB+
+552,Kandy,Gremane,M,2022-07-16,6243-1971-12165,6936 Laurel Parkway,8,alta,B-
+553,Giorgia,Rebeiro,M,2022-07-30,7950-1978-30261,0424 Anniversary Hill,2,cirugía,B+
+554,Mandy,Jodkowski,F,2022-05-12,2969-1998-87146,4 Northwestern Way,1,alta,O+
+555,Maudie,Cragg,F,2021-11-24,4474-1944-86751,6961 Lerdahl Park,12,cita médica,B-
+556,Courtney,Towsey,NB,2022-05-07,1066-2014-26771,80 Dexter Hill,14,cita médica,AB-
+557,Pier,Affleck,M,2022-06-03,6755-1948-86052,59 Dexter Park,12,alta,B+
+558,Mariette,Iveans,F,2021-10-17,2525-1980-76198,59789 Alpine Junction,5,cirugía,O-
+559,Timothy,Ingleton,M,2022-04-16,1754-2012-84041,9 Jay Place,2,alta,O+
+560,Lucie,Beckitt,NB,2022-07-04,2220-1975-51266,50152 Vera Lane,10,alta,B+
+561,Gerard,Dumbreck,F,2022-01-06,1122-2001-28666,2 Oxford Alley,10,observación,A+
+562,Bernetta,Brierley,F,2022-04-12,4687-1934-12866,430 Fallview Way,10,cirugía,B-
+563,Harcourt,Whitehead,F,2022-01-21,2566-1950-96460,62909 Tony Court,10,alta,B-
+564,Olenolin,Martini,F,2022-05-20,7384-1945-27399,99 East Point,13,cita médica,B-
+565,Mycah,Kamien,NB,2022-03-22,5557-1921-38917,2 Miller Place,9,crítico,B+
+566,Broderick,Prando,F,2021-09-18,6636-1951-78333,12898 Clarendon Road,10,cirugía,O-
+567,Jenelle,Mewburn,F,2021-12-05,5459-1984-55659,8 Green Junction,12,cirugía,O+
+568,Teddy,Verdy,F,2021-12-12,7763-1951-20377,7752 Karstens Crossing,4,cita médica,AB-
+569,Benjamen,Cobain,F,2022-04-30,2391-1951-96758,1180 Swallow Junction,11,cirugía,B+
+570,Irma,Parkman,M,2022-03-01,9744-1996-28460,31 School Plaza,6,cita médica,AB+
+571,Matthieu,Burnhams,NB,2022-07-01,6700-1981-53270,559 Larry Plaza,4,crítico,AB+
+572,Alfie,Craighead,NB,2022-04-15,3133-1945-70064,5923 Lindbergh Drive,10,observación,AB-
+573,Jemima,Ridgewell,F,2022-01-19,5557-1992-56821,2865 7th Circle,2,cita médica,AB+
+574,Mallory,Darte,F,2021-10-24,2827-1926-10839,24 Judy Junction,1,crítico,B+
+575,Isaiah,Devonport,F,2022-05-31,3259-1920-72192,08598 Montana Terrace,9,crítico,A-
+576,Paxton,Westall,M,2021-11-14,8493-1935-79871,098 Lien Plaza,9,cita médica,AB+
+577,Shelly,Lemmon,F,2021-09-20,8811-1993-42275,063 Eagle Crest Plaza,10,cita médica,B-
+578,Cchaddie,Bickers,F,2022-07-31,6279-1978-45445,863 Maywood Lane,3,cirugía,AB+
+579,Beverly,Corcoran,M,2021-10-02,1928-1943-48404,99501 Bartillon Hill,14,cita médica,O-
+580,Berta,Kendle,M,2021-09-03,4749-1974-58167,5 Mesta Terrace,11,observación,B+
+581,Marika,Bodell,F,2022-06-17,2244-1997-44901,980 Namekagon Circle,6,cita médica,B-
+582,Tadeo,Rubinsohn,M,2022-04-14,2936-1972-30136,15281 Merchant Place,14,crítico,AB+
+583,Nara,Korlat,F,2021-08-28,2859-1935-75085,0 Service Center,15,alta,O-
+584,Leigh,Wimms,F,2022-06-13,7168-2017-22456,4782 5th Center,2,cirugía,A-
+585,Raf,Effemy,F,2022-08-03,5179-1959-36354,3 Eagle Crest Pass,1,alta,B-
+586,Oates,Hellwig,M,2022-08-04,9140-2020-57037,39 Shoshone Place,13,cirugía,AB-
+587,Petunia,Bransdon,F,2021-08-22,2040-1951-14171,80 Buhler Pass,13,cirugía,B-
+588,Llewellyn,Kirkwood,NB,2021-10-31,7731-1977-48423,78676 Buhler Lane,1,cirugía,B+
+589,Dolli,Bonus,F,2021-08-28,8556-1940-55862,267 Monument Lane,1,crítico,AB+
+590,Belia,Beardwood,F,2021-09-09,4110-1936-70102,7 Oakridge Road,6,alta,A-
+591,Marlow,Keson,NB,2021-12-21,3157-2001-67880,175 Sunbrook Alley,10,cirugía,B-
+592,Evey,Olney,M,2021-11-02,1205-1922-85568,6010 Cardinal Plaza,11,observación,AB-
+593,Merilee,Conningham,NB,2022-05-26,6126-1991-78875,483 Melby Terrace,12,cirugía,A+
+594,Hyacinth,Plinck,F,2022-07-13,8158-1951-53767,95 Mesta Alley,3,observación,O-
+595,Loise,O'Hagirtie,M,2022-07-03,2384-2000-47244,6329 Erie Avenue,13,cirugía,O+
+596,Adore,Ugo,F,2022-01-23,7723-1968-53827,13915 Clarendon Circle,2,observación,O-
+597,Boris,Boutwell,F,2022-06-23,8515-2016-36407,73842 Forest Run Point,5,crítico,A-
+598,Warner,Marieton,F,2021-08-29,4118-2009-86160,27987 North Plaza,11,cita médica,B-
+599,Valera,Hurst,F,2021-10-20,8413-1944-82043,05342 Kedzie Drive,12,cirugía,AB-
+600,Rosette,Truckell,NB,2022-07-21,9520-1952-19647,36155 Westend Street,14,alta,O+
+601,Cheston,Itshak,NB,2022-06-26,3880-1944-93068,5 Montana Trail,5,crítico,A+
+602,Keelby,Perris,M,2021-12-02,2892-1979-41699,272 Lakeland Plaza,8,observación,O-
+603,Nial,Wordington,NB,2022-02-16,8026-2002-15642,0 Kim Terrace,1,cita médica,O-
+604,Sherman,Sheasby,M,2021-12-04,8885-1955-24952,40786 Cottonwood Court,9,crítico,O-
+605,Gnni,Partkya,M,2022-03-26,9113-1995-88931,2 Wayridge Trail,2,cirugía,A+
+606,Lesly,Todarello,M,2022-01-13,9674-1946-56946,20271 Granby Way,8,observación,B-
+607,Niki,Walcher,NB,2021-08-24,3832-1931-60023,66 Gale Hill,13,crítico,B-
+608,Cass,Andrieu,F,2022-03-23,7541-1920-42392,7702 Crownhardt Drive,5,cirugía,A+
+609,Michele,Conklin,F,2022-06-07,8514-1984-91161,031 Monument Junction,13,cita médica,AB+
+610,Shandra,Wooller,F,2022-03-24,8303-2009-63650,8127 Welch Street,5,alta,O+
+611,Belita,Woodcraft,NB,2021-09-09,2044-2001-84591,6 Coleman Parkway,13,crítico,AB+
+612,Nadiya,Nowlan,M,2022-01-13,5771-2010-82402,28461 Service Terrace,9,observación,B+
+613,Ulrikaumeko,Cricket,M,2022-06-30,9433-1955-80552,25687 Pond Junction,4,observación,O-
+614,Winfield,Kynoch,NB,2021-10-24,7776-1973-99356,68 Grim Junction,10,cirugía,A+
+615,Stan,Just,M,2022-08-03,9896-1984-17517,9514 Talisman Trail,11,cita médica,AB-
+616,Genna,Kamien,NB,2022-02-14,8922-1958-32862,3 Jenifer Parkway,8,crítico,A+
+617,Shirley,Stoodley,F,2022-05-17,5503-1948-83396,0287 International Crossing,9,crítico,B-
+618,Angele,Abrey,NB,2022-02-03,7303-1931-52986,0 Northport Park,15,cirugía,B-
+619,Willie,Simmons,NB,2022-08-02,4187-2015-47741,40988 Cascade Avenue,9,alta,B+
+620,Carolus,MacAllester,M,2021-10-08,4451-2013-57328,5700 Hoffman Road,4,cirugía,A-
+621,Carmen,Breddy,M,2021-12-24,1694-1939-63922,854 Rutledge Terrace,11,cita médica,AB-
+622,Vlad,Drew-Clifton,NB,2022-02-10,5754-1981-32789,113 Schurz Street,13,cita médica,B-
+623,Muriel,Stritton,F,2022-07-03,7444-1970-85676,4984 Texas Alley,13,cirugía,B+
+624,Gilberto,Pammenter,NB,2022-04-29,2175-1934-55916,07322 Blackbird Street,3,cita médica,B-
+625,Ambrosio,Seabrocke,F,2022-03-25,5798-1921-40606,8 Packers Junction,3,crítico,B-
+626,Palm,Gerraty,M,2022-03-24,9662-1977-26702,483 Sugar Way,14,alta,AB+
+627,Melania,Peschet,F,2021-10-06,1945-1979-52301,19369 Sycamore Crossing,10,cirugía,O+
+628,Cale,Blaver,M,2021-10-31,2336-1926-22751,46758 Reindahl Avenue,1,cirugía,O-
+629,Maritsa,Ternouth,NB,2022-03-05,1370-1984-73682,128 Westend Park,12,cirugía,O+
+630,Valerie,Trench,NB,2022-06-27,8340-1945-58092,3134 Laurel Parkway,9,observación,AB+
+631,Essa,Caveill,NB,2022-06-30,3737-1957-21384,5058 Moulton Center,10,alta,AB-
+632,Kristine,Maria,F,2022-05-15,9204-1963-36441,73410 Ludington Crossing,14,observación,O+
+633,Melamie,Chasier,NB,2021-09-09,3157-1938-31018,80 Sundown Center,12,alta,O-
+634,Suellen,Ismead,F,2022-08-09,1444-1952-89734,99 Graceland Street,6,cita médica,AB+
+635,Catherin,Ramlot,M,2021-11-19,1195-1974-58246,7 Scott Crossing,9,observación,A+
+636,Lurette,Orritt,NB,2021-12-13,7846-1961-60536,005 Johnson Drive,1,observación,B-
+637,Zollie,Vida,F,2022-05-23,3335-1980-73412,9617 Hoffman Court,8,observación,B+
+638,Towney,Bogie,M,2022-02-17,3810-1985-77096,0 Graedel Trail,6,observación,B-
+639,Lamond,Sadgrove,M,2022-06-18,8528-1952-79983,4155 Mitchell Center,11,cirugía,B+
+640,Mattie,Ridesdale,NB,2022-01-13,6507-1955-50113,73 Katie Avenue,1,cita médica,B+
+641,Jude,Egre,F,2022-04-23,6628-1920-84585,2 Derek Parkway,13,observación,AB-
+642,Dorolice,Pyrah,F,2022-05-29,2821-1960-16955,027 Waubesa Point,8,cita médica,AB+
+643,Janel,Chooter,M,2021-11-16,1252-1974-46745,7518 Scott Parkway,1,crítico,B+
+644,Haydon,Craze,NB,2022-08-05,5419-1967-94803,30368 Thompson Trail,13,observación,O-
+645,Trevar,Kevern,NB,2021-08-19,1692-1933-62932,49943 Iowa Plaza,12,cirugía,O-
+646,Wainwright,Leathart,M,2022-07-25,7969-1940-10974,597 Bashford Lane,3,crítico,A+
+647,Roobbie,Tulk,NB,2021-12-28,7845-1923-71587,8646 Hazelcrest Court,3,cita médica,B-
+648,Gracie,Denford,M,2021-12-03,4751-1992-81936,8298 Barnett Road,6,alta,A-
+649,Gorden,Crow,F,2021-10-26,4155-2014-22021,994 Sherman Circle,5,observación,O-
+650,Amalea,Cordon,F,2021-12-23,1718-1960-91746,43685 Alpine Alley,2,cirugía,A-
+651,Joleen,Espie,NB,2022-01-11,8903-1994-32975,5 Forest Run Terrace,9,cirugía,B-
+652,Lukas,Code,NB,2022-06-10,6370-1952-48374,9127 Red Cloud Crossing,9,crítico,B-
+653,Dion,Maffey,M,2022-08-02,6760-1939-85838,4 Maple Wood Center,9,cirugía,O+
+654,Dodi,McFarlan,NB,2022-01-31,9659-2020-85018,83859 Ridgeway Point,6,crítico,AB-
+655,Tory,Males,F,2021-09-30,5942-1956-29292,3 Barnett Way,3,alta,A-
+656,Pammy,Spore,NB,2021-10-15,2623-1964-85343,5207 Muir Point,12,cirugía,O+
+657,Edwin,Rowston,M,2022-02-25,6020-1996-26862,1893 Pleasure Way,5,observación,B-
+658,Kaila,Larive,M,2022-01-28,3748-2020-56105,7547 Fallview Hill,3,observación,O-
+659,Kori,Capelen,F,2022-02-08,3821-1964-89886,4292 Continental Plaza,5,alta,AB+
+660,Miles,Kimmitt,F,2022-06-05,6247-1949-53521,566 Luster Street,14,alta,AB-
+661,Ambur,Twinberrow,M,2021-12-11,5565-1969-51759,7098 Mariners Cove Pass,2,cita médica,AB-
+662,Petunia,Alesio,NB,2022-01-07,1916-1973-68558,94477 Spohn Drive,12,cirugía,B+
+663,Layney,Rathe,M,2022-04-25,7949-1984-39458,25 Melody Plaza,4,observación,A+
+664,Huntley,Ramsey,NB,2021-11-23,1150-2012-28360,6291 Kropf Road,9,cirugía,A-
+665,Reeva,Jarrold,NB,2021-09-25,9795-1988-15605,2380 Del Sol Road,15,observación,A-
+666,Vittoria,Oldroyd,NB,2021-10-08,4988-1963-70627,76 Arrowood Place,8,alta,AB+
+667,Shaina,Clandillon,M,2021-11-20,4781-1921-69248,76375 Hoepker Crossing,5,observación,A+
+668,Iorgos,Redsull,M,2022-05-10,8548-1932-75340,145 Gina Hill,6,cirugía,O-
+669,Minette,Titmarsh,NB,2022-07-12,8299-1936-93959,2 Hansons Trail,6,cita médica,B-
+670,Herve,Heis,NB,2022-06-12,9264-1984-52042,790 Weeping Birch Hill,9,cirugía,B-
+671,Josefa,Blackburn,F,2021-10-14,7421-1995-33742,04838 Truax Parkway,7,cirugía,A+
+672,Halsy,Bohan,M,2022-04-14,5664-1924-39281,694 Chinook Way,14,cirugía,AB+
+673,Ugo,Pawley,F,2022-04-06,7216-2001-77744,85336 Lien Court,2,alta,B-
+674,Riobard,Collet,NB,2021-09-13,4018-1995-94245,6 Chinook Plaza,10,cirugía,B-
+675,Erie,Berntssen,M,2022-02-26,5928-1945-79367,1 Claremont Court,13,cita médica,AB+
+676,Jefferey,Hawkyens,F,2021-08-26,2298-1956-86607,9 Comanche Circle,13,cita médica,A-
+677,Ivy,Heartfield,M,2022-02-11,4540-2020-44418,92940 Rigney Pass,5,crítico,O-
+678,Billy,Beatty,M,2022-08-02,4623-1922-97809,8 1st Street,7,observación,A-
+679,Rose,Dellow,F,2021-12-15,5810-1945-67792,5 Jenifer Plaza,12,alta,A-
+680,Kerwin,Chilver,F,2022-01-31,8300-2017-83338,424 Westend Place,7,crítico,B-
+681,Roderick,Szimoni,F,2022-08-16,8089-1994-64182,7 1st Street,4,cita médica,B-
+682,Katharina,Earwicker,NB,2022-04-02,3091-1961-97160,68 Duke Terrace,7,cita médica,AB-
+683,Vivianna,Bein,M,2022-04-25,9593-2006-25277,0908 Morning Park,10,crítico,A-
+684,Persis,Yeudall,F,2021-09-01,9989-1994-64180,283 Morning Alley,15,crítico,B+
+685,Brynna,Kingscott,M,2021-10-11,8431-1950-53414,6 Truax Pass,1,observación,A-
+686,Justine,Boice,NB,2022-03-31,8837-1936-19077,503 Oriole Pass,15,cirugía,O-
+687,Coralyn,Lowrance,F,2022-06-03,6879-1975-37909,4356 Rusk Parkway,10,observación,O-
+688,Karney,Lisciandro,M,2022-07-27,2953-2003-89021,911 Canary Parkway,11,observación,O-
+689,Valentine,Brecher,M,2021-10-02,1441-2004-83498,916 Marquette Park,10,observación,AB-
+690,Bea,Bellhouse,NB,2022-02-18,4835-1981-21022,430 Algoma Avenue,7,cirugía,A-
+691,Garrick,Nairns,F,2021-11-22,7542-1989-51191,26 Manufacturers Trail,4,cita médica,AB+
+692,Taber,Tutt,NB,2021-08-19,1373-1941-76853,53 Granby Drive,1,alta,A-
+693,Tracie,Pudge,NB,2022-01-01,5991-1975-37978,287 Daystar Alley,14,crítico,B-
+694,Marris,Woodus,F,2022-07-24,3786-1963-29581,05087 Messerschmidt Point,4,observación,A-
+695,Carolyn,Hudghton,M,2022-03-12,8724-1989-41646,465 Florence Terrace,7,crítico,O-
+696,Marci,Geistbeck,F,2021-10-16,4472-1979-87891,4 High Crossing Road,15,alta,A+
+697,Kizzie,Aubery,NB,2021-10-21,5196-1941-29503,75 Fallview Avenue,7,observación,A-
+698,Karilynn,Fishbourn,NB,2022-03-28,9908-1953-47703,80 Springs Lane,14,cita médica,AB+
+699,Nadine,Tempest,M,2021-09-09,2182-2017-72271,56905 Dixon Street,10,cirugía,O-
+700,Ossie,Hinken,NB,2022-06-11,3163-1931-52203,47314 Susan Terrace,12,cita médica,AB+
+701,Shandra,Gammet,M,2021-10-10,9243-2007-31423,60 Swallow Road,14,cita médica,O+
+702,Gaylord,Presdie,M,2022-02-26,4992-1965-47959,588 Mallard Center,9,cirugía,B-
+703,Bette-ann,Tolliday,F,2021-09-10,3115-2022-95770,34355 Summit Road,2,cirugía,A+
+704,Melicent,Merrington,NB,2022-01-29,5844-1937-61527,553 Hintze Junction,8,alta,O+
+705,Brigida,Dahlman,M,2021-11-17,8332-2010-16563,97 Ridgeway Parkway,6,observación,A+
+706,Betteanne,Comi,M,2022-05-26,1268-1996-73623,8856 Anthes Court,7,observación,AB+
+707,Odessa,Harner,NB,2022-08-10,7545-2017-71407,62990 Monument Park,15,alta,O+
+708,Parke,McGowan,M,2022-04-16,2711-2011-77421,17 Claremont Hill,14,cita médica,B+
+709,Cos,Neeson,F,2022-06-29,3782-1924-54282,7342 Declaration Park,13,alta,O+
+710,Consuelo,Nordass,NB,2021-09-19,8577-1952-99958,122 Riverside Street,7,cirugía,AB+
+711,Yancy,Owens,NB,2022-05-25,7619-1993-11522,5442 Chive Pass,3,alta,A-
+712,Kimble,Hollerin,M,2022-05-26,4568-1944-72252,31329 Granby Plaza,6,cita médica,O-
+713,Yancey,Moreman,F,2022-08-05,1919-1980-64125,40 Atwood Lane,15,cirugía,O-
+714,Yolane,Bownes,NB,2022-02-10,1070-2014-23987,00 Valley Edge Avenue,14,observación,B-
+715,Ajay,Dunnion,M,2022-04-26,7706-1961-87338,5316 Merchant Plaza,6,cirugía,AB+
+716,Calli,Klimczak,NB,2022-08-04,1295-1922-38216,940 Bobwhite Way,1,alta,B+
+717,Wendy,Billing,F,2022-01-21,5236-2003-41904,5127 Declaration Trail,8,crítico,A+
+718,Dulcinea,Corden,NB,2022-01-05,8838-1991-23301,978 Northwestern Park,10,alta,AB+
+719,Dallas,Obal,M,2022-01-19,4273-2014-65001,7 Lunder Alley,7,observación,B+
+720,Elmira,Baildon,F,2022-03-12,2942-1939-62555,060 Steensland Alley,9,cirugía,AB+
+721,Charmaine,Beggin,M,2021-10-31,2743-1989-60109,179 Dryden Drive,1,cita médica,A+
+722,Griffin,Colgan,M,2022-01-12,3970-1952-50621,07138 Mayer Alley,9,cirugía,B-
+723,Robena,Hamber,F,2021-08-23,1803-1981-38773,0286 Mosinee Crossing,11,alta,AB+
+724,Stevy,Longlands,NB,2022-06-24,9888-2022-67969,80611 Mayer Avenue,10,cirugía,B+
+725,Kip,Lightewood,M,2021-12-19,4995-1963-87832,449 Claremont Pass,15,cita médica,AB-
+726,Burgess,Lowden,NB,2022-04-27,8443-1922-74599,185 Oak Way,2,alta,B-
+727,Madeleine,Drewell,NB,2021-10-28,6825-1942-62662,7742 Farragut Pass,10,observación,O-
+728,Enrika,Sidwick,F,2022-05-18,9843-2008-45287,53 Havey Crossing,9,alta,B+
+729,Alene,Marris,M,2021-10-23,6159-1938-50659,0395 Jenifer Point,15,observación,AB-
+730,Ross,Harniman,NB,2022-08-15,6820-1952-92494,3 Scofield Drive,10,cirugía,A-
+731,Zedekiah,Wallentin,NB,2022-04-11,8815-1929-98943,850 Erie Road,7,cirugía,A+
+732,Rossy,Blanking,NB,2021-12-19,8757-2010-24540,33931 Kinsman Hill,5,crítico,AB-
+733,Titos,Suttill,NB,2022-08-10,2006-2015-90821,07 Bunker Hill Place,2,cita médica,B-
+734,Hana,Eversley,NB,2021-09-20,7773-2003-71309,2 Hooker Road,7,observación,A+
+735,Hamel,Gouck,M,2022-02-25,6668-2001-88700,495 Carey Lane,7,alta,O+
+736,Alex,Whitefoot,F,2021-11-03,3749-1966-26714,2428 Lotheville Way,6,cita médica,B-
+737,Ossie,Sillwood,NB,2022-02-21,6431-1951-11299,85 Elka Road,15,observación,A-
+738,Tammy,Boteman,M,2021-09-09,7894-2015-88939,2815 Michigan Pass,7,cita médica,A+
+739,Nanice,Ruprich,F,2022-07-13,7037-1942-28066,4 Trailsway Trail,13,observación,B-
+740,Konstance,Avo,F,2021-12-21,4146-1949-16103,94 Vernon Trail,15,alta,A-
+741,Timofei,Davenport,F,2021-10-09,5290-1937-66155,94131 Claremont Park,8,alta,B-
+742,Nollie,Harvey,NB,2022-01-24,4613-1933-99699,86354 7th Pass,8,observación,O+
+743,Yorke,Frantzen,NB,2022-02-22,4599-2003-54985,42393 Summer Ridge Circle,12,cita médica,AB+
+744,Addie,Pasticznyk,M,2021-11-16,6919-2016-63843,19199 Lyons Place,2,crítico,AB-
+745,Odille,Plevin,F,2022-03-20,5999-1949-19387,282 Lerdahl Alley,9,crítico,B-
+746,Evangelina,Bannon,NB,2022-05-30,8722-1986-67189,01888 Dexter Hill,11,cirugía,A+
+747,Homere,Lindenberg,F,2022-01-21,5688-1993-59862,58 Hoffman Alley,10,cita médica,O+
+748,Courtnay,Fullerton,M,2021-09-09,9372-1966-69254,47 Florence Park,14,alta,AB-
+749,Corrine,Benoy,F,2021-11-13,5321-1989-71257,32826 Meadow Valley Center,12,alta,AB+
+750,Chase,Snap,NB,2022-06-23,9914-1987-44017,8343 Brentwood Court,8,alta,O+
+751,Alisander,Winnett,NB,2022-01-24,2433-1997-93797,1 Caliangt Plaza,4,crítico,AB-
+752,Hunter,Fudge,M,2021-12-29,4293-1978-15561,3152 Fulton Alley,7,observación,B+
+753,Orin,Collete,F,2022-03-14,5990-1967-10973,736 Kingsford Lane,7,cirugía,AB+
+754,Hyacintha,Mammatt,NB,2022-08-15,5070-1972-24106,336 Melody Plaza,11,cirugía,A+
+755,Noland,Buard,NB,2022-04-02,5041-2006-73980,56534 Debs Crossing,2,alta,AB-
+756,Bert,Dickon,NB,2022-05-02,4885-1941-14856,22539 Wayridge Avenue,8,cirugía,B-
+757,Dudley,Raubenheimers,M,2021-09-20,2234-2002-80248,34 Acker Terrace,8,alta,O+
+758,Antonia,Phettis,F,2022-05-30,7429-1974-35579,2036 Sommers Circle,14,alta,AB-
+759,Orland,Mogra,F,2022-05-03,6873-1928-97602,078 Florence Plaza,8,cirugía,B-
+760,Humberto,Pratt,F,2022-08-06,7979-2006-87346,426 Del Sol Point,14,alta,A+
+761,Laural,Pate,NB,2022-05-31,4513-1920-14518,10 Chinook Place,3,observación,A-
+762,Arman,Esson,M,2022-04-09,3864-1973-30203,6086 Jackson Plaza,9,alta,B+
+763,Hort,Newbury,M,2021-11-24,7832-1992-12643,525 Badeau Alley,10,cita médica,O+
+764,Norry,Bletsoe,F,2022-07-01,9910-1949-30395,793 Forest Way,13,observación,A+
+765,Bessy,Pearcey,M,2022-04-29,4645-1989-18946,261 Stuart Center,15,cirugía,O+
+766,Jany,Yokley,NB,2021-11-29,8912-1987-14756,40336 Hermina Circle,12,cirugía,B+
+767,Tabby,Docker,F,2022-06-13,2048-1923-43021,05 North Terrace,10,observación,A+
+768,Codi,Gatward,NB,2021-12-27,3751-1984-85280,011 Thierer Hill,9,alta,B+
+769,Seline,Gianetti,M,2022-03-03,6069-1991-52495,960 Mitchell Lane,15,crítico,B-
+770,Bale,Oakwood,F,2022-06-10,5873-1936-59341,72 Sunbrook Pass,10,observación,O+
+771,Isak,Lasseter,NB,2022-06-16,7294-1977-34617,49 Stoughton Parkway,9,cita médica,O-
+772,Calypso,Morling,F,2022-06-16,2551-1937-98593,772 Cherokee Trail,3,cita médica,O+
+773,Trevar,Dutnall,F,2021-11-03,8076-2012-75923,4 5th Avenue,11,crítico,B-
+774,Pepillo,Treadger,F,2022-03-01,1662-1986-25843,9989 Little Fleur Plaza,8,cita médica,O-
+775,Ira,Upstell,F,2022-04-13,8296-2012-67070,092 Milwaukee Alley,12,cirugía,O+
+776,Aylmar,Stanlack,NB,2021-09-22,1473-2005-40714,59427 Heath Hill,15,cita médica,A+
+777,Oralle,Ingold,NB,2022-07-02,5368-2000-14575,43876 Eagan Road,13,observación,A+
+778,Ambrosio,Meek,M,2022-02-24,9757-1935-68754,4424 Sunnyside Lane,15,crítico,AB-
+779,Nadine,Grigori,NB,2022-06-01,3405-1928-12475,04 Bowman Street,7,alta,A-
+780,Lester,Scohier,F,2022-05-17,4032-1933-77202,80 Florence Parkway,1,alta,O-
+781,Hasheem,Haggish,M,2022-06-05,6895-2006-84531,2123 5th Park,8,crítico,A-
+782,Kimble,Capper,M,2022-05-15,9789-1936-69839,21 Hoffman Pass,10,cita médica,O+
+783,Bobby,Bickmore,NB,2021-10-09,9924-1942-19305,1 Oriole Road,9,crítico,AB+
+784,Alyse,Dyas,M,2022-08-15,5105-1993-12243,13368 Bobwhite Hill,5,cirugía,A-
+785,Emmalee,Barfitt,M,2021-08-23,2291-1986-29776,7 Stone Corner Lane,13,cirugía,O+
+786,Nester,Gionettitti,NB,2022-07-06,6550-1984-69807,505 Northland Way,5,observación,O-
+787,Mellie,Sked,F,2021-09-17,4750-2012-55909,2263 Elgar Plaza,7,alta,AB-
+788,Minda,De Blasio,M,2022-03-01,4380-1921-65448,37 Bartelt Pass,13,cirugía,AB+
+789,Dyana,Diggons,F,2021-09-29,8701-1932-36743,927 Johnson Alley,6,crítico,AB+
+790,Wilburt,Girton,M,2022-07-08,8469-2020-87346,29118 Anthes Park,11,observación,O+
+791,Den,Frankema,M,2021-12-29,8802-1939-38158,7 Weeping Birch Court,15,cirugía,O+
+792,Hubey,Beney,NB,2022-04-26,8029-1923-94614,654 Merchant Lane,13,cita médica,O-
+793,Lexie,Fitchell,F,2021-09-30,9732-1938-64778,511 Transport Circle,5,observación,A-
+794,Abelard,Wherrett,M,2021-09-08,2091-2016-78337,24 Swallow Drive,3,alta,B-
+795,Cliff,Girling,F,2021-11-18,6465-1942-52085,0 High Crossing Plaza,4,cita médica,B+
+796,Felecia,Glossup,F,2021-09-04,7176-1931-52787,61 Basil Road,6,cirugía,A+
+797,Valeria,Franceschelli,F,2022-01-31,1488-1988-90571,20181 Northland Hill,9,observación,B+
+798,Nadean,Horsey,NB,2021-10-25,8433-2000-92278,39 Annamark Parkway,3,observación,O-
+799,Erin,Williamson,F,2022-01-03,6147-2019-44281,56341 Jana Road,2,cita médica,AB-
+800,Tann,Lippi,NB,2021-10-30,2468-1974-93529,05 Clemons Street,4,cita médica,O+
+801,Harp,Fonteyne,F,2022-05-28,9543-1970-73979,1 Delaware Road,12,cita médica,O-
+802,Dave,Hailwood,M,2022-06-19,4242-1973-20236,512 Ramsey Hill,13,crítico,A-
+803,Feodor,Foy,F,2022-06-22,7903-2016-56141,26 Hintze Alley,11,observación,A+
+804,Mira,Soot,NB,2022-04-11,4517-2011-39112,8263 Fair Oaks Crossing,1,cirugía,A+
+805,Reube,Hugh,F,2021-11-29,6565-1931-85086,11 South Pass,6,cita médica,A-
+806,Estell,Heintze,NB,2022-04-13,9573-1924-11994,26 Kennedy Center,12,observación,O+
+807,Irvin,Dayment,F,2021-11-28,8011-1923-10920,3022 Mayfield Way,6,alta,AB+
+808,Sula,Mahaffey,F,2021-12-28,9793-2009-85721,8 Summerview Alley,12,observación,AB-
+809,Eduino,Iles,M,2021-09-06,2027-2004-91100,15962 Dovetail Center,8,cirugía,O-
+810,Cordelie,Pettifor,M,2022-08-11,1636-1939-30658,4 Sachs Pass,13,alta,A+
+811,Natasha,Darwent,NB,2022-01-25,6045-1980-62734,33318 Bay Park,13,crítico,A+
+812,Lea,Bartusek,NB,2022-07-31,1926-1946-42756,21 East Crossing,1,crítico,B-
+813,Shurlock,Pudden,M,2022-06-25,1619-1965-21065,0 Armistice Trail,13,cirugía,B+
+814,Hew,Rubinchik,M,2022-05-28,4759-1931-53364,8 Gulseth Parkway,9,cirugía,AB-
+815,Butch,Gascone,M,2021-11-12,7129-2003-88297,63905 Mosinee Point,14,alta,B+
+816,Stacia,Rubes,NB,2021-08-28,7134-1972-38009,5232 Melvin Circle,5,crítico,A+
+817,Daria,Muzzullo,M,2021-12-16,9714-2020-55176,13 Calypso Plaza,9,observación,B+
+818,Henriette,Ventham,NB,2022-02-04,2023-2002-66072,196 Oriole Pass,9,crítico,A+
+819,Geri,Pepineaux,NB,2022-05-01,7368-1972-42157,15520 Eggendart Parkway,14,alta,A-
+820,Matteo,Birdis,NB,2021-11-11,5194-1944-50456,6068 Marcy Place,8,cirugía,AB-
+821,Almira,Spaice,F,2021-11-14,8517-1934-39384,82 Butterfield Point,8,crítico,AB-
+822,Corabella,Pfleger,M,2022-05-11,2314-1921-48712,7 Clyde Gallagher Point,10,crítico,O+
+823,Hugh,Terren,F,2021-10-09,3454-1940-59244,43 Londonderry Point,15,cita médica,O-
+824,Aldis,Quakley,M,2022-05-05,8436-1997-41684,41297 Eagan Lane,5,cirugía,A+
+825,Renado,Reany,M,2022-05-04,9484-1968-85547,81 Moland Center,6,observación,AB-
+826,Lawrence,Eskriet,F,2022-02-11,6392-1926-78123,293 Karstens Parkway,11,crítico,AB-
+827,Hermie,Fundell,F,2021-09-28,8052-1979-37291,4 Holy Cross Park,4,observación,A+
+828,Karen,Burehill,NB,2021-12-27,3133-1939-15424,1904 East Junction,8,crítico,O-
+829,Deeyn,Stovine,F,2021-12-09,3464-1933-25385,2208 Reindahl Road,10,alta,O-
+830,Alix,Andrioli,M,2022-01-19,5631-2004-19362,936 Daystar Way,8,crítico,AB-
+831,Brendis,Laroze,F,2022-06-10,1315-2004-92618,02 Lake View Court,8,cirugía,AB-
+832,Lyndel,Jedrychowski,F,2022-05-14,5101-2006-44276,193 Goodland Terrace,10,alta,O+
+833,Thomas,Woolway,F,2022-07-29,7367-2012-28246,7020 North Pass,14,cita médica,AB+
+834,Lynnet,Dionisi,NB,2021-10-17,9202-1969-82777,8 Cherokee Pass,3,observación,A-
+835,Andeee,Dwine,NB,2021-10-12,4503-1925-30477,4703 Corscot Pass,6,cita médica,AB+
+836,Way,Hagland,M,2021-09-21,5853-1923-79737,487 Fordem Court,4,alta,AB-
+837,Nessie,Doncaster,F,2021-12-24,2960-1990-24466,36241 Waubesa Road,13,crítico,B-
+838,Darrel,McGinney,NB,2022-02-26,3621-1973-91458,78388 Summer Ridge Road,6,observación,A+
+839,Dorelia,Vanshin,F,2021-10-13,6821-1994-78435,34 Colorado Way,3,observación,AB+
+840,Peter,Shapter,NB,2022-08-13,6403-1961-48053,15436 Daystar Drive,10,cita médica,AB-
+841,Morley,Standish-Brooks,M,2021-10-13,6649-1983-29567,4137 Oneill Way,2,cita médica,B+
+842,Luciano,Nielson,NB,2022-06-23,6553-2012-82241,6961 Dryden Park,9,alta,AB-
+843,Julita,Gotthard,NB,2022-01-08,1481-1995-24883,07228 Lighthouse Bay Point,4,alta,A+
+844,Launce,Colthurst,NB,2022-05-27,1798-1926-22816,3173 Kedzie Street,6,cirugía,A+
+845,Sabine,Mobius,F,2022-03-22,2383-1926-47957,6144 Dunning Place,8,crítico,A-
+846,Nannette,Sturgeon,M,2021-08-30,1956-2015-21275,60169 Monument Parkway,9,alta,A+
+847,Cristina,Scopyn,M,2021-09-19,8686-1947-18005,709 Merrick Road,8,crítico,O-
+848,Belvia,Roth,M,2021-10-08,1801-2003-16338,0 Arrowood Lane,13,cirugía,A-
+849,Sergent,Le Noir,NB,2022-04-04,2584-2000-87216,67974 Beilfuss Pass,10,observación,AB+
+850,Fonsie,Mulheron,NB,2021-10-08,5034-2007-64849,48645 Summerview Court,9,crítico,A+
+851,Willamina,Russo,F,2021-11-11,8090-1995-18840,2417 Muir Circle,9,cita médica,O-
+852,Cecilius,Spuner,M,2021-08-18,4347-1998-38942,1740 Chive Drive,4,alta,B-
+853,Thorsten,Goligly,M,2022-04-18,7029-1953-39423,86094 Dapin Place,4,alta,A-
+854,Melli,Kondrat,M,2021-12-01,1675-2020-68392,4150 Coleman Crossing,14,alta,A-
+855,Miguelita,Melling,F,2022-04-10,4771-1964-41595,01488 Brickson Park Pass,15,cita médica,A-
+856,Ingunna,Chezelle,NB,2021-12-29,2262-1987-75006,97 Hagan Center,2,cirugía,O+
+857,Robenia,Haw,F,2022-07-16,1539-1955-87754,5 Graedel Alley,1,alta,AB-
+858,Davida,Yarrell,F,2021-09-23,1355-1960-53586,2 Debs Road,12,crítico,O-
+859,Elfrida,Waterfall,F,2021-08-27,9642-1921-16390,50 Redwing Plaza,5,cirugía,B+
+860,Etty,Wheatman,NB,2022-02-23,8578-1966-67373,99 Division Place,13,crítico,O-
+861,Ravid,Gillings,M,2021-11-02,8483-1988-82254,51 Dixon Drive,2,alta,O-
+862,Viole,Youings,F,2022-02-19,9600-1934-75924,1949 Continental Court,11,cita médica,B+
+863,Yorgo,Looby,F,2021-12-01,8949-1975-63842,0 Shasta Hill,10,alta,AB+
+864,Carlie,Alty,M,2022-04-01,7138-1993-22615,881 Oak Valley Trail,11,crítico,AB+
+865,Elisha,Belamy,F,2022-05-09,9564-1963-99902,1 Morningstar Parkway,1,crítico,AB+
+866,Stephannie,Notti,F,2022-04-10,6008-1957-61677,7 Oak Valley Lane,11,cita médica,O-
+867,Demetris,Nowakowski,M,2022-03-11,9040-1986-27003,398 Gale Parkway,10,observación,A-
+868,Theo,Antonin,F,2022-07-05,3013-1946-51808,0 Lakewood Gardens Court,1,cita médica,B+
+869,Marigold,Empleton,M,2021-10-24,7651-1922-68795,51129 Loeprich Terrace,14,alta,O+
+870,Geralda,Monaghan,F,2022-03-22,3066-1990-76284,54814 Beilfuss Park,4,crítico,AB-
+871,Nealy,Jewiss,F,2022-02-01,6981-1943-63957,5192 Raven Terrace,4,alta,A-
+872,Jeanette,Warboys,F,2022-02-06,1441-1930-66390,8822 Gateway Street,10,cirugía,O-
+873,Silas,Lamprecht,F,2022-04-22,9416-1969-84743,534 Forster Way,7,cirugía,AB+
+874,Freddie,Ditty,F,2022-05-08,3039-2008-11950,5 Maywood Parkway,13,alta,AB+
+875,Ker,Belz,F,2021-12-18,6268-1928-63383,65184 Stone Corner Place,13,observación,O+
+876,Sherlocke,True,NB,2022-04-27,1305-1965-17019,969 Lillian Terrace,8,observación,A+
+877,Berty,Baskett,M,2021-12-31,5814-1968-14988,85370 Caliangt Drive,6,cirugía,A-
+878,Katuscha,Massenhove,F,2021-11-13,5555-1981-90889,6 Corry Way,3,cirugía,O-
+879,Marcy,Wallice,M,2022-05-18,9758-2005-90459,35 Waxwing Way,13,crítico,AB+
+880,Faustina,Ivushkin,NB,2022-06-26,1123-1979-31359,99 1st Drive,9,cirugía,A+
+881,Aime,Scotts,NB,2022-05-01,2400-1995-45524,9 Continental Parkway,15,alta,B+
+882,Benjie,Hinchcliffe,F,2022-01-18,9422-1934-63802,699 Fordem Plaza,2,alta,B+
+883,Francesco,German,F,2022-06-03,9887-2015-57596,7143 Graedel Court,12,crítico,AB+
+884,Stinky,Stocks,M,2022-05-11,8146-1994-77762,3 Nova Point,11,observación,A+
+885,Burgess,Bettlestone,M,2022-04-12,9560-2004-71504,85 Almo Lane,11,observación,O+
+886,Cullan,Labadini,NB,2022-06-20,4752-1984-49741,6153 Bartillon Place,10,crítico,O+
+887,Ainsley,Van der Son,M,2022-01-11,3639-2007-79894,73 Kropf Road,8,cirugía,B+
+888,Yetta,Novello,NB,2022-07-06,2824-1940-95255,9984 Talmadge Center,7,cirugía,AB+
+889,Engracia,Klemencic,F,2021-12-26,4602-1930-58857,729 Dayton Road,12,observación,A+
+890,Raoul,Driver,M,2022-06-06,1071-1969-44229,17 Walton Junction,12,observación,AB+
+891,Cesaro,Jaskowicz,F,2022-05-21,9311-2017-59469,0481 Center Street,2,alta,AB+
+892,Lavinie,Grafton,F,2022-08-08,6663-1960-85761,3 Del Mar Junction,9,cirugía,A+
+893,Nikos,Meriott,F,2021-09-09,4488-1949-71294,09465 Grover Place,5,cirugía,B+
+894,Coletta,Fante,F,2022-03-02,6559-1932-18021,60 Larry Place,11,cita médica,A-
+895,Brig,Cominoli,M,2022-02-25,2120-1993-50171,381 Bluejay Hill,12,cita médica,A+
+896,Anna-diane,Johantges,F,2022-07-07,3456-2006-74813,6 Chive Street,8,cirugía,A-
+897,Kriste,Esterbrook,M,2022-03-18,9858-1933-95048,96138 Wayridge Lane,4,observación,B-
+898,Bronny,Upcraft,M,2021-11-24,6272-1971-35059,44388 Glendale Parkway,12,alta,B-
+899,Noellyn,Chaundy,F,2022-05-05,8376-1975-93349,4 American Road,13,observación,A+
+900,Kalle,Conboy,NB,2022-07-08,5281-1964-51797,65 Schiller Avenue,12,cita médica,O-
+901,Allys,Pele,M,2022-06-11,2031-2000-82819,2872 Vermont Plaza,14,cita médica,B-
+902,Had,Stitfall,NB,2022-08-05,6614-1956-47629,3 Fremont Place,1,observación,O-
+903,Devonna,Mintoff,M,2021-09-11,9960-2018-70870,1 Erie Pass,13,cirugía,AB-
+904,Benson,Timmis,NB,2021-09-06,5347-1999-73640,16 Mitchell Lane,8,alta,AB+
+905,Rosamond,Slobom,F,2021-10-16,5372-1951-90874,63311 Green Parkway,1,observación,A+
+906,Gerry,Brasted,F,2021-10-14,6405-1984-48773,823 Trailsway Hill,10,cita médica,AB+
+907,Cleveland,Wharlton,M,2022-03-24,6691-1927-76813,97 Valley Edge Plaza,4,cirugía,O-
+908,Dalenna,Berkely,NB,2022-04-09,6403-1923-73841,49 Everett Road,5,cirugía,B+
+909,Shel,Westlake,NB,2022-07-18,9282-1990-74008,88103 Becker Parkway,2,alta,B+
+910,Domingo,Rennox,M,2021-11-04,7694-1932-16106,32750 Warner Place,2,crítico,O+
+911,Haywood,Fahrenbach,NB,2022-03-21,1318-1971-27079,5417 Pleasure Hill,3,crítico,O-
+912,Saunder,Carlon,NB,2022-01-17,4085-1981-90194,57680 Butternut Point,10,cirugía,B-
+913,Rog,Batalle,NB,2021-10-04,6647-1945-25137,0 Sachtjen Street,1,alta,A+
+914,Gerrilee,Pletts,M,2022-06-28,9164-1998-97566,7889 Jana Hill,3,crítico,A-
+915,Elizabet,Strickett,F,2022-01-07,5068-2019-98094,9854 Montana Center,13,observación,AB-
+916,Angelika,Barta,F,2021-09-16,6331-2010-97442,72668 Lyons Court,4,crítico,B+
+917,Darnell,Foy,M,2021-11-29,8361-1930-54074,58588 Forster Plaza,13,cirugía,A+
+918,Addie,Hrynczyk,F,2021-12-30,3006-1931-85605,8770 Hoepker Parkway,4,alta,O-
+919,Ignazio,Choulerton,M,2022-07-19,6317-1989-11599,03435 Clemons Park,8,cirugía,B+
+920,Nealy,Cornish,NB,2021-09-09,3396-1958-46325,38804 Eagle Crest Drive,4,cita médica,AB+
+921,Allyce,Sogg,M,2022-05-09,1349-1944-19547,0369 Continental Parkway,1,crítico,AB+
+922,Euphemia,Castanyer,F,2021-12-01,1794-1995-91852,483 Warrior Circle,8,cita médica,A+
+923,Minetta,Snozzwell,F,2022-04-30,1222-1963-88616,484 Manufacturers Parkway,8,alta,AB-
+924,Cheryl,Betancourt,F,2021-11-10,4929-1943-93165,699 Scofield Point,5,crítico,AB-
+925,Audrye,Luckwell,M,2022-01-24,2060-1932-99819,3078 Raven Avenue,1,observación,A+
+926,Helen,Bursell,M,2022-05-09,4297-1973-18512,33355 Helena Center,13,cita médica,AB+
+927,Shelbi,Cecchetelli,M,2022-06-07,6137-1993-20831,35438 Columbus Place,9,observación,B-
+928,Darn,McGeechan,M,2022-04-12,1547-1972-56433,1 Northview Parkway,9,observación,O-
+929,Alikee,Elwill,M,2021-09-16,8839-1921-81682,612 Lawn Street,10,alta,AB+
+930,Brooks,Tumber,F,2022-05-08,2511-1982-20824,49611 Fuller Way,11,cita médica,B-
+931,Felipa,Giacomo,NB,2022-01-08,9142-1928-57635,286 Banding Court,5,observación,B-
+932,Sacha,Mather,NB,2021-08-19,5389-2014-85805,50064 Eggendart Hill,12,crítico,A+
+933,Karee,De Gowe,NB,2022-08-05,8407-1921-69821,2081 Crownhardt Way,7,alta,B+
+934,Drona,Camel,M,2022-06-16,2856-2020-69181,40270 Eagan Street,12,observación,O+
+935,Benedetto,Aikett,M,2021-10-06,2099-1964-91417,60973 Moulton Point,8,cirugía,B+
+936,Giana,Sadd,NB,2022-03-12,2627-1935-55602,6878 Florence Alley,8,cita médica,A+
+937,Caddric,Grishelyov,NB,2022-03-19,5407-1925-11429,87 Northridge Court,11,cita médica,AB-
+938,Wilbur,Buyers,F,2022-05-24,1436-2007-57356,503 Coleman Hill,8,cirugía,AB+
+939,Silvain,Caville,F,2022-01-14,6113-1974-53300,5143 Gale Parkway,5,cita médica,O-
+940,Far,Ogborne,F,2022-04-18,1251-1962-40960,40 Almo Drive,11,alta,A+
+941,Gerhard,Aloigi,NB,2021-08-23,2546-1939-46721,92 Havey Hill,14,cita médica,O+
+942,Lefty,Pitblado,NB,2022-04-21,3388-1953-97852,5851 Sommers Circle,15,cirugía,AB-
+943,Tonia,Baukham,M,2022-07-25,8443-1923-62715,5 High Crossing Avenue,6,cirugía,O-
+944,Rhys,McQuarter,M,2022-03-14,4962-1987-30217,2 Goodland Road,3,observación,A+
+945,Alyss,Satteford,NB,2022-07-13,3433-2015-12851,1993 Brickson Park Way,11,cita médica,A-
+946,Toby,Leete,NB,2022-04-25,9455-2001-83624,3 Bashford Way,2,alta,AB+
+947,Terri-jo,Roft,F,2022-03-16,8884-1925-36150,61 Dakota Place,3,cita médica,O+
+948,Inglis,Stennet,F,2021-11-24,2080-1961-37979,4 Mccormick Park,14,crítico,O-
+949,Maisey,Toderi,M,2022-07-23,9605-2005-91837,1849 Arrowood Crossing,15,crítico,B+
+950,Laurena,Gilmour,NB,2021-09-22,7317-2014-61807,6 Johnson Street,11,alta,AB+
+951,Roxanna,Noweak,NB,2021-12-11,2969-1990-34493,03964 Packers Alley,14,alta,AB+
+952,Gregg,Timny,M,2022-01-17,7179-1980-70077,8 Pierstorff Lane,6,alta,A+
+953,Brendin,Muneely,F,2022-02-27,3957-1992-12805,6 Glendale Place,1,alta,B-
+954,Lida,Firpi,M,2021-09-14,6682-1942-70722,1064 Bashford Hill,9,cita médica,AB-
+955,Marlon,Caile,M,2022-04-25,4374-2004-74432,84 Erie Road,15,cita médica,A-
+956,Ellerey,Benzies,F,2022-06-24,2597-2021-53679,1 Chinook Trail,15,cita médica,A-
+957,Dacie,Curedell,NB,2022-06-06,2227-2003-67029,46488 Merchant Terrace,1,alta,AB-
+958,Kordula,Beswick,NB,2022-01-28,8511-1981-50996,630 La Follette Center,5,alta,B-
+959,Roy,Mixon,M,2021-10-03,7223-1974-65751,58732 Surrey Avenue,9,cirugía,O-
+960,Essa,Alexandersson,F,2021-10-02,3887-1964-13133,7 Gerald Way,2,observación,B-
+961,Elden,Macvey,M,2021-09-23,1527-1933-50800,139 Sachs Lane,3,observación,A-
+962,Katherine,Busse,F,2022-04-22,9313-2010-46954,1 Milwaukee Street,3,crítico,A+
+963,May,Busby,NB,2021-11-15,5731-1994-20776,707 Division Circle,1,cirugía,B+
+964,Augusto,Exeter,F,2022-03-09,9059-1950-17245,609 Jana Drive,2,observación,O-
+965,Fletcher,Myrkus,M,2022-03-16,2721-1938-73695,53 Northridge Parkway,14,alta,A+
+966,Dolores,Zannolli,M,2021-11-08,5000-1979-44072,3409 Browning Lane,12,cirugía,A-
+967,Payton,Tidbold,F,2021-11-06,5709-1996-11518,33422 Norway Maple Drive,13,cita médica,B-
+968,Glory,Raynor,M,2022-04-02,1621-2011-62884,2864 Butternut Parkway,5,cita médica,B+
+969,Jobye,Learned,NB,2021-10-04,9008-1949-55070,63 Bashford Place,3,crítico,O+
+970,Grantley,Wackett,F,2021-09-04,7163-1921-77547,712 Miller Road,5,cirugía,B+
+971,Napoleon,Kitchin,NB,2022-04-28,3684-1944-50472,21184 Donald Way,5,crítico,AB+
+972,Brnaby,Essam,M,2021-12-06,9398-2010-44486,6 Fallview Point,8,cita médica,AB+
+973,Dillon,Painter,F,2021-12-26,8905-1922-94717,29703 Warner Court,9,cirugía,AB-
+974,Rita,Bagniuk,F,2022-03-11,4099-1997-92104,4868 Holmberg Alley,1,observación,B+
+975,Ynez,Heaps,M,2021-12-20,6494-1995-31189,27035 Washington Crossing,12,alta,A+
+976,Appolonia,Powter,M,2022-01-30,1682-1961-22855,2312 Michigan Center,11,crítico,AB+
+977,Lenee,Ollett,NB,2021-12-22,7063-1962-86419,502 Fairview Avenue,15,alta,B+
+978,Paula,Pancost,F,2021-10-03,4585-2018-20545,449 Commercial Park,4,crítico,O-
+979,Odo,Boaler,NB,2021-10-24,6212-1944-19509,25 Jenifer Road,10,alta,O+
+980,Lotti,Tschierse,NB,2022-01-14,9234-1974-28674,0 Nobel Hill,12,observación,O+
+981,Matthiew,Buchanan,NB,2022-01-18,2090-1930-95945,7 Oxford Avenue,8,alta,A+
+982,Berte,Parsons,NB,2022-06-16,1504-1981-86372,5 Vahlen Parkway,15,cita médica,O-
+983,Armand,Ruberry,M,2022-06-10,3801-2021-19120,31046 Prairie Rose Park,5,observación,AB-
+984,Emile,Pumphreys,M,2022-01-30,1636-2002-98984,71 Grayhawk Drive,4,cirugía,AB-
+985,Wilmar,Hawkswell,M,2021-12-06,8955-2000-90693,12 Brentwood Circle,12,alta,O-
+986,Otho,Newport,F,2022-08-17,7114-1964-22359,5 Anthes Place,3,cirugía,AB-
+987,Alexandro,Langshaw,NB,2022-06-21,8137-1940-74525,28770 New Castle Court,4,cirugía,B+
+988,Sheelah,Gate,M,2022-07-06,3587-1926-16759,8 Hintze Road,11,cita médica,O-
+989,Judie,Snassell,NB,2022-01-12,7471-1993-47494,258 Victoria Junction,14,crítico,B+
+990,Slade,Delacroix,NB,2021-11-05,9667-1925-61520,108 Evergreen Pass,11,cita médica,B+
+991,Elnar,Crepel,M,2021-11-13,2778-1951-20051,88096 Colorado Street,11,cita médica,O-
+992,Gelya,Ducket,F,2021-10-11,7011-1930-97313,0 School Circle,8,observación,AB+
+993,Melisse,Kitchingman,NB,2022-03-26,7116-1941-76514,17909 Morning Parkway,7,observación,A-
+994,Elias,Losty,M,2022-05-29,1480-1984-28793,2944 Orin Plaza,7,observación,O-
+995,Lurline,Whightman,M,2022-07-29,8574-1921-93690,93 Veith Park,7,alta,A-
+996,Lenore,Nibley,F,2021-09-12,5969-2000-51094,92 2nd Crossing,11,crítico,AB+
+997,Willi,Turland,F,2022-07-20,1316-1927-65661,9824 Swallow Junction,10,cirugía,AB-
+998,Julie,Strotton,M,2022-01-11,4306-2012-95726,89739 Brickson Park Alley,11,observación,O+
+999,Sheela,Giacopelo,M,2022-02-28,9399-1949-47373,38763 Moland Place,13,crítico,B+
+1000,Adamo,Espadater,M,2022-04-17,3889-1969-88359,20 Waxwing Drive,15,observación,AB-
+1,Kev,Malam,M,2022-07-05,7481-1997-84839,449 Merry Junction,3,crítico,B-
+2,Coriss,Brettoner,F,2022-01-12,8087-2005-50610,94772 Cottonwood Crossing,11,cirugía,AB-
+3,Courtney,Aronsohn,NB,2022-02-19,4638-2019-64350,0685 Bellgrove Court,7,observación,O-
+4,Julee,Leyson,F,2022-06-27,5365-1931-13400,8 Merrick Trail,11,crítico,O+
+5,Joella,Tyler,F,2021-09-25,7664-1954-55572,47 Jana Avenue,2,cirugía,AB+
+6,Zorah,Dymidowski,NB,2022-01-18,9327-1958-37554,13 Sunnyside Terrace,10,observación,AB+
+7,Regan,Dana,NB,2022-06-19,2084-1939-82164,41298 Farragut Avenue,14,cirugía,B-
+8,Starlin,Mityashev,NB,2021-11-18,3050-2010-36910,07 Sloan Street,10,cirugía,AB-
+9,Selia,Norrie,NB,2021-12-06,2053-1937-35078,15 Thompson Junction,8,cirugía,AB-
+10,Edward,Brahams,F,2021-10-23,8490-1995-37739,1 Florence Place,6,crítico,A+
+11,Gilberte,Davids,M,2022-01-19,6300-1964-41881,2774 Schlimgen Pass,13,alta,B-
+12,Garvy,Lumby,F,2021-11-10,9601-2009-32837,3 Lunder Crossing,9,cirugía,B+
+13,Sid,Le Noir,NB,2022-06-13,2049-1936-11682,95667 Mcguire Plaza,11,crítico,AB-
+14,Sig,Sitwell,M,2021-12-31,6680-2015-73422,9549 Harbort Plaza,2,crítico,O-
+15,Harv,Mulder,M,2022-02-02,7376-2019-98807,981 Moulton Crossing,4,crítico,A+
+16,Sherwynd,Cockrem,F,2021-12-01,3318-1941-38427,021 Warbler Point,14,cirugía,B+
+17,Herb,Georgiev,NB,2022-06-09,7083-1992-17781,84 Commercial Center,5,observación,A-
+18,Thorndike,Kirsche,M,2021-12-18,7471-1942-89757,6420 Bashford Circle,7,cirugía,A+
+19,Catherina,Carnoghan,F,2022-03-06,5328-1981-36198,7 Mcguire Trail,10,cita médica,B+
+20,Phineas,Skittrell,NB,2021-11-11,7934-1928-19624,74571 Reinke Plaza,11,cita médica,O-
+21,Darwin,Neligan,M,2021-08-23,5571-1944-38427,288 Granby Terrace,1,observación,A-
+22,Rodolph,Girkin,M,2022-01-02,3765-1944-93151,3798 Village Green Center,2,cita médica,AB+
+23,Carny,Birnie,F,2021-12-10,6782-1966-61388,1 Melody Plaza,11,cirugía,A-
+24,Bernie,Olligan,M,2022-06-30,9582-1967-10638,59 Fulton Trail,15,cirugía,O-
+25,Billy,Buesnel,F,2021-08-29,4605-1942-73208,55449 Lunder Hill,2,cita médica,O+
+26,Temple,Manvelle,M,2021-08-31,2994-1997-82414,529 4th Park,10,cita médica,O+
+27,Merry,Dubble,NB,2022-05-17,3794-1978-13132,5 Sachs Lane,7,observación,AB+
+28,Junina,Beaulieu,NB,2022-05-19,9335-1929-47007,2640 Lerdahl Center,5,crítico,O-
+29,Alonzo,Heffernan,NB,2022-02-03,9388-2018-19696,881 Farmco Avenue,5,cita médica,AB-
+30,Lari,Bartoli,M,2021-11-01,4116-1935-64497,50 Raven Park,1,cita médica,AB+
+31,Georgianna,Sailor,M,2021-09-08,9444-1932-95659,990 Pine View Alley,11,alta,B-
+32,Brig,Cauderlie,NB,2022-07-30,5443-2001-56920,9 Village Pass,11,alta,O-
+33,Jacintha,Shawcross,F,2022-08-10,3972-2008-53165,0907 Redwing Place,6,observación,AB+
+34,Rodrique,Liepmann,NB,2022-07-07,6904-1996-89486,9 Clarendon Road,12,crítico,B-
+35,Ivonne,Cowpertwait,NB,2022-05-27,4052-2013-42124,47 Carioca Plaza,1,observación,B-
+36,Peterus,Lodemann,NB,2022-07-29,5663-1981-22839,00 Mesta Center,11,cita médica,AB-
+37,Sergio,Towson,NB,2022-06-06,7922-1982-31921,73 Meadow Valley Street,3,observación,A+
+38,Palmer,Shankle,NB,2022-01-27,9851-1934-14401,228 Linden Crossing,10,crítico,O+
+39,Brewer,Leblanc,M,2022-07-22,6088-1951-10598,1 Dapin Plaza,10,alta,O-
+40,Mabel,Deware,NB,2021-10-24,1295-1943-49378,6 Ilene Way,14,alta,O+
+41,Susanetta,Pryn,F,2022-04-08,6769-1953-66289,291 Sunfield Avenue,5,crítico,A+
+42,Priscella,Flisher,NB,2021-10-12,6717-2003-47826,37951 Steensland Terrace,10,observación,B+
+43,Kara,Hopkyns,NB,2022-02-22,4440-2011-72028,0 Evergreen Terrace,1,alta,AB+
+44,Carroll,Baude,M,2022-05-07,6943-1980-32876,6 Porter Road,7,cita médica,O+
+45,Chantal,Shane,M,2022-07-11,9136-1982-69977,9440 Almo Road,12,cirugía,A-
+46,Gauthier,Antonias,M,2022-05-02,4026-1995-35658,7357 Burrows Lane,9,observación,A+
+47,Licha,de Keyser,NB,2021-09-26,3235-1977-52199,4 Del Sol Lane,12,alta,A+
+48,Berget,Mauditt,M,2022-07-29,9209-1951-37599,2 Maywood Terrace,8,observación,B+
+49,Linnea,McComas,M,2022-03-21,8628-2017-27533,1 Lerdahl Lane,1,crítico,A+
+50,Reba,Cradoc,M,2022-04-17,5336-2018-57000,2362 West Alley,6,alta,A-
+51,Sollie,Melody,F,2021-10-25,6780-1970-85519,80 Stephen Road,6,alta,AB-
+52,Estrella,Olyunin,F,2022-04-11,8717-2014-41023,49 Hayes Trail,14,crítico,A+
+53,Calla,Vye,NB,2022-02-15,6791-1975-68646,45 Katie Junction,13,crítico,AB+
+54,Guntar,Duddy,M,2022-05-01,2823-2018-94364,940 Morning Circle,5,observación,AB-
+55,Adah,Joffe,NB,2021-08-24,3044-1939-57090,05 Utah Center,15,alta,AB-
+56,Arnaldo,Trethowan,NB,2022-01-11,5916-1995-66396,0 Weeping Birch Circle,5,crítico,B-
+57,Hort,Locke,F,2021-10-27,8865-1987-45421,16 Fairfield Center,2,crítico,O-
+58,Robinson,Sutterfield,NB,2021-09-10,2075-1990-95837,99653 Bluestem Hill,4,alta,AB+
+59,Erv,Drage,NB,2022-01-25,5363-1973-89368,3637 Longview Terrace,13,crítico,O-
+60,Filide,Fideler,NB,2022-07-10,4237-1963-55246,0 Lake View Street,1,cirugía,AB-
+61,Cobb,Winsiowiecki,F,2022-08-09,8287-1930-49049,26470 Utah Center,2,cirugía,O+
+62,Davida,Woodroff,F,2022-03-09,7115-2019-24365,2 Leroy Street,15,cita médica,AB+
+63,Asher,Rawlyns,NB,2021-09-08,7994-1961-60680,25126 Elmside Trail,7,observación,B+
+64,Robyn,MacSporran,F,2022-06-04,9179-1949-57524,1 Forest Hill,15,observación,AB-
+65,Ban,D'Aubney,M,2021-08-31,9194-1976-11438,8257 Tomscot Terrace,3,cirugía,B-
+66,Bryana,Winthrop,F,2022-03-29,6275-2019-52736,2 Ruskin Parkway,9,cita médica,AB+
+67,Kayley,Enright,NB,2021-09-02,8891-1983-74479,638 Cottonwood Plaza,6,cirugía,O-
+68,Jana,Prinn,M,2021-12-28,9990-2017-78423,98765 Arizona Alley,6,cita médica,B-
+69,Reynard,Wisdom,M,2021-12-03,7808-1949-77599,70 Lakeland Terrace,14,cita médica,O+
+70,Marilee,Hubbock,NB,2022-03-23,2172-1950-74194,31 Banding Park,13,crítico,A-
+71,Jarrod,Syrie,NB,2022-02-15,5581-1958-25132,23 Pawling Court,3,observación,A-
+72,Nancey,Towriss,M,2022-03-27,1982-1936-79462,22802 Maryland Circle,13,observación,AB-
+73,Kailey,Di Carlo,F,2021-12-08,2400-1940-91619,150 Thierer Drive,5,observación,B-
+74,Sinclare,Balderstone,F,2022-02-13,6407-2014-57163,62 2nd Center,13,alta,B+
+75,Gaelan,Wedlake,NB,2022-06-19,5087-1997-40381,21 Hanson Street,2,crítico,AB-
+76,Leigh,Mee,NB,2021-11-27,1434-1966-95615,95976 Old Gate Point,1,cirugía,B+
+77,Faustine,Kyberd,NB,2021-12-28,2770-2016-74154,2832 Charing Cross Circle,2,cita médica,O+
+78,Donnie,Hannibal,F,2022-05-30,8653-1951-77842,038 Hanover Drive,15,alta,B-
+79,Tucky,Firpi,M,2021-11-07,4798-2010-19167,47283 Twin Pines Drive,13,cita médica,AB-
+80,Luther,Bloxsome,F,2022-06-02,8402-1957-14006,7 Harbort Alley,2,cirugía,B+
+81,Rhonda,Finden,F,2022-05-14,7796-1979-23546,01 Toban Point,10,alta,A-
+82,Shaw,Daens,F,2022-05-07,6165-2006-55673,5840 Corry Avenue,12,cirugía,B+
+83,Kriste,Wyman,F,2022-05-19,2721-2017-73346,714 Dorton Parkway,10,cirugía,A+
+84,Rollie,Jouning,M,2022-05-29,8043-1979-22087,47 Waubesa Parkway,14,observación,O+
+85,Kynthia,Tommeo,F,2022-06-19,3768-1949-51443,28189 North Street,6,alta,O+
+86,Graeme,Turbat,M,2022-03-16,4413-2010-50867,3 School Court,10,cirugía,O-
+87,Lula,Oulett,F,2022-03-17,9283-1954-23243,783 Bartillon Lane,13,alta,O+
+88,Hillard,Bacher,NB,2022-04-26,7674-1943-50956,4745 Russell Hill,11,alta,O-
+89,Berk,Meecher,NB,2022-01-27,8046-2019-86129,62 Riverside Point,15,crítico,B+
+90,Nerissa,Tax,NB,2022-01-02,5823-2000-59284,931 Reinke Alley,6,cita médica,A-
+91,Dewitt,Mangan,NB,2022-05-06,9525-1938-13653,7 Center Junction,14,alta,AB-
+92,Adan,Dermott,M,2022-01-07,4011-1955-93180,71 Oak Avenue,11,cirugía,B-
+93,Tabatha,Hartfield,M,2022-06-29,5122-1980-84091,6 Fieldstone Avenue,4,crítico,AB+
+94,Rea,Jodlkowski,NB,2022-01-05,2035-2019-81944,04 Homewood Lane,1,cirugía,AB+
+95,Bay,Mousby,M,2021-12-03,5007-1995-37765,13707 Hudson Court,7,crítico,A+
+96,Jerrie,Galbraeth,NB,2021-09-28,4017-1992-76330,9832 Huxley Avenue,6,cirugía,AB+
+97,Boony,Schottli,NB,2021-11-01,4126-2020-91479,62466 Ludington Circle,4,cirugía,B+
+98,Morgun,Terrill,NB,2022-01-14,2125-1955-44124,30 Debs Park,5,observación,A+
+99,Hirsch,Fulton,NB,2022-06-26,7745-1940-89825,889 Kensington Crossing,3,cita médica,O-
+100,Meagan,Nice,NB,2022-02-23,4034-2002-48452,75 Prairie Rose Place,10,observación,A+
+101,Jennette,Craddock,F,2022-04-17,1835-1931-78910,11 Continental Pass,8,crítico,AB+
+102,Bibi,Bussens,NB,2021-09-05,4938-1988-42293,3 High Crossing Circle,13,alta,A-
+103,Nanci,Glison,NB,2021-09-29,2555-1985-39457,73440 Rigney Trail,15,observación,A-
+104,Clemmie,Beardwell,M,2022-01-19,2152-1922-15355,41 Quincy Road,6,crítico,O+
+105,Piotr,Earlam,F,2022-04-22,9407-1960-27353,52846 Lakewood Circle,12,cita médica,B+
+106,Tulley,Charlin,NB,2022-03-31,4570-2022-24552,87793 Gina Avenue,6,cirugía,AB+
+107,Smitty,Wenderoth,NB,2021-09-27,6195-1944-97235,08309 American Trail,8,crítico,B+
+108,Quinlan,Blencowe,M,2022-08-12,5010-1926-91498,53 Clarendon Circle,15,cirugía,B-
+109,Colby,Huguenet,F,2022-01-11,7922-1992-88669,95 Spaight Place,6,alta,A+
+110,Daron,Ponton,M,2022-08-17,3767-1932-54487,06435 Texas Hill,6,observación,B+
+111,Martynne,Northin,M,2021-11-06,9497-1937-62036,42619 Amoth Drive,15,alta,O-
+112,Griffith,East,NB,2022-01-21,8419-1934-28116,38 Columbus Junction,6,observación,B+
+113,Graehme,Hugnin,F,2022-01-25,2477-1981-79924,28 Village Road,7,alta,B-
+114,Damaris,Bricksey,F,2022-04-03,4423-1975-73661,1723 Thompson Drive,9,cita médica,AB-
+115,Iolande,Allsepp,NB,2021-09-18,5266-2002-62855,9 Emmet Lane,1,observación,O+
+116,Antonina,McKean,M,2022-07-31,7062-1949-93882,05 Cardinal Alley,6,alta,AB+
+117,Raine,Keppel,M,2022-02-27,8074-2007-84688,053 Dunning Circle,13,cita médica,O+
+118,Shepperd,Raittie,M,2022-06-24,7173-2019-91165,7365 Arkansas Plaza,1,cita médica,O-
+119,Abbott,Foulstone,M,2021-10-29,9401-1942-36765,823 Kensington Pass,1,cita médica,A+
+120,Colin,Le Port,F,2022-06-04,8007-1953-85606,23673 Corry Parkway,8,cirugía,AB+
+121,Janella,Belhomme,NB,2022-07-19,3889-1997-53856,25 Almo Way,6,crítico,B+
+122,Tyson,Heatley,F,2022-02-28,8509-2007-28296,4933 Buell Street,4,crítico,AB+
+123,Hersch,Zuker,F,2022-06-25,3946-1929-12244,319 Birchwood Parkway,7,crítico,B-
+124,Astra,Duesberry,M,2022-07-10,9075-1972-75159,3655 Kensington Drive,5,alta,B+
+125,Mag,Ewington,F,2022-07-01,9975-1933-65241,737 Cherokee Junction,13,crítico,B+
+126,Nicolais,Charlon,M,2021-09-18,6978-1970-31949,7 Bluestem Plaza,14,alta,B+
+127,Tatum,Yannikov,NB,2022-01-02,1136-1957-48044,8 Westend Street,13,crítico,O+
+128,Gavrielle,Kobsch,M,2021-08-29,7257-1969-78450,90 Commercial Place,11,crítico,AB+
+129,Baryram,Starling,M,2021-12-14,6320-1962-70823,13905 Hallows Center,11,cita médica,A-
+130,Garrot,Headon,F,2022-01-28,7573-1967-88803,0861 Orin Point,2,observación,B+
+131,Woody,Neilands,F,2021-12-15,5868-2007-52346,6255 Grim Park,9,alta,B-
+132,Davide,Mar,F,2022-02-23,9515-2020-74392,09981 Russell Center,2,cita médica,O-
+133,Vivian,Hasnip,NB,2022-08-13,8062-1951-87033,1049 Hudson Park,2,cirugía,AB+
+134,Clayborne,Jarville,M,2022-01-31,1663-1967-40206,73256 Petterle Alley,10,cita médica,AB+
+135,Shandra,Hibling,M,2021-09-29,4114-1961-12715,4 Barby Road,3,cirugía,A-
+136,Marlin,Boich,M,2021-12-12,7123-1996-28784,43495 Grim Avenue,1,observación,B-
+137,Stanford,Van De Cappelle,F,2021-12-21,6060-1999-86301,5 Kipling Point,10,cirugía,B-
+138,Lyndsie,ducarme,F,2022-03-25,8278-1952-73197,78830 Monument Trail,8,observación,B+
+139,Kirstin,Matovic,F,2021-09-08,3718-2014-13086,48 Arrowood Lane,9,crítico,A+
+140,Cecelia,Mathie,F,2021-08-18,6214-1957-62926,5 Hayes Crossing,5,cita médica,B+
+141,Gerik,McCambrois,NB,2022-01-31,1322-1968-83308,74 Glendale Point,6,alta,AB-
+142,Appolonia,Rosettini,NB,2021-10-07,6342-1924-24946,8 Maryland Alley,4,observación,AB-
+143,Phylys,Clemendot,F,2022-07-26,2426-1969-75078,121 Anderson Place,13,cirugía,B-
+144,Bell,Garaway,NB,2022-06-04,3660-1974-80345,482 Gale Terrace,14,observación,O-
+145,Carleton,Cadding,NB,2022-01-21,5215-1932-38082,4 International Point,12,observación,O+
+146,Antonia,Wycliffe,NB,2022-06-07,7138-1977-98260,58057 Main Park,6,crítico,AB+
+147,Leena,Brimming,NB,2022-02-23,8620-2017-73959,36 Swallow Crossing,12,crítico,B+
+148,Lenci,Durrance,NB,2022-03-21,8534-1990-67171,893 Barnett Terrace,11,cita médica,O-
+149,Carlo,Pickavance,NB,2022-06-20,7850-1947-43919,3210 Florence Hill,9,crítico,A-
+150,Inigo,Drogan,NB,2022-04-29,9652-1932-44011,3 8th Plaza,10,observación,B-
+151,Cad,Brittles,NB,2022-02-02,8888-1995-73331,8912 Shopko Way,13,alta,A+
+152,Ahmed,Dutson,F,2021-12-10,2413-1964-74324,41967 Wayridge Plaza,14,cita médica,B+
+153,Blair,Pearce,F,2022-07-05,2094-1949-29515,422 Graceland Way,15,cita médica,A+
+154,Levy,Jewsbury,M,2022-07-30,3611-1987-59821,1 Del Mar Park,9,cirugía,B+
+155,Izak,Harbert,F,2022-04-21,6022-1939-65234,4 Spohn Lane,6,crítico,AB-
+156,Brendan,Kennet,NB,2022-04-21,2680-1932-45720,96 Mallard Way,7,cita médica,O-
+157,Alexi,Pattesall,NB,2022-04-08,8192-1928-77068,63 1st Drive,12,crítico,O-
+158,Alair,Rolley,M,2021-08-26,5117-1974-55074,1881 Charing Cross Terrace,8,cirugía,O+
+159,Freda,Vinall,F,2022-04-21,6166-1936-83987,904 Northfield Hill,4,crítico,O+
+160,Pebrook,Beazley,F,2021-10-03,4453-1999-24572,658 Marcy Place,9,cirugía,A+
+161,Marsh,Varren,NB,2022-01-05,2905-2000-71188,02149 La Follette Point,10,observación,B+
+162,Klara,Wasling,NB,2022-04-20,9255-1930-80482,64 Lerdahl Road,6,cita médica,B+
+163,Aldridge,Kivelle,M,2022-04-25,4099-1994-44493,280 Hallows Junction,11,cita médica,A-
+164,Keelby,Wardlow,M,2022-03-25,1653-1928-65676,2 Fulton Drive,15,cita médica,B+
+165,Cos,Inch,M,2022-01-05,7189-1932-41693,70 Clarendon Center,7,alta,B+
+166,Stefanie,Bucher,M,2022-05-09,2451-1942-93992,58894 Pearson Drive,2,observación,O+
+167,Etan,Sollam,F,2021-12-13,7494-1993-71058,83 Redwing Parkway,5,observación,B+
+168,Raoul,Corrett,NB,2022-05-01,8164-1926-23285,12 Crownhardt Plaza,6,alta,AB-
+169,Elyssa,Giacobo,NB,2021-10-14,7897-1949-31979,1868 Fremont Way,11,observación,O+
+170,Hailee,Bener,F,2021-10-31,8409-1969-20786,09532 Ramsey Crossing,10,cirugía,A+
+171,Seymour,Johanssen,F,2022-01-03,7238-1963-66892,3784 Park Meadow Junction,7,crítico,A-
+172,Sybilla,Witheridge,NB,2021-10-16,8233-1979-93729,23026 Harbort Pass,6,cita médica,A+
+173,Paulette,Tytterton,F,2021-10-15,9222-2012-39741,0737 Havey Place,12,alta,A+
+174,Shirline,Stedall,F,2022-06-07,7772-1949-74325,32 Bobwhite Avenue,12,crítico,O+
+175,Addison,Betham,M,2022-04-30,5349-1982-73228,51601 Dixon Way,3,cirugía,O-
+176,Essie,Petyt,F,2021-12-01,5539-2020-19746,9717 Eagan Park,6,observación,B+
+177,Andriette,Ornils,NB,2022-05-07,4502-2022-15111,7188 Tony Lane,4,observación,B-
+178,Sadie,Eggleston,F,2022-03-21,1982-1975-14997,09 Pearson Crossing,10,alta,B+
+179,Lucilia,Ramelot,F,2022-02-02,2260-2001-99758,344 Jenna Street,6,cirugía,AB-
+180,Meggi,Carlozzi,F,2022-03-04,7390-2009-31510,45 Vahlen Lane,7,alta,O-
+181,Manny,Stockney,F,2022-03-16,4415-1964-72863,08 East Circle,7,cirugía,B-
+182,Binny,Yitzovitz,NB,2022-08-03,6172-1945-92297,9 Golf View Junction,10,cita médica,O+
+183,Bridgette,Garlant,F,2021-11-04,1526-2010-52938,8 Starling Hill,8,alta,A+
+184,Hewett,Becraft,F,2021-10-01,4146-2014-95313,0 Washington Alley,5,cirugía,B-
+185,Olympia,Slate,NB,2022-04-16,8901-1941-26971,3 Loftsgordon Court,15,crítico,O-
+186,Myra,Gladdish,M,2022-04-17,2992-1948-48270,61261 Paget Park,2,observación,AB+
+187,Madelene,Thurner,F,2022-06-05,5700-1942-72234,4258 Declaration Place,2,cita médica,B-
+188,Luisa,Kettel,NB,2022-05-11,7722-1994-78970,07 Mayer Trail,13,alta,A+
+189,Fidelity,Loft,NB,2021-10-22,2900-1951-88018,53347 Londonderry Way,7,alta,B-
+190,Jammal,Dalton,M,2022-05-27,6323-1958-63750,0 Vernon Avenue,10,cirugía,A+
+191,Clotilda,Blackeby,M,2022-04-09,1823-1957-57801,2 Hansons Plaza,7,observación,AB-
+192,Boony,Yurkov,NB,2022-06-01,1991-1978-97534,0 Amoth Circle,7,crítico,AB-
+193,Aleen,Marflitt,F,2022-07-19,1532-1974-77787,02117 Shopko Way,4,observación,B+
+194,Aldridge,Cashman,F,2022-04-23,6615-1996-78905,5 Merry Road,11,cita médica,AB-
+195,Dolly,Flemyng,F,2021-11-16,5656-1953-47861,236 Arizona Crossing,15,cirugía,AB+
+196,Feliza,Fonte,F,2022-05-28,3280-1957-59307,87 Park Meadow Crossing,10,cita médica,AB+
+197,Edvard,Withinshaw,M,2021-12-05,5008-1956-23484,3 Stang Avenue,7,observación,O+
+198,Jamill,Elvish,M,2022-06-19,8065-1970-82669,422 Hallows Trail,12,crítico,A-
+199,Dougy,McNamee,NB,2021-09-22,5914-1982-55171,23887 Village Hill,8,cirugía,O-
+200,Donica,Pimbley,M,2022-02-06,5139-1972-83294,78 Delaware Court,11,crítico,O-
+201,Aurore,Francom,F,2022-01-16,9139-2008-36202,0 Sachtjen Terrace,7,observación,AB+
+202,Raviv,Groundwater,F,2022-03-12,9507-1998-92238,4273 Quincy Center,9,cita médica,A-
+203,Lotta,Wigsell,NB,2021-12-09,3005-2005-29379,98447 Summer Ridge Crossing,1,observación,AB-
+204,Brynne,Goundrill,M,2022-03-05,6859-1952-63657,9322 Carpenter Avenue,13,observación,A-
+205,Clea,Longmore,NB,2022-03-24,8986-2016-42223,43 Glendale Parkway,4,cita médica,A+
+206,Kylila,Flukes,NB,2021-08-24,5717-1940-18681,87 Morrow Court,12,crítico,AB+
+207,Elladine,McKendry,NB,2021-11-04,7228-1929-62262,1406 Arkansas Avenue,15,crítico,O-
+208,Margot,Abram,M,2021-10-01,1122-1940-59827,8997 Harper Point,4,observación,O+
+209,Alexandra,Abbison,NB,2022-03-23,4175-2017-61692,91 Loomis Circle,2,observación,B-
+210,Sofia,Curtoys,NB,2022-03-26,6795-1986-20465,094 Clarendon Crossing,10,observación,B-
+211,Eleanore,Poundesford,M,2022-07-18,6163-1959-71997,09638 Jackson Way,2,observación,B-
+212,Shalom,Osselton,NB,2022-04-30,4891-1930-16354,050 Manufacturers Parkway,7,crítico,B-
+213,Casie,Gownge,NB,2021-11-12,8841-1991-45049,450 Bartillon Park,15,observación,B+
+214,Janine,MacGragh,F,2022-01-29,7899-2004-75653,6 Kim Avenue,8,alta,O-
+215,Torrence,Pocknell,NB,2022-03-03,7971-1980-25342,6 Dunning Pass,13,cita médica,A-
+216,Shepherd,Ferreras,NB,2021-08-25,8799-1991-79072,059 Donald Terrace,3,cirugía,O-
+217,Priscella,Wythill,F,2022-07-25,8260-1991-18738,6 Acker Lane,1,cita médica,B-
+218,Smitty,Brawley,M,2022-06-13,4308-1958-86935,37784 Crescent Oaks Drive,7,cirugía,O-
+219,Harmony,Ouldcott,M,2022-07-06,2646-2011-98502,62 Waxwing Hill,11,crítico,O+
+220,Corbett,Longbottom,M,2022-03-06,6940-1987-86063,42311 Victoria Park,1,observación,AB+
+221,Christabel,Bence,M,2022-01-23,8413-1945-92359,103 Tony Hill,7,crítico,B+
+222,Ave,Look,F,2021-11-16,6084-2005-63097,40 Hauk Alley,1,crítico,O+
+223,Joceline,Lubbock,NB,2021-11-16,8744-2020-53584,5 Hooker Parkway,3,cirugía,O+
+224,Karim,Kilmaster,NB,2022-08-11,3744-1964-51896,75 Merrick Center,3,crítico,A-
+225,Karilynn,Peckitt,NB,2021-09-01,7166-1964-42127,99 6th Point,14,cirugía,O-
+226,Desiri,Sickamore,M,2022-05-15,1035-1970-12478,07 Iowa Trail,10,cirugía,B+
+227,Lezlie,Caine,NB,2022-08-14,9467-1975-81090,7772 Dapin Road,9,crítico,O+
+228,Teirtza,Lurcock,F,2021-12-23,8711-1989-83512,58 Hooker Place,2,alta,A+
+229,Giovanna,Brilleman,M,2022-05-02,3906-1928-86306,8 Mccormick Terrace,14,cirugía,O+
+230,Johnnie,Yurasov,NB,2022-05-23,9140-1925-82559,1 Lakeland Street,2,observación,A-
+231,Tobe,Burgen,M,2022-05-19,8394-2009-59313,7 Pepper Wood Junction,12,cita médica,B-
+232,Jay,Najara,F,2022-03-26,9704-1986-94565,2 Hoffman Street,13,cirugía,B+
+233,Nev,Adamovitz,NB,2022-03-28,4123-1952-27890,551 Anniversary Hill,3,alta,AB+
+234,Perice,Aburrow,F,2022-05-04,6103-2010-15016,184 Debs Court,14,alta,O-
+235,Ichabod,Phillput,M,2022-04-17,2065-1928-26171,71183 Hanover Drive,6,cirugía,B+
+236,Concordia,Clint,F,2022-03-29,5445-2021-68063,057 Warner Avenue,8,crítico,A-
+237,Tammy,Freake,M,2022-04-01,6160-2011-58941,627 East Parkway,15,cita médica,O+
+238,Sergent,Gilardi,NB,2022-07-15,4670-1977-48488,4036 Colorado Circle,13,alta,A-
+239,Judah,Andriss,NB,2021-12-05,4151-2000-88270,47 Sugar Drive,1,alta,A+
+240,Pierrette,Tackes,M,2022-06-28,3270-1933-16763,09 Buell Drive,15,cirugía,B+
+241,Allis,Ambrois,F,2022-05-17,8396-1971-18783,60029 Packers Point,3,cirugía,A+
+242,Jorge,Leavesley,NB,2022-08-17,1918-2004-54266,10658 Oak Valley Trail,12,alta,AB-
+243,Jed,Tembey,F,2022-08-14,5218-1945-74092,985 Forest Dale Circle,14,crítico,A+
+244,Johannes,Dufer,NB,2021-12-08,4026-1974-51535,023 Talmadge Avenue,11,cirugía,B+
+245,Hastings,Cabena,F,2021-11-17,5294-2004-94030,74322 Old Shore Alley,2,cirugía,B+
+246,Pattin,Rudledge,NB,2021-08-25,8908-1981-25202,226 Toban Court,11,observación,B-
+247,Dominik,Springall,F,2022-04-04,8258-1994-83047,8 Northview Pass,4,cita médica,B+
+248,Christal,Goley,F,2021-11-17,6914-2010-54580,00138 Northport Court,11,alta,B-
+249,Taylor,Deelay,M,2022-03-28,4949-2022-21404,8 Village Trail,9,cita médica,AB-
+250,Christiana,Chevalier,NB,2022-07-04,5311-1922-22600,56 Arkansas Plaza,15,observación,AB-
+251,Kerk,Blanch,NB,2021-08-23,6799-2022-87154,2 Gerald Alley,1,alta,AB-
+252,Chelsie,Kenrick,NB,2021-09-28,8160-1977-82651,361 Veith Parkway,1,alta,A+
+253,Hartley,Borland,M,2022-03-23,5425-1995-30296,2504 Nevada Road,2,alta,B+
+254,Yasmin,Newbatt,F,2022-05-09,4541-1995-21647,82 Oxford Park,4,observación,B+
+255,Loralie,Zimek,M,2021-10-04,7202-1945-98637,82 Lien Pass,11,cita médica,O-
+256,Jermain,Gilvear,F,2022-03-09,2947-1992-51731,2256 Porter Road,15,cirugía,O-
+257,Lauretta,Mundow,F,2021-11-10,5324-1922-56616,29 Logan Junction,3,cita médica,A+
+258,Diann,Van Arsdall,F,2021-10-15,3340-1952-50653,8860 Green Parkway,2,cirugía,O-
+259,Wynn,Mandeville,M,2021-11-19,3977-1945-14716,38615 Clyde Gallagher Avenue,11,observación,A+
+260,Dreddy,Lawrinson,F,2021-08-27,3310-2022-79118,79 Forster Terrace,8,crítico,A+
+261,Kynthia,Dunthorn,F,2021-12-03,4245-2005-19541,6 Shoshone Alley,5,crítico,AB-
+262,Judy,Giacobo,NB,2022-06-22,4556-1940-34421,4 Hollow Ridge Junction,9,cirugía,AB+
+263,Emlyn,Yvens,M,2022-05-16,9864-1995-89193,713 Schlimgen Court,6,cita médica,AB+
+264,Dee dee,Savoury,M,2021-10-29,2451-1941-90906,99409 Briar Crest Hill,13,crítico,B-
+265,Vitoria,Garard,NB,2021-11-28,8472-2008-64914,8 Division Park,3,alta,A-
+266,Neilla,Radage,F,2022-06-19,4164-2017-46137,99198 Veith Point,14,cita médica,O-
+267,Ronna,Acreman,F,2022-03-21,1252-1997-36673,4642 Sutteridge Avenue,11,cirugía,AB-
+268,Mackenzie,Callear,F,2022-07-26,1642-1973-27376,42140 Sundown Point,8,cirugía,B+
+269,Anthiathia,Van Oort,M,2022-07-08,5345-1946-83449,7 Independence Lane,7,cita médica,B+
+270,Derril,Crum,M,2022-07-22,5377-1948-84490,0 Charing Cross Plaza,10,crítico,B+
+271,Quintin,McClure,F,2022-07-18,9471-2019-14684,4582 Rutledge Hill,9,observación,B+
+272,Dominic,Brazear,NB,2022-08-10,2968-1974-10912,946 Mallory Place,8,cita médica,AB-
+273,Suzy,Jewel,NB,2022-01-29,8313-1984-23189,5 Badeau Drive,9,observación,AB-
+274,Carrissa,Hillock,F,2022-02-12,3380-1963-57357,5459 Lakewood Gardens Street,12,cita médica,A+
+275,Shawna,Patterfield,M,2022-05-30,6106-1990-32907,5 Saint Paul Circle,13,cita médica,A-
+276,Bertina,Folland,M,2022-04-26,5399-1979-21121,9357 Comanche Point,9,alta,AB-
+277,Cornela,Po,F,2021-08-25,7078-1934-68077,1111 Fairfield Trail,4,crítico,O-
+278,Marshal,Reddish,NB,2022-03-26,8600-1947-31524,28 Corscot Place,2,alta,O-
+279,Solomon,Lasslett,M,2022-01-07,1124-1988-31222,04 Monument Circle,4,cirugía,O+
+280,Elijah,MacAfee,NB,2022-03-09,5361-1940-73269,00481 Mosinee Road,12,alta,O+
+281,Gibb,Sambiedge,NB,2022-05-11,4271-1921-75099,095 Rockefeller Way,7,cita médica,B+
+282,Arluene,Siburn,M,2021-11-08,8478-1921-89426,77 Buell Avenue,8,cita médica,A-
+283,Adara,MacAndie,F,2022-07-18,6331-2008-84385,6 Granby Park,7,cirugía,O+
+284,Anna-diane,Kensington,NB,2022-05-12,2725-1943-71626,6503 Dapin Way,6,cirugía,B+
+285,Renate,Dawbery,M,2022-05-07,6408-2000-67031,7158 Crownhardt Place,8,cirugía,B+
+286,Lauralee,Simoens,NB,2022-04-23,9153-1969-95394,7028 Huxley Alley,12,cirugía,AB+
+287,Shaun,Applegarth,M,2022-06-24,9137-1969-44847,43 Sullivan Hill,9,observación,AB+
+288,Shannen,Matousek,F,2022-02-22,1553-1972-53443,71650 Coleman Terrace,6,observación,O-
+289,Hunter,Brandacci,F,2022-02-14,2010-2011-55002,88 4th Hill,2,cita médica,A+
+290,Annemarie,Dowry,NB,2022-03-01,3564-1935-25699,62 5th Center,5,alta,B+
+291,Aland,Fowden,M,2021-10-18,6987-1972-78322,72 Merchant Lane,1,cirugía,O+
+292,Tiffanie,Stratley,M,2022-02-07,9878-1999-18761,747 Moose Place,6,cita médica,AB+
+293,Nolly,McWhan,M,2022-06-28,1275-1987-68381,880 Holmberg Terrace,1,alta,AB-
+294,Ashlie,Cordall,F,2022-03-14,7090-1973-56546,3869 Debra Lane,7,observación,A+
+295,Germain,Broady,M,2022-02-21,8571-1935-61598,891 Shasta Hill,7,observación,O+
+296,Marlene,Oboy,M,2021-10-23,4584-1992-40288,9132 Express Court,4,crítico,A-
+297,Waldemar,Jaqueminet,F,2022-03-10,7326-2015-96391,23105 Grover Park,12,cita médica,O-
+298,Horatio,Murrthum,NB,2022-06-07,2997-1923-69882,3241 Eggendart Place,8,observación,AB-
+299,Marne,McCrillis,M,2022-02-02,9135-2017-40730,9 Erie Place,12,cirugía,O-
+300,Thedrick,Penrith,M,2022-01-07,2924-1939-20210,9 Dexter Court,4,crítico,A-
+301,Shelly,Landsbury,M,2021-10-20,7869-1945-13533,507 Sutteridge Center,11,alta,O-
+302,Flossi,Somerled,M,2022-06-16,1157-2015-68446,78 Acker Park,14,crítico,O+
+303,Sybille,de Leon,NB,2022-05-20,4118-1965-88788,81 Rutledge Pass,11,alta,AB-
+304,Mignon,Weddup,NB,2022-05-11,9028-1980-60029,00165 Merchant Court,7,observación,O+
+305,Doloritas,Tankus,NB,2021-12-03,7075-1931-38842,1657 Lakeland Park,13,cita médica,B-
+306,Marin,Blackall,M,2021-12-18,2958-1992-62069,002 Westend Plaza,1,crítico,AB+
+307,Pavel,Demicoli,F,2021-12-27,6224-2011-47530,469 Heath Circle,13,alta,O+
+308,Gwyn,Gallienne,NB,2022-06-13,7410-1932-90420,5 Lukken Center,10,observación,O-
+309,Gavrielle,Borthe,M,2022-05-04,3088-1958-98452,1 Carey Lane,4,observación,A+
+310,Andeee,Bransby,M,2022-03-10,8471-2011-29992,67280 Mcguire Pass,1,crítico,O+
+311,Martita,Eccleston,M,2021-10-29,2910-1944-21495,37 Sauthoff Place,6,cirugía,O+
+312,Shurwood,Berkowitz,F,2022-01-31,4967-1932-87829,90 Kipling Junction,10,observación,AB-
+313,Errick,Bumfrey,F,2021-09-28,5718-2014-71928,02 Upham Park,3,alta,O+
+314,Else,Weal,M,2022-07-27,2376-1991-38527,73582 Crest Line Street,10,cita médica,B-
+315,Fanchette,St Clair,NB,2022-05-22,4538-2013-86812,66385 Westport Circle,6,alta,O-
+316,Nicol,Harme,NB,2021-12-12,3885-2008-19324,1850 Ridge Oak Circle,7,cirugía,B-
+317,Cathie,Beavan,NB,2022-07-15,4143-1942-29773,1897 Dakota Plaza,14,observación,A+
+318,Lock,Harrie,M,2021-11-11,4907-1973-87930,875 Charing Cross Alley,4,cirugía,A+
+319,Elsy,Melato,NB,2022-01-31,4328-1957-28517,6 Clyde Gallagher Lane,13,cita médica,O+
+320,Emilio,Sedgefield,NB,2021-12-04,2350-2019-31029,6 Little Fleur Park,10,cita médica,AB-
+321,Anne-corinne,Gauche,M,2021-09-18,8574-2002-83072,6 John Wall Hill,11,crítico,O+
+322,Cherish,Penwarden,NB,2022-06-08,1204-1969-68997,484 Harbort Terrace,15,cirugía,O+
+323,Sigismond,Cottage,NB,2022-04-23,8807-1974-25134,06575 Meadow Vale Terrace,4,observación,AB-
+324,Husain,Mowbray,NB,2022-04-22,6329-1979-59224,3 Hoepker Street,3,alta,B-
+325,Morie,O'Sharry,NB,2022-08-09,8837-1997-62872,3427 Larry Junction,6,alta,AB-
+326,Jennette,Walkling,F,2021-10-24,8068-1984-80840,74049 Summerview Park,12,alta,AB+
+327,Cloe,Ebbetts,F,2022-05-20,5789-1922-71717,6 Vidon Hill,9,crítico,A+
+328,Meggy,Rake,NB,2021-08-18,4092-1944-36953,79 Dennis Center,6,cirugía,A-
+329,Evered,Clyburn,NB,2021-12-18,6167-2019-10618,2 Delaware Terrace,7,observación,O-
+330,Colby,Gouth,NB,2021-08-28,9544-1993-91987,28 Warner Point,3,cita médica,B-
+331,Kerwinn,Margrie,F,2022-04-15,9974-2006-80159,64 Macpherson Court,13,observación,AB-
+332,Brocky,Geraldo,NB,2022-08-10,6831-1929-87502,15895 Columbus Parkway,11,alta,A+
+333,Naomi,Claybourne,M,2022-04-20,4471-1992-96611,50 Caliangt Pass,11,alta,O+
+334,Zuzana,Wales,F,2021-10-15,7373-1989-16177,99019 Grayhawk Plaza,7,crítico,A+
+335,Hodge,Heffer,M,2022-05-31,8759-2018-23766,410 Holy Cross Parkway,1,crítico,B-
+336,Dyann,Chinge de Hals,NB,2022-01-16,6807-1937-13145,30 Transport Court,14,cita médica,B-
+337,Gregorio,Tregido,M,2022-01-29,1677-1924-95792,94254 Waywood Park,13,crítico,A+
+338,Sandro,Inkpen,NB,2022-07-21,5478-1934-53473,33 Rusk Junction,3,alta,O+
+339,Poppy,Bewicke,M,2021-12-28,1449-1991-54944,7 Brentwood Junction,9,observación,B-
+340,Rutledge,Gabler,NB,2021-09-18,8761-1929-56425,74 Transport Hill,12,crítico,A-
+341,Gabriel,Norquay,NB,2021-11-19,8271-2001-31520,4 Sage Court,10,cita médica,A+
+342,Ashli,Kinleyside,NB,2022-08-07,7327-1940-73969,26 Dahle Hill,11,observación,A+
+343,Red,Schimank,NB,2021-12-08,5362-1962-28318,1 Jenna Road,7,crítico,A+
+344,Jerrie,Manuel,NB,2022-04-26,2481-1955-27413,533 Briar Crest Crossing,12,cita médica,O-
+345,Amble,Eiler,NB,2022-01-21,6904-1951-69280,940 Grasskamp Junction,10,cirugía,AB-
+346,Paton,Chitter,M,2022-05-08,2795-1993-72540,5 Autumn Leaf Trail,8,alta,AB+
+347,Margeaux,Feeley,NB,2022-06-17,4308-1986-94722,206 La Follette Way,13,cita médica,B+
+348,Alex,Iannelli,F,2022-05-02,1367-1975-84542,20540 Myrtle Park,15,crítico,B-
+349,Norina,Thorne,M,2021-12-06,4525-1989-91674,13432 Barnett Hill,14,observación,B-
+350,Kelsey,Bladge,F,2021-11-18,1185-2013-79957,69844 Marcy Place,1,crítico,A-
+351,Jeramey,Vaneev,F,2022-04-09,6310-1937-83131,70 Homewood Pass,4,cita médica,AB+
+352,Abigail,Scoffham,M,2022-02-27,9938-1932-17500,95 Kinsman Crossing,2,alta,B+
+353,April,Essam,F,2021-12-04,2060-1933-30415,78 Springs Court,5,alta,A+
+354,Marlin,Childerhouse,F,2021-09-05,7741-1961-82066,492 Rigney Parkway,3,observación,O-
+355,Yard,Roswarn,M,2021-12-05,2597-2012-67178,442 Dakota Court,9,cita médica,A+
+356,Ailina,Lambourne,F,2022-02-23,6149-1921-38196,6266 Browning Trail,8,cirugía,B+
+357,Nicolais,Antoniottii,M,2022-07-12,5636-1953-21004,4092 Scofield Hill,13,alta,B+
+358,Lorita,Cavet,F,2022-05-18,7097-1981-95613,93 Elka Hill,8,crítico,O-
+359,Darcee,Cumine,M,2022-05-29,8646-1947-55678,93374 Sunnyside Parkway,3,cirugía,B-
+360,Malena,O'Doireidh,F,2021-11-09,2667-1985-42600,49 Monica Junction,12,cirugía,AB+
+361,Sisely,Imlach,NB,2022-07-10,3468-2021-64887,64 Coolidge Place,7,cita médica,O-
+362,Rona,Wyard,F,2022-02-15,9026-1968-57031,440 Reinke Center,5,cita médica,AB+
+363,Constancia,Pomphrett,NB,2022-06-18,3031-1983-74844,2108 Hauk Crossing,10,observación,B-
+364,Hall,Heintz,F,2022-03-10,7543-1927-49487,4 Bunker Hill Avenue,6,alta,AB+
+365,Erica,Vasyagin,NB,2021-12-20,6600-1973-63434,3635 Texas Alley,5,observación,O-
+366,Florella,Needham,M,2022-01-06,5945-2022-16904,18597 Sunbrook Point,11,crítico,A+
+367,Zsazsa,Blazdell,NB,2022-03-23,1573-2007-38237,4883 Kennedy Trail,10,cita médica,O-
+368,Krissy,Bool,NB,2021-11-13,2469-2010-21803,2423 Utah Plaza,5,alta,O-
+369,Raffaello,Neles,NB,2022-05-27,7092-1955-49519,13 Ruskin Street,2,alta,A+
+370,Melisa,Studdal,F,2021-09-29,3832-1993-26159,59 Carpenter Park,1,crítico,A-
+371,Leyla,Stanyon,NB,2022-07-24,8402-1938-80860,8 Badeau Court,10,alta,B+
+372,Anjanette,Ivanichev,M,2022-01-21,5603-2003-27564,4861 Truax Terrace,2,observación,A+
+373,Currey,Maith,NB,2021-12-23,5017-2017-28039,58 Fisk Street,4,cita médica,AB-
+374,Yasmin,Ashlee,NB,2021-12-30,4009-1955-52041,5 Corry Point,8,cita médica,O+
+375,Corine,Christoforou,F,2021-10-27,8163-2008-40682,97007 Shelley Way,11,alta,B-
+376,Gilberta,Dumbare,M,2022-06-12,1071-1957-59941,23821 Kingsford Crossing,6,cita médica,AB+
+377,Simon,Trousdell,NB,2022-03-05,3392-1989-72551,09619 North Trail,12,cirugía,AB-
+378,Roderich,Jon,NB,2021-09-11,8554-2022-10905,947 Claremont Crossing,8,cirugía,AB-
+379,Dasi,Sisson,NB,2021-11-23,9333-1961-53755,3 Farwell Junction,12,alta,AB+
+380,Renado,Swafford,M,2021-12-08,9039-1961-45223,8987 Cherokee Center,2,crítico,AB-
+381,Cull,Wattinham,F,2022-01-27,5634-1920-47571,5465 Columbus Street,14,cirugía,B+
+382,Grete,Verling,NB,2021-10-24,9427-2004-31744,7 Holy Cross Point,3,observación,AB+
+383,Franklyn,Molloy,F,2021-09-12,5971-1921-59531,757 Haas Point,3,crítico,A+
+384,Giacobo,Begent,M,2021-10-30,1862-1956-58704,7497 Lerdahl Avenue,13,cirugía,B-
+385,Dode,Kirkby,M,2021-12-04,6061-2004-74565,2 Reinke Junction,10,alta,A-
+386,Cathleen,Spofforth,F,2021-08-28,2155-1943-69021,414 Oxford Pass,8,crítico,A-
+387,Lory,Corpes,M,2022-01-01,1417-1966-39677,52 Walton Center,6,crítico,AB+
+388,Clovis,Swannick,F,2022-07-21,6346-1931-99452,7056 Debs Road,8,alta,O-
+389,Nerte,Bergeon,NB,2022-03-12,6271-1938-50733,7163 Hayes Hill,8,cirugía,B+
+390,Aldridge,Stollenwerck,F,2022-02-12,7040-2002-84182,608 John Wall Street,12,alta,A-
+391,Estel,De Nisco,M,2022-06-15,2443-1994-85374,02 Pankratz Drive,4,crítico,A-
+392,Jodee,Bottinelli,M,2022-05-30,1310-1941-94067,111 Northridge Crossing,3,crítico,B-
+393,Allistir,Milesop,M,2022-05-12,8360-1926-80115,2 American Ash Plaza,9,crítico,A+
+394,Shalom,Robbel,M,2021-09-14,2347-2020-46127,5 Westport Court,2,crítico,A-
+395,Chadd,Ennion,NB,2022-04-19,5224-1995-65603,9 Meadow Valley Trail,11,crítico,AB+
+396,Elonore,Seargeant,NB,2022-03-28,4470-1955-39442,69 Hayes Plaza,10,observación,B-
+397,Cassandra,Bachs,M,2021-12-04,8198-2013-68735,82 Northland Parkway,4,observación,AB+
+398,Berty,Thunders,NB,2021-08-21,5496-1924-10124,9737 Fairview Circle,8,cirugía,A+
+399,Alvis,Venners,F,2022-03-12,8322-1923-91765,697 Northwestern Terrace,1,observación,B-
+400,Connie,Laird-Craig,M,2021-11-22,9928-2013-48575,670 Lyons Park,12,cirugía,O-
+401,Joyann,Jakoubec,M,2021-09-03,3481-1967-25288,8484 Crownhardt Park,1,cita médica,A+
+402,Justen,Salle,F,2022-03-27,5468-1968-50324,885 Hooker Terrace,15,alta,A-
+403,Brew,Coxhead,F,2021-09-11,3324-1950-51858,90576 Gina Crossing,6,alta,B-
+404,Lon,Burbage,M,2022-03-28,9587-1993-26140,1896 Barnett Road,8,cirugía,B-
+405,Aigneis,Whittles,M,2022-08-09,7598-2003-10609,1993 Roth Plaza,13,cirugía,A-
+406,Jill,Shipton,M,2022-05-12,5017-1984-21488,32 5th Crossing,1,observación,B-
+407,Chandler,Binge,NB,2022-03-26,7522-1998-14026,21 Service Plaza,7,cita médica,AB-
+408,Issiah,Stockman,NB,2021-11-22,9010-1986-51054,070 Northfield Park,11,crítico,AB+
+409,Myrwyn,Keems,NB,2022-04-20,6296-1938-90034,14063 Aberg Terrace,8,crítico,B-
+410,Hinze,Fiennes,M,2022-06-16,7725-1935-32772,557 Dakota Circle,4,cita médica,B+
+411,Rey,Lackey,F,2022-05-12,7792-1963-37386,55 Dexter Drive,13,crítico,B-
+412,Danya,MacTrustram,NB,2022-06-27,3845-2002-36765,0 Erie Point,9,cirugía,O+
+413,Wendeline,Rogeron,NB,2022-06-17,7934-1990-54440,050 Eastlawn Junction,4,cita médica,A-
+414,Caesar,Bauld,NB,2022-07-10,5514-1953-44826,4595 Ryan Parkway,1,cirugía,A-
+415,Cherianne,Roistone,NB,2022-01-18,1707-1930-36023,013 Carberry Junction,6,cita médica,AB-
+416,Zelig,Dicke,F,2021-10-23,7217-1926-30094,82457 Northport Court,1,alta,B+
+417,Ana,Freire,F,2022-08-07,7752-1939-31757,40 Maywood Alley,7,alta,A-
+418,Alvinia,Kraut,M,2021-12-11,8934-2021-86203,3 Esker Way,10,crítico,O-
+419,Shellie,Dabinett,F,2022-01-06,9856-1926-29236,52406 Blue Bill Park Lane,8,cita médica,O-
+420,Noah,Prantl,NB,2022-07-06,1016-1967-37769,2027 Maple Way,15,cirugía,A-
+421,Shirl,Knotton,F,2022-03-22,8111-1990-71285,78177 Prairieview Circle,4,cita médica,AB-
+422,Allsun,Akeherst,M,2022-04-03,1203-1997-27526,54405 Sunnyside Hill,3,crítico,AB-
+423,Reynolds,Kaming,NB,2021-12-22,4972-1944-17295,5 Debs Point,14,alta,A+
+424,Martelle,Petrelluzzi,M,2022-05-15,7840-1952-83549,9772 Buell Avenue,7,observación,A+
+425,Carlee,Josefson,F,2021-09-19,6913-1964-82513,3 Crownhardt Plaza,13,alta,O-
+426,Erda,Oosthout de Vree,F,2022-04-25,9870-1960-22516,61984 1st Road,11,cita médica,AB-
+427,Kaela,Long,F,2021-12-14,4526-1967-58163,27976 Walton Junction,3,alta,B+
+428,Dionne,Spark,NB,2022-04-21,8298-1999-50508,80165 Graceland Hill,8,cita médica,B+
+429,Tadeo,MacVagh,F,2021-12-21,7454-2000-39821,56 Mosinee Drive,13,cita médica,AB-
+430,Marshall,Hynam,M,2021-09-01,8265-1945-50032,43 Maple Wood Street,9,cirugía,O-
+431,Patrice,Dimond,NB,2022-01-06,2989-1990-36329,440 Declaration Parkway,15,cita médica,AB+
+432,Oswald,Cornil,M,2021-10-15,9705-1971-92178,378 Northport Place,15,alta,A+
+433,Lowell,Scragg,NB,2021-10-23,8286-1985-22124,167 Carioca Terrace,12,alta,AB-
+434,Hagen,Gaveltone,M,2022-06-21,8440-1957-47459,72 Miller Avenue,6,alta,B+
+435,Celestia,Wattinham,M,2021-12-09,6670-1981-20896,0 Ronald Regan Plaza,6,observación,A-
+436,Kenn,Stuehmeyer,F,2022-05-16,4466-1925-11709,89573 Beilfuss Hill,15,cirugía,O+
+437,Zahara,Bartomieu,F,2021-11-11,7011-1995-51176,982 Annamark Trail,8,cirugía,B-
+438,Pietrek,Yarrow,M,2022-04-04,5948-1971-77107,1 Village Park,5,alta,O+
+439,Si,Billin,F,2022-07-14,7465-1982-97047,1116 Scofield Park,1,cirugía,AB-
+440,Claudell,Argo,F,2022-05-31,8574-2016-65934,3009 Memorial Center,13,alta,B-
+441,Leyla,Walkley,F,2021-09-05,5518-1994-67596,28599 Rowland Plaza,13,cita médica,B+
+442,Morna,Godball,NB,2022-07-02,2500-2000-36691,45 Pine View Street,10,cirugía,O-
+443,Filide,Hoodless,M,2022-07-03,3658-1996-23019,90476 Ramsey Place,7,cita médica,B-
+444,Aleksandr,Heiner,NB,2022-03-17,6998-1939-44424,82 Del Sol Court,3,cirugía,AB+
+445,Holmes,Dunckley,F,2022-02-16,9633-1987-78643,7 Linden Road,1,cirugía,B-
+446,Ennis,Caldwell,F,2021-10-13,6402-1971-61941,0824 Northridge Terrace,5,alta,B+
+447,Kareem,Forder,F,2022-07-02,5303-1990-99685,1673 Bashford Crossing,14,observación,B+
+448,Tull,Lashmore,NB,2021-09-18,1560-1965-30310,7899 International Circle,12,alta,O+
+449,Myer,Heisman,M,2021-10-03,5802-1920-98071,7003 Division Terrace,14,observación,B-
+450,Veda,Malan,M,2022-03-02,7175-1984-82829,1094 Mariners Cove Trail,14,alta,AB+
+451,Emilia,Peasnone,F,2021-10-31,4902-2022-82492,0839 Kedzie Avenue,10,alta,O-
+452,Linette,Lethem,M,2022-03-26,2785-1954-32321,389 Everett Road,4,cirugía,B-
+453,Elbert,Skitch,F,2022-06-19,8264-1980-42913,48356 Riverside Court,14,cirugía,A+
+454,Harrison,Henryson,F,2022-03-16,9017-1975-21988,67068 American Circle,6,cirugía,O-
+455,Anjanette,Bowne,M,2021-12-06,4874-1948-81745,5533 John Wall Center,7,cirugía,AB-
+456,Beatrice,Drakeford,F,2022-04-17,5384-1974-18344,0 Loomis Trail,15,alta,AB+
+457,Monah,Valentine,NB,2021-10-22,9124-2010-48192,32 Sunnyside Lane,12,observación,A-
+458,Cathyleen,Sammon,M,2021-11-03,3879-1956-38424,61 Bartelt Way,14,cirugía,A+
+459,Elli,Camilleri,F,2022-07-19,9764-1959-31820,20 Ryan Circle,12,alta,AB+
+460,Orelee,Fahey,F,2021-12-02,3556-1956-12687,6721 Lotheville Junction,1,alta,AB-
+461,Marlane,Boyn,F,2022-04-27,6433-1976-26118,08 Iowa Terrace,2,cirugía,O-
+462,Ardelle,Capeloff,NB,2022-07-23,7545-1970-50224,4 Moose Trail,12,cirugía,A+
+463,Ilsa,Lougheid,M,2022-06-01,1616-1980-46410,1157 Dexter Parkway,8,cirugía,AB+
+464,Cleavland,Taks,M,2021-09-23,9940-1980-71931,28 Meadow Valley Alley,6,observación,A+
+465,Elnar,Butterley,M,2021-11-18,1372-1945-83841,19 Texas Court,3,crítico,B-
+466,Hestia,Kasparski,F,2022-02-01,5891-2021-12848,7 Pennsylvania Street,5,observación,A-
+467,Cyndia,Dabinett,F,2021-12-17,2122-1922-59965,811 Stuart Place,13,cita médica,AB-
+468,Nancy,Kahan,NB,2022-01-23,8887-1925-86074,8 Calypso Pass,9,crítico,O-
+469,Ragnar,Feary,F,2022-06-18,9601-1997-90171,719 Hayes Center,3,alta,B+
+470,Rickie,Hebbard,F,2021-11-04,6404-1982-92975,6 Briar Crest Drive,2,alta,B+
+471,Harriott,Ceaplen,M,2021-09-18,4837-1921-84419,7257 Carey Road,1,cirugía,AB+
+472,Lauralee,Woodwin,M,2021-12-27,7386-2022-50576,9727 Rigney Court,10,observación,A-
+473,Jacinthe,McCullagh,NB,2022-07-24,5381-1955-35806,01 Washington Court,2,crítico,AB-
+474,Cleon,Robertis,F,2022-07-26,5626-1937-64211,6 Drewry Avenue,8,observación,AB-
+475,Kaleena,Bonnette,M,2022-02-15,8918-1958-18102,9 Debs Trail,1,alta,O-
+476,Joaquin,Boncoeur,M,2022-04-24,7465-2017-49827,7373 Lunder Terrace,2,observación,AB-
+477,Hirsch,Callister,F,2022-08-09,3832-1936-98837,3 Armistice Center,14,cirugía,A-
+478,Franklin,Colquhoun,M,2022-01-01,5532-2020-88112,3926 Fallview Trail,10,cirugía,B-
+479,Meridel,Andrejs,NB,2021-12-29,4597-2006-84386,88461 New Castle Alley,4,observación,AB+
+480,Darius,Blackmuir,NB,2021-10-06,5948-1939-31249,45615 Cambridge Parkway,12,cirugía,AB+
+481,Gusty,Duigan,NB,2021-09-10,7803-2014-81947,361 Declaration Parkway,5,alta,B-
+482,Annabal,Beininck,NB,2022-06-02,6430-2009-51961,0 Randy Lane,3,observación,AB-
+483,Rawley,Laetham,NB,2021-11-12,2950-1929-30579,1 Washington Trail,7,cita médica,B+
+484,Marcelia,Houlaghan,NB,2022-05-05,1464-1962-96921,27 Cardinal Road,14,alta,O-
+485,Rayner,Rome,F,2022-07-23,1389-1935-60917,04 Westridge Court,2,observación,A-
+486,Orsa,McQuillin,M,2022-03-11,6200-1939-59192,2436 Melby Way,6,cita médica,B+
+487,Aeriel,Phair,F,2021-11-03,3746-2006-34277,47 Sullivan Parkway,1,cita médica,AB-
+488,Malcolm,Moyes,NB,2022-02-09,4133-2010-73397,925 Artisan Court,15,observación,O-
+489,Ronda,Whitebrook,F,2021-09-30,7159-1954-91881,0849 Parkside Parkway,11,cita médica,AB-
+490,Dorree,MacAindreis,M,2021-11-26,6853-1964-22829,6326 Badeau Pass,10,observación,AB-
+491,Cammy,Sainsbury-Brown,NB,2022-02-27,4056-1980-47952,57886 Merrick Road,8,cita médica,AB+
+492,Marlee,Prior,M,2021-11-24,3476-1941-50913,86 Pond Street,2,cirugía,O-
+493,Orson,Nijssen,M,2021-10-31,8203-1940-55960,0793 Green Ridge Alley,6,cita médica,O+
+494,Tonnie,Parmby,NB,2022-06-14,2581-1977-13617,133 Gulseth Avenue,4,crítico,B-
+495,Dedie,Belford,F,2022-02-10,3296-2003-85083,013 Roth Alley,10,crítico,AB-
+496,Concettina,Nolot,NB,2021-08-24,2926-1985-14762,735 Cambridge Junction,12,cirugía,A+
+497,Gill,Shortland,M,2022-01-25,7637-1995-28546,75 Crescent Oaks Street,14,crítico,B-
+498,Skylar,Cristou,NB,2022-03-02,2630-2013-88169,344 Aberg Court,10,alta,B+
+499,Abner,Kovacs,M,2021-11-11,8795-2010-17624,19411 Northport Drive,8,alta,AB-
+500,Milo,Brockton,M,2021-10-09,7974-2009-43590,08705 Melody Drive,7,crítico,B+
+501,Carlen,Fisby,NB,2021-08-23,1197-1935-58245,10034 Katie Park,12,observación,O-
+502,Faye,Connick,NB,2021-10-21,6404-1925-58852,56129 Mallory Hill,4,crítico,O-
+503,Teodoro,Hambrook,NB,2022-06-21,7508-1990-26309,90 3rd Pass,5,alta,A+
+504,Loydie,Snoddin,F,2021-09-19,9191-1930-24281,909 6th Lane,1,observación,B-
+505,Hyacinth,Matej,F,2021-12-06,7788-2020-98707,509 Eagle Crest Drive,10,observación,B-
+506,Aggi,Humbee,F,2022-05-13,3113-1984-51414,46693 Little Fleur Way,8,observación,A+
+507,Deva,Freeborn,NB,2022-01-28,3919-1988-24458,23 Warner Junction,6,alta,O+
+508,Elwin,Lattie,NB,2022-02-23,4366-1950-49404,0470 Sommers Terrace,8,alta,B+
+509,Jacquette,Pickless,M,2021-08-24,8677-1924-35565,3 Acker Hill,10,crítico,A+
+510,Kris,Crossfield,M,2022-01-31,8558-1957-82208,55 2nd Parkway,3,observación,A-
+511,Lancelot,Markie,M,2022-08-14,5630-1943-78814,981 Oneill Parkway,12,cita médica,AB-
+512,Laurel,Garrat,NB,2022-02-10,6470-1988-66059,7 Fuller Plaza,15,cita médica,O-
+513,Ada,Edmand,F,2021-08-21,5170-1997-59802,8 Hudson Terrace,6,cita médica,AB-
+514,Sterne,Kos,M,2021-11-10,5151-1960-69214,715 Kenwood Trail,9,crítico,A-
+515,Kimmy,Terne,NB,2021-12-25,8320-1937-63751,70 Ramsey Court,11,cirugía,A+
+516,Carlo,Doerffer,NB,2022-02-08,8767-1983-51069,4 Colorado Terrace,8,crítico,AB-
+517,Tobie,Langfield,M,2022-03-07,3893-1964-58852,7 Debra Pass,9,cita médica,O+
+518,Hester,Mallalieu,M,2022-01-11,4931-1963-25054,51781 Scoville Street,7,cita médica,B+
+519,Ferrel,Halson,NB,2022-02-25,5590-2009-59266,996 Hermina Lane,9,observación,B-
+520,Marthena,Gobell,NB,2021-11-08,2768-1922-69294,077 Ronald Regan Center,7,observación,AB+
+521,Fernanda,Melley,NB,2022-03-20,6612-2010-77750,2743 Superior Terrace,13,crítico,A+
+522,Mari,Andrusyak,NB,2022-06-25,3809-2009-94464,19892 Golden Leaf Street,10,observación,O+
+523,Lurline,Suthren,M,2022-04-10,3298-1972-84094,4726 Charing Cross Way,4,cirugía,B-
+524,Baird,Medcalf,M,2021-09-25,6570-2011-77214,9058 Anhalt Pass,7,alta,O+
+525,Arlette,Grealy,M,2022-04-09,4018-1924-86329,3651 Dwight Plaza,10,crítico,O-
+526,Dyane,Masarrat,NB,2021-10-25,8667-1963-82508,23191 Hansons Parkway,1,alta,A+
+527,Clarence,Holligan,F,2022-02-16,5916-1937-30538,7262 Del Sol Trail,2,cita médica,O-
+528,Joshua,Jobke,M,2022-07-01,2552-1938-75283,08876 Glacier Hill Point,1,crítico,AB+
+529,Jesus,Petrosian,F,2022-01-13,4996-2019-83192,079 Stoughton Point,13,alta,O-
+530,Duane,Atto,F,2021-11-28,8145-1971-62632,04 Dryden Place,14,cita médica,B+
+531,Dredi,Slatcher,NB,2021-12-24,9668-1928-46817,2 Corben Park,8,alta,AB+
+532,Anna-diana,Champken,NB,2021-08-27,8510-1929-25187,9 Rutledge Hill,11,cita médica,B+
+533,Rolando,Batts,F,2022-04-20,9807-2022-26685,1 Doe Crossing Circle,10,crítico,A-
+534,Pammy,Gorry,F,2022-07-14,6780-1922-84855,6664 Sage Trail,9,observación,AB-
+535,Laina,Curgenven,F,2022-07-03,4118-1994-75711,095 Mesta Center,7,cita médica,A+
+536,Mignonne,Greguoli,M,2021-09-01,2321-1959-87677,112 Prairie Rose Place,7,observación,B+
+537,Donielle,Averall,F,2022-04-27,2731-1987-59115,71 Morning Center,1,observación,B+
+538,Artemas,Ambler,NB,2021-10-06,1881-1958-81492,38 Northport Street,2,cita médica,B+
+539,Alford,Gunner,M,2021-11-20,5197-1971-79111,981 Sugar Lane,11,observación,O-
+540,Jesus,Foucar,M,2021-11-03,1514-1958-12674,35063 Carberry Terrace,2,alta,A-
+541,Jessie,Sterzaker,F,2022-04-21,8135-1987-52637,378 Sullivan Road,8,alta,O-
+542,Annemarie,Carson,NB,2021-12-13,6661-1967-98671,07 Autumn Leaf Court,10,alta,O-
+543,Sauncho,Ashingden,NB,2021-08-31,9396-2011-52262,26314 4th Plaza,15,cirugía,AB+
+544,Terencio,Deyenhardt,M,2022-08-17,2324-1963-36744,0995 Sunfield Street,1,observación,AB-
+545,Tiphani,Marcq,M,2022-05-21,5795-1973-67445,48 David Way,5,crítico,A-
+546,Caren,Staneland,NB,2022-07-28,2174-1965-29241,80579 Packers Avenue,14,crítico,O-
+547,Shae,Chevolleau,M,2022-08-12,4870-2004-31659,19406 Northwestern Street,1,observación,A-
+548,Lorrie,Dark,M,2021-10-09,5161-1921-22379,04 Autumn Leaf Terrace,1,alta,AB+
+549,Lewes,Osbourn,NB,2022-04-18,6403-2000-45001,0 Ludington Way,3,observación,B-

@@ -9,7 +9,6 @@
                 DNI              VARCHAR(15),
                 DIRECCION        VARCHAR(255),
                 DEPARTAMENTI_ID  INT,
-                EMPLEADO_ID      INT,
                 ESTADO           VARCHAR(30),
                 TIPO_SANGRE      VARCHAR(4)
             )
@@ -30,7 +29,6 @@ BEGIN
                         p.dni,
                         p.direccion,
                         p.departamento_id,
-                        p.empleado_id,
                         p.estado,
                         p.tipo_sangre
                  FROM pacientes AS p
