@@ -2,6 +2,9 @@
 SELECT *
 FROM vw_empleados;
 
+-- GetByID
+SELECT * FROM fn_empleado_by_id(3);
+
 -- Insert empleado
 CALL sp_empleados_insert(
         'Juan',
