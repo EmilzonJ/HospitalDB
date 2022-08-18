@@ -1,11 +1,11 @@
-insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (1, 'Bidget', 'Levey', 7, '6260-1968-46678', 'blevey0@archive.org', '+50491573705');
+insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (1, 'Bidget', 'Levey', 5, '6260-1968-46678', 'blevey0@archive.org', '+50491573705');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (2, 'Mari', 'Freeborne', 2, '8072-1959-59674', 'mfreeborne1@wiley.com', '+50495117819');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (3, 'Merwin', 'Croney', 3, '5559-1981-81416', 'mcroney2@blogs.com', '+50498531466');
-insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (4, 'Ive', 'Quainton', 7, '6702-1979-66749', 'iquainton3@pen.io', '+50494443231');
+insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (4, 'Ive', 'Quainton', 5, '6702-1979-66749', 'iquainton3@pen.io', '+50494443231');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (5, 'Alfonse', 'Wahlberg', 1, '4324-1996-43967', 'awahlberg4@acquirethisname.com', '+50491173352');
-insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (6, 'Darya', 'Seawell', 7, '3423-1972-21733', 'dseawell5@eepurl.com', '+50493626785');
+insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (6, 'Darya', 'Seawell', 4, '3423-1972-21733', 'dseawell5@eepurl.com', '+50493626785');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (7, 'Klemens', 'Nan Carrow', 3, '5687-1974-28473', 'knancarrow6@about.com', '+50494503051');
-insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (8, 'Siobhan', 'Soaper', 6, '2208-1996-64617', 'ssoaper7@cbc.ca', '+50490605120');
+insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (8, 'Siobhan', 'Soaper', 3, '2208-1996-64617', 'ssoaper7@cbc.ca', '+50490605120');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (9, 'Georgiana', 'Isgate', 3, '3184-2000-41963', 'gisgate8@arstechnica.com', '+50491022951');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (10, 'Ashton', 'O''Donohue', 2, '2666-1969-48091', 'aodonohue9@behance.net', '+50491086205');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (11, 'Clea', 'Frensche', 3, '3809-1981-16363', 'cfrenschea@vkontakte.ru', '+50494437112');
@@ -26,7 +26,7 @@ insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celula
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (26, 'Ginny', 'Knibley', 1, '7677-2002-56696', 'gknibleyp@hexun.com', '+50490421335');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (27, 'Kerrie', 'Fawke', 5, '6717-1959-18657', 'kfawkeq@mit.edu', '+50492531710');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (28, 'Ingrid', 'Dilleston', 2, '1037-1959-38279', 'idillestonr@naver.com', '+50495238643');
-insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (29, 'Cassey', 'Braunstein', 6, '2428-1963-99857', 'cbraunsteins@nhs.uk', '+50496726796');
+insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (29, 'Cassey', 'Braunstein', 3, '2428-1963-99857', 'cbraunsteins@nhs.uk', '+50496726796');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (30, 'Moise', 'Gaitskill', 5, '5910-1976-14635', 'mgaitskillt@comsenz.com', '+50493888893');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (31, 'Hollie', 'Fancet', 3, '8959-1987-73837', 'hfancetu@reverbnation.com', '+50498219589');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (32, 'Felipe', 'Treadaway', 3, '6139-1980-99559', 'ftreadawayv@drupal.org', '+50492109029');
@@ -43,7 +43,7 @@ insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celula
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (43, 'Florinda', 'Vaneschi', 3, '1182-1996-28408', 'fvaneschi16@mediafire.com', '+50497481988');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (44, 'Lilith', 'Dakhno', 2, '8292-1992-77750', 'ldakhno17@ucsd.edu', '+50498441263');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (45, 'Tresa', 'Haddleton', 4, '3560-1993-42425', 'thaddleton18@cyberchimps.com', '+50493554905');
-insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (46, 'Angelita', 'O''Hartagan', 6, '8644-2002-73977', 'aohartagan19@buzzfeed.com', '+50496224469');
+insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (46, 'Angelita', 'O''Hartagan', 5, '8644-2002-73977', 'aohartagan19@buzzfeed.com', '+50496224469');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (47, 'Ambrosio', 'Coxall', 3, '6176-1965-81211', 'acoxall1a@geocities.com', '+50499175756');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (48, 'Susie', 'Chirm', 3, '8096-2001-96459', 'schirm1b@elpais.com', '+50494836985');
 insert into empleados (id, nombres, apellidos, ocupacion_id, dni, correo, celular) values (49, 'Seumas', 'McGibbon', 5, '7308-1995-82205', 'smcgibbon1c@whitehouse.gov', '+50491885797');
