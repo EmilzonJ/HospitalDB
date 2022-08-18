@@ -1,6 +1,6 @@
 CREATE OR REPLACE VIEW vw_departamentos_empleados AS
-SELECT d.id        AS departamento_id,
-       d.nombre    AS departamento_nombre,
+SELECT d.id,
+       d.nombre,
        e.id        AS empleado_id,
        e.nombres   AS empleado_nombres,
        e.apellidos AS empleado_apellidos
