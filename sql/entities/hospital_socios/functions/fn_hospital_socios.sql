@@ -17,7 +17,7 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM hospital_socios WHERE hospital_id = _hospital_id) THEN
 
-        RAISE NOTICE 'No hay socios afiliados a este hospital "%".', _hospital_id;
+        RAISE EXCEPTION 'No hay socios afiliados a este hospital "%".', _hospital_id;
     END IF;
 
         RETURN QUERY SELECT s.id,

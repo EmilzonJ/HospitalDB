@@ -13,7 +13,7 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM tipos_socios WHERE id = _tiposocio_id) THEN
 
-        RAISE NOTICE 'No hay socios de ese tipo "%".', _tiposocio_id;
+        RISE EXCEPTION 'No hay socios de ese tipo "%".', _tiposocio_id;
 
     ELSE
 

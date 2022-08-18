@@ -13,7 +13,7 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM hospital_socios WHERE socio_id = _socio_id) THEN
 
-        RAISE NOTICE 'Esta persona no está afiliada a ningun hospital "%".', _socio_id;
+        RAISE EXCEPTION 'Esta persona no está afiliada a ningun hospital "%".', _socio_id;
     END IF;
 
         RETURN QUERY SELECT h.id,

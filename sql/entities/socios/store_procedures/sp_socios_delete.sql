@@ -12,7 +12,7 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM socios WHERE id = _id) THEN
 
-        RAISE NOTICE 'La persona que ingreso no está afiliada al hospital.';
+        RISE EXCEPTION 'La persona que ingreso no está afiliada al hospital.';
 
     ELSE
 

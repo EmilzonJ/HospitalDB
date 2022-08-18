@@ -13,7 +13,7 @@ BEGIN
 
     IF NOT EXISTS(SELECT * FROM hospital WHERE hospital_id =_id) THEN
 
-        RAISE NOTICE 'El hospital no existe "%".', _id;
+        RISE EXCEPTION 'El hospital no existe "%".', _id;
   END IF;
         RETURN QUERY SELECT hospital.id,
                             hospital.nombre,
