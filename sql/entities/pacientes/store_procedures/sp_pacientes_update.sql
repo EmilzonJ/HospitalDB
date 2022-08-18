@@ -6,7 +6,6 @@
                                                 _dni VARCHAR(15),
                                                 _direccion VARCHAR(255),
                                                 _departamento_id INT,
-                                                _empleado_id INT,
                                                 _estado VARCHAR(30),
                                                 _tipo_sangre VARCHAR(4))
     LANGUAGE plpgsql
@@ -21,11 +20,6 @@ BEGIN
     --Verificar Id de departamento
     IF NOT EXISTS(SELECT * FROM departamentos WHERE id = _departamento_id) THEN
         RAISE EXCEPTION 'El departamento que está ingresando no existe.';
-    END IF;
-
-    --Verificar Id de empleado
-    IF NOT EXISTS(SELECT * FROM empleados WHERE id = _empleado_id) THEN
-        RAISE EXCEPTION 'El empleado que está ingresando no existe.';
     END IF;
 
     --Verificar fecha de nacimiento
@@ -72,7 +66,6 @@ BEGIN
         dni              = _dni,
         direccion        = _direccion,
         departamento_id  = _departamento_id,
-        empleado_id      = _empleado_id,
         estado           = _estado,
         tipo_sangre      = _tipo_sangre
     WHERE id = _id;
