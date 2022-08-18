@@ -1,4 +1,4 @@
-CREATE VIEW vw_socios
+CREATE OR REPLACE VIEW vw_socios
 AS
 SELECT socios.id,
        socios.nombres,

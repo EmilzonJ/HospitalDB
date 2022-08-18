@@ -1,4 +1,4 @@
-CREATE PROCEDURE sp_tipos_socios_insert(_descripcion VARCHAR(100))
+CREATE OR REPLACE PROCEDURE sp_tipos_socios_insert(_descripcion VARCHAR(100))
     LANGUAGE plpgsql
 AS
 $$
