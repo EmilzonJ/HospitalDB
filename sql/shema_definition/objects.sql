@@ -46,7 +46,7 @@ $$
 
 CREATE OR REPLACE PROCEDURE sp_departamentos_insert(_nombre VARCHAR(100),
                                                     _edificio INT,
-                                                    _descripcion VARCHAR(20),
+                                                    _descripcion VARCHAR(255),
                                                     _hospital_id INT)
     LANGUAGE plpgsql
 AS
@@ -108,7 +108,7 @@ $$;
 CREATE OR REPLACE PROCEDURE sp_departamentos_update(_id INT,
                                                     _nombre VARCHAR(100),
                                                     _edificio INT,
-                                                    _descripcion VARCHAR(20),
+                                                    _descripcion VARCHAR(255),
                                                     _hospital_id INT)
     LANGUAGE plpgsql
 AS
@@ -1809,13 +1809,233 @@ BEGIN
 END
 $$;
 
+--INSERT de pacientes_empleados
+CREATE OR REPLACE PROCEDURE sp_pac_emp_insert(_pac_id INT, _emp_id INT)
+    LANGUAGE plpgsql
+AS
+$$
+DECLARE
+    _pac_id_new INT;
+    _emp_id_new INT;
+BEGIN
 
+    IF NOT EXISTS(SELECT * FROM pacientes WHERE id = _pac_id) THEN
 
+        RAISE EXCEPTION 'El paciente que está ingresando no existe.';
 
+    END IF;
 
+    IF NOT EXISTS(SELECT * FROM empleados WHERE id = _emp_id) THEN
 
+        RAISE EXCEPTION 'El empleado que está ingresando no existe.';
 
+    END IF;
 
+    IF EXISTS(SELECT *
+              FROM pacientes_empleados
+              WHERE paciente_id = _pac_id
+                AND empleado_id = _emp_id) THEN
 
+        RAISE EXCEPTION 'El empleado ya se encuentra con ese paciente.';
 
+    ELSE
 
+        INSERT INTO public.pacientes_empleados(paciente_id, empleado_id)
+        VALUES (_pac_id, _emp_id)
+        RETURNING paciente_id, empleado_id INTO _pac_id_new, _emp_id_new;
+
+        RAISE NOTICE 'Ingresado con éxito el empleado "%" con el paciente de "%".',
+            (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = _emp_id_new),
+            (SELECT (nombres || ' ' || apellidos) FROM pacientes WHERE id = _pac_id_new);
+
+    END IF;
+
+END
+$$;
+
+/*Este update sirve para cambiar al empleado a otro paciente, 
+  se asigna el paciente a cambiar y el empleado que se desea cambiar.*/
+
+CREATE OR REPLACE PROCEDURE sp_pac_emp_update(_pac_id INT, _emp_id INT)
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+
+    IF NOT EXISTS(SELECT * FROM pacientes WHERE id = _pac_id) THEN
+
+        RAISE EXCEPTION 'El paciente que está ingresando no existe.';
+
+    END IF;
+
+    IF NOT EXISTS(SELECT * FROM empleados WHERE id = _emp_id) THEN
+
+        RAISE EXCEPTION 'El empleado que está ingresando no existe.';
+
+    END IF;
+
+    IF NOT EXISTS(SELECT *
+                  FROM pacientes_empleados
+                  WHERE paciente_id = _pac_id) THEN
+
+        RAISE EXCEPTION 'El paciente no está asignado a ningún empleado.';
+
+    END IF;
+
+    IF NOT EXISTS(SELECT *
+                  FROM pacientes_empleados
+                  WHERE empleado_id = _emp_id) THEN
+
+        RAISE EXCEPTION 'El empleado no está asignado a un paciente.';
+
+    END IF;
+
+    IF EXISTS(SELECT *
+              FROM pacientes_empleados
+              WHERE paciente_id = _pac_id
+                AND empleado_id = _emp_id) THEN
+
+        RAISE EXCEPTION 'El empleado ya se encuentra con ese paciente.';
+
+    ELSE
+
+        UPDATE
+            pacientes_empleados
+        SET paciente_id = _pac_id,
+            empleado_id     = _emp_id
+        WHERE empleado_id = _emp_id;
+
+        RAISE NOTICE 'Se cambió el empleado "%" al paciente "%".',
+            (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = _emp_id),
+            (SELECT (nombres || ' ' || apellidos) FROM pacientes WHERE id = _pac_id);
+
+    END IF;
+
+END
+$$;
+
+--DELETE de pacientes_empleados
+CREATE OR REPLACE PROCEDURE sp_pac_emp_delete(_pac_id INT, _emp_id INT)
+    LANGUAGE plpgsql
+AS
+$$
+DECLARE
+    _pac_nombre VARCHAR(100);
+    _emp_nombre VARCHAR(100);
+BEGIN
+
+    _pac_nombre = (SELECT (nombres || ' ' || apellidos) FROM pacientes WHERE id = _pac_id);
+    _emp_nombre = (SELECT (nombres || ' ' || apellidos) FROM empleados WHERE id = _emp_id);
+
+    IF NOT EXISTS(SELECT * FROM pacientes WHERE id = _pac_id) THEN
+
+        RAISE EXCEPTION 'El paciente que está ingresando no existe.';
+
+    END IF;
+
+    IF NOT EXISTS(SELECT * FROM empleados WHERE id = _emp_id) THEN
+
+        RAISE EXCEPTION 'El empleado que está ingresando no existe.';
+
+    END IF;
+
+    IF NOT EXISTS(SELECT *
+                  FROM pacientes_empleados
+                  WHERE empleado_id = _emp_id) THEN
+
+        RAISE EXCEPTION 'El empleado no está asignado a un paciente.';
+
+    END IF;
+
+    IF NOT EXISTS(SELECT *
+                  FROM pacientes_empleados
+                  WHERE paciente_id = _pac_id
+                    AND empleado_id = _emp_id) THEN
+
+        RAISE EXCEPTION 'El empleado no se encuentra con ese paciente.';
+
+    ELSE
+
+        DELETE
+        FROM public.pacientes_empleados
+        WHERE paciente_id = _pac_id
+          AND empleado_id = _emp_id;
+
+        RAISE NOTICE 'Se elminó el empleado "%" del paciente "%".', _emp_nombre, _pac_nombre;
+
+    END IF;
+
+END
+$$;
+
+--FUNCTION para ver los pacientes encargados a un empleado
+CREATE OR REPLACE FUNCTION fn_empleado_pacientes(_empleado_id INT)
+    RETURNS TABLE
+            (
+                PACIENTE_ID INT,
+                NOMBRE      VARCHAR(100),
+                APELLIDO    VARCHAR(100),
+                GENERO      VARCHAR(3),
+                DNI         VARCHAR(15),
+                ESTADO      VARCHAR(30),
+                TIPO_SANGRE VARCHAR(4)
+            )
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+
+    IF NOT EXISTS(SELECT * FROM pacientes_empleados WHERE empleado_id = _empleado_id) THEN
+
+        RAISE EXCEPTION 'No hay empleados en el departamento "%".', _empleado_id;
+
+    END IF;
+
+    RETURN QUERY SELECT p.id,
+                        p.nombres,
+                        p.apellidos,
+                        p.genero,
+                        p.dni,
+                        p.estado,
+                        p.tipo_sangre
+                 FROM pacientes p
+                          INNER JOIN
+                      pacientes_empleados p_e ON p.id = p_e.paciente_id
+                 WHERE p_e.empleado_id = _empleado_id;
+
+END
+$$;
+
+--FUNCTION para ver los empleados encargados de un paciente
+CREATE OR REPLACE FUNCTION fn_paciente_empleados(_paciente_id INT)
+    RETURNS TABLE
+            (
+                EMPLEADO_ID INT,
+                NOMBRE      VARCHAR(100),
+                APELLIDO    VARCHAR(100),
+                OCUPACION   VARCHAR(100)
+            )
+    LANGUAGE plpgsql
+AS
+$$
+BEGIN
+
+    IF NOT EXISTS(SELECT * FROM pacientes_empleados WHERE paciente_id = _paciente_id) THEN
+
+        RAISE EXCEPTION 'No hay registros del paciente "%".', _paciente_id;
+
+    END IF;
+
+    RETURN QUERY SELECT e.id,
+                        e.nombres,
+                        e.apellidos,
+                        oc.descripcion
+                 FROM empleados e
+                          INNER JOIN
+                      ocupaciones oc ON e.ocupacion_id = oc.id
+                          INNER JOIN
+                      pacientes_empleados p_e ON e.id = p_e.empleado_id
+                 WHERE p_e.paciente_id = _paciente_id;
+
+END
+$$;

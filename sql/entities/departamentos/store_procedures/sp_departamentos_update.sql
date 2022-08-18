@@ -1,7 +1,7 @@
 CREATE OR REPLACE PROCEDURE sp_departamentos_update(_id INT,
                                                     _nombre VARCHAR(100),
                                                     _edificio INT,
-                                                    _descripcion VARCHAR(20),
+                                                    _descripcion VARCHAR(255),
                                                     _hospital_id INT)
     LANGUAGE plpgsql
 AS
