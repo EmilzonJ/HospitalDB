@@ -1,5 +1,5 @@
 CREATE OR REPLACE VIEW vw_diagnosticos AS
-SELECT d.id        AS diagnostico_id,
+SELECT d.id,
        d.paciente_id,
        p.nombres   AS paciente_nombres,
        p.apellidos AS paciente_apellidos,
