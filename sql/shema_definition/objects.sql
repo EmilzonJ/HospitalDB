@@ -885,7 +885,7 @@ FROM empleados AS e
          INNER JOIN ocupaciones AS oc ON oc.id = e.ocupacion_id;
 
 
-CREATE OR REPLACE FUNCTION fn_hospitaleses(_id INT)
+CREATE OR REPLACE FUNCTION fn_hospitales(_id INT)
     RETURNS TABLE
             (
                 HOSPITALES_ID INT,
@@ -898,7 +898,7 @@ AS
 $$
 BEGIN
 
-    IF NOT EXISTS(SELECT * FROM hospitales WHERE hospitales_id = _id) THEN
+    IF NOT EXISTS(SELECT * FROM hospitales WHERE id = _id) THEN
         RAISE EXCEPTION 'El hospital no existe "%".', _id;
     END IF;
 
